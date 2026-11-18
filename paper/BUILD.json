@@ -1,14 +1,21 @@
 {
   "pages": 4,
-  "pdf_sha256": "61aa97cbb636f942a7d87866a356a1e6c2f449cd4bff99f18074a4d572484604",
+  "pdf_sha256": "3c910cd7eca0edf9f28d558f955df0448fcf021c757da1bf4f129c398e1612a6",
   "format": "IEEEtran conference, US Letter, standard margins, two columns, Times-compatible newtx text/math, numeric IEEE citations",
   "engine": "Tectonic 0.17.0",
   "overfull_boxes": 0,
   "tests_passed": 35,
   "audit_checks_passed": 15,
-  "author_placeholders_require_replacement": true,
+  "author_placeholders_require_replacement": false,
   "frozen_rule_sha256": "145be6500fb53d44a456d758c8b034e2b5aff3a29d23a60a4b3fd196750617df",
   "heldout_metrics_sha256": "0b4b2a4a39ccd86ee092ffcd83c36e39e9d22f994e1eeccae07e8e0c9895c576",
   "baseline_reproduction": "All six canonical prediction multisets and counts exactly match original stored outputs",
-  "scope": "241 labeled oracle files; 40 reserved Chef files with 16 target occurrences; full frequency experiment not rerun"
+  "scope": "241 labeled oracle files; 40 reserved Chef files with 16 target occurrences; full frequency experiment not rerun",
+  "author": {
+    "name": "Simone Rodrigues",
+    "institution": "IIIT Dharwad",
+    "location": "Dharwad, India",
+    "email": "simonerodrigues12159@gmail.com"
+  },
+  "public_repository": "https://github.com/SimoneRodriguess/glitch-cloud-security"
 }

@@ -1853,8 +1853,8 @@
     },
     {
       "path": "paper/BUILD.json",
-      "bytes": 824,
-      "sha256": "b2493f06354b26c425ea1fe274fb525741c52dbf98f295e4db886d6182587173"
+      "bytes": 1075,
+      "sha256": "ff721d3e97d980c4db372d5830b45c7d678f3b519b52acf5f16e308c781ed984"
     },
     {
       "path": "paper/chef_holdout.png",
@@ -1868,13 +1868,13 @@
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 92551,
-      "sha256": "61aa97cbb636f942a7d87866a356a1e6c2f449cd4bff99f18074a4d572484604"
+      "bytes": 91505,
+      "sha256": "3c910cd7eca0edf9f28d558f955df0448fcf021c757da1bf4f129c398e1612a6"
     },
     {
       "path": "paper/main.tex",
-      "bytes": 12843,
-      "sha256": "586d2b7d2bdd481bdf1b8a5344a7ce8ccd63a44013f615b16b6cf4afacf637a0"
+      "bytes": 12805,
+      "sha256": "baec2fa4c5962336d7b796c7b06e810fcf021733b96f5ddd933681c46d168891"
     },
     {
       "path": "paper/references.bib",
