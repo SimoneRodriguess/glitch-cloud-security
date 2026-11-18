@@ -1,0 +1,3858 @@
+[
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "ansible-role-container-registry-tasks-docker-distribution.yml",
+    "seconds": 0.013449166959617287,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "ansible-role-container-registry-vars-main.yml",
+    "seconds": 0.003255499992519617,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "ansible-role-systemd_mount-ansible-role-requirements.yaml",
+    "seconds": 0.0030962080345489085,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "ansible-role-systemd_mount-tasks-systemd_mounts.yml",
+    "seconds": 0.02742762496927753,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "ansible-role-systemd_mount-tests-group_vars-all_containers.yml",
+    "seconds": 0.005595750000793487,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "ansible-role-systemd_mount-vars-main.yml",
+    "seconds": 0.004032291995827109,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "ansible-role-systemd_networkd-zuul.d-project.yaml",
+    "seconds": 0.003253041999414563,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "ansible-role-tripleo-modify-image-tasks-modify_image.yml",
+    "seconds": 0.013979459006804973,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-install.yaml",
+    "seconds": 0.01634575001662597,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-roles-bifrost-ironic-install-defaults-required_defaults_Fedora_26.yml",
+    "seconds": 0.009634749963879585,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-roles-bifrost-ironic-install-defaults-required_defaults_Ubuntu_15.04.yml",
+    "seconds": 0.002013457997236401,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-client-config-defaults-main.yml",
+    "seconds": 0.0015904579777270555,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml",
+    "seconds": 0.016869999992195517,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Debian_jessie.yml",
+    "seconds": 0.003983500006143004,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Fedora_22.yml",
+    "seconds": 0.0013450830010697246,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-roles-bifrost-test-dhcp-defaults-main.yml",
+    "seconds": 0.0006477919523604214,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-dhcp-defaults-main.yml\n"
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-roles-bifrost-test-inspection-handlers-main.yml",
+    "seconds": 0.00048570800572633743,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-inspection-handlers-main.yml\n"
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-roles-bifrost-test-vm-handlers-main.yml",
+    "seconds": 0.000453874992672354,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-vm-handlers-main.yml\n"
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "bifrost-playbooks-roles-bifrost-unprovision-node-dynamic-tasks-main.yml",
+    "seconds": 0.0109792499570176,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-browbeat-roles-gnocchi-config-tasks-main.yml",
+    "seconds": 0.00700124999275431,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-browbeat-roles-keystone-token-tasks-main.yml",
+    "seconds": 0.028449457953684032,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-browbeat-roles-nova-db-tasks-main.yml",
+    "seconds": 0.0066976670059375465,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-check-roles-controller-tasks-main.yml",
+    "seconds": 0.020817667013034225,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-gather-roles-rabbitmq-tasks-main.yml",
+    "seconds": 0.008466333034448326,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-gather-roles-undercloud-tasks-main.yml",
+    "seconds": 0.03507687500678003,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-install-roles-common-tasks-main.yml",
+    "seconds": 0.004759207949973643,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-install-roles-epel-defaults-main.yml",
+    "seconds": 0.001691417011898011,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-install-roles-fluentd-tasks-main.yml",
+    "seconds": 0.04874991695396602,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-install-roles-grafana-dashboards-files-cloud_instance_count.yaml",
+    "seconds": 0.018066874996293336,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-install-roles-grafana-dashboards-templates-partials-ironic_metrics.yaml",
+    "seconds": 0.04006850003497675,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-install-roles-grafana-dashboards-templates-partials-processes.yaml",
+    "seconds": 0.014090417011175305,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "browbeat-ansible-install-roles-kibana-visualization-vars-keystone_controller_count_visualizations.yml",
+    "seconds": 0.11676241701934487,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "networking-ovn-migration-tripleo_environment-playbooks-ovn-migration.yml",
+    "seconds": 0.014875249995384365,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-inventory-env.d-blazar.yml",
+    "seconds": 0.005823250045068562,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-inventory-env.d-cinder.yml",
+    "seconds": 0.013424583012238145,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-inventory-env.d-designate.yml",
+    "seconds": 0.009246749978046864,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-inventory-env.d-neutron.yml",
+    "seconds": 0.0163220830145292,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-inventory-env.d-rsyslog.yml",
+    "seconds": 0.004986707994248718,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-inventory-group_vars-ceilometer_all.yml",
+    "seconds": 0.006347125046886504,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-inventory-group_vars-ceph-rgw.yml",
+    "seconds": 0.0043684159754775465,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-inventory-group_vars-designate_all.yml",
+    "seconds": 0.0028572919545695186,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-inventory-group_vars-trove_all.yml",
+    "seconds": 0.0039642080082558095,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-inventory-group_vars-utility_all.yml",
+    "seconds": 0.04270091699436307,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_data_hosts-meta-main.yml",
+    "seconds": 0.005607666971627623,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_filebeat-tasks-main.yml",
+    "seconds": 0.023046917049214244,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_heartbeat-handlers-main.yml",
+    "seconds": 0.006135750038083643,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_journalbeat-vars-redhat.yml",
+    "seconds": 0.0019779999856837094,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_kibana-meta-main.yml",
+    "seconds": 0.008071291958913207,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_logstash-tasks-logstash_arcsight.yml",
+    "seconds": 0.013544500048737973,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_rollup-defaults-main.yml",
+    "seconds": 0.0019410000531934202,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elasticsearch-meta-main.yml",
+    "seconds": 0.007314042013604194,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-go_install_1.10-tasks-main.yml",
+    "seconds": 0.004645166976843029,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-elk_metrics_6x-tests-ansible-role-requirements.yml",
+    "seconds": 0.019355833006557077,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-leap-upgrades-upgrade-utilities-mitaka-playbooks-deploy-config-changes-mitaka.yml",
+    "seconds": 0.01687558402772993,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml",
+    "seconds": 0.043473249999806285,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-multi-node-aio-playbooks-host_vars-ceph1.yml",
+    "seconds": 0.01082374999532476,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-multi-node-aio-playbooks-host_vars-compute2.yml",
+    "seconds": 0.022882084012962878,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-ops-pxelinux-provisioning-playbooks-deploy-dhcp.yml",
+    "seconds": 0.020107416028622538,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-playbooks-common-tasks-os-lxc-container-setup.yml",
+    "seconds": 0.02958824997767806,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-playbooks-healthcheck-hosts.yml",
+    "seconds": 0.01607754098949954,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-playbooks-lxc-containers-destroy.yml",
+    "seconds": 0.023226750025060028,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-playbooks-os-designate-install.yml",
+    "seconds": 0.016972582961898297,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-playbooks-os-tempest-install.yml",
+    "seconds": 0.006453791982494295,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-playbooks-utility-install.yml",
+    "seconds": 0.02485708298627287,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-tests-roles-bootstrap-host-defaults-main.yml",
+    "seconds": 0.03367800003616139,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-tests-roles-bootstrap-host-tasks-check-requirements.yml",
+    "seconds": 0.024657208006829023,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-tests-roles-bootstrap-host-tasks-prepare_loopback_machines.yml",
+    "seconds": 0.008450791996438056,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "openstack-ansible-tests-roles-bootstrap-host-tasks-prepare_loopback_zfs.yml",
+    "seconds": 0.006308041978627443,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "puppet-openstack-integration-playbooks-prepare-node-unit.yaml",
+    "seconds": 0.0039612079854123294,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "puppet-openstack-integration-playbooks-run-syntax-tests.yaml",
+    "seconds": 0.0029635829851031303,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "tripleo-quickstart-playbooks-libvirt-teardown.yml",
+    "seconds": 0.0017560410196892917,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "tripleo-quickstart-roles-environment-vars-main.yml",
+    "seconds": 0.0007332920213229954,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "tripleo-quickstart-roles-libvirt-setup-meta-main.yml",
+    "seconds": 0.0034242079709656537,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "tripleo-quickstart-roles-libvirt-setup-overcloud-tasks-vars-libvirt_nodepool_vars.yml",
+    "seconds": 0.0053066249820403755,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "tripleo-quickstart-roles-libvirt-setup-undercloud-tasks-inject_repos.yml",
+    "seconds": 0.004174333007540554,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "tripleo-quickstart-roles-libvirt-setup-user-meta-main.yml",
+    "seconds": 0.0009377080132253468,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "tripleo-quickstart-roles-parts-kvm-tasks-main.yml",
+    "seconds": 0.017558583989739418,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "tripleo-quickstart-roles-virtbmc-defaults-main.yml",
+    "seconds": 0.0007412090199068189,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-virtbmc-defaults-main.yml\n"
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "windmill-playbooks-bootstrap.yaml",
+    "seconds": 0.005218416976276785,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "windmill-playbooks-zookeeper.yaml",
+    "seconds": 0.004316958016715944,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "improved",
+    "file": "windmill-playbooks-zuul-fingergw.yaml",
+    "seconds": 0.005004499980714172,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "ansible-role-container-registry-tasks-docker-distribution.yml",
+    "seconds": 0.0071528329863213,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "ansible-role-container-registry-vars-main.yml",
+    "seconds": 0.0015743330004625022,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "ansible-role-systemd_mount-ansible-role-requirements.yaml",
+    "seconds": 0.002660083002410829,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "ansible-role-systemd_mount-tasks-systemd_mounts.yml",
+    "seconds": 0.019159000017680228,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "ansible-role-systemd_mount-tests-group_vars-all_containers.yml",
+    "seconds": 0.004007125040516257,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "ansible-role-systemd_mount-vars-main.yml",
+    "seconds": 0.0027630420518107712,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "ansible-role-systemd_networkd-zuul.d-project.yaml",
+    "seconds": 0.0020930420141667128,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "ansible-role-tripleo-modify-image-tasks-modify_image.yml",
+    "seconds": 0.008201584045309573,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-install.yaml",
+    "seconds": 0.011722708004526794,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-roles-bifrost-ironic-install-defaults-required_defaults_Fedora_26.yml",
+    "seconds": 0.006779709015972912,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-roles-bifrost-ironic-install-defaults-required_defaults_Ubuntu_15.04.yml",
+    "seconds": 0.0017862090026028454,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-client-config-defaults-main.yml",
+    "seconds": 0.001366332988254726,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml",
+    "seconds": 0.013035917014349252,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Debian_jessie.yml",
+    "seconds": 0.0034895410062745214,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Fedora_22.yml",
+    "seconds": 0.0013162919785827398,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-roles-bifrost-test-dhcp-defaults-main.yml",
+    "seconds": 0.0006220420473255217,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-dhcp-defaults-main.yml\n"
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-roles-bifrost-test-inspection-handlers-main.yml",
+    "seconds": 0.0004056670004501939,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-inspection-handlers-main.yml\n"
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-roles-bifrost-test-vm-handlers-main.yml",
+    "seconds": 0.00035324995405972004,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-vm-handlers-main.yml\n"
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "bifrost-playbooks-roles-bifrost-unprovision-node-dynamic-tasks-main.yml",
+    "seconds": 0.008279790985397995,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-browbeat-roles-gnocchi-config-tasks-main.yml",
+    "seconds": 0.005728040996473283,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-browbeat-roles-keystone-token-tasks-main.yml",
+    "seconds": 0.02163970802212134,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-browbeat-roles-nova-db-tasks-main.yml",
+    "seconds": 0.0061514999833889306,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-check-roles-controller-tasks-main.yml",
+    "seconds": 0.017344209016300738,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-gather-roles-rabbitmq-tasks-main.yml",
+    "seconds": 0.007104958000127226,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-gather-roles-undercloud-tasks-main.yml",
+    "seconds": 0.020312167005613446,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-install-roles-common-tasks-main.yml",
+    "seconds": 0.005343624972738326,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-install-roles-epel-defaults-main.yml",
+    "seconds": 0.0013498329790309072,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-install-roles-fluentd-tasks-main.yml",
+    "seconds": 0.042763000004924834,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-install-roles-grafana-dashboards-files-cloud_instance_count.yaml",
+    "seconds": 0.015603750012814999,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-install-roles-grafana-dashboards-templates-partials-ironic_metrics.yaml",
+    "seconds": 0.03458095801761374,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-install-roles-grafana-dashboards-templates-partials-processes.yaml",
+    "seconds": 0.024109416001010686,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "browbeat-ansible-install-roles-kibana-visualization-vars-keystone_controller_count_visualizations.yml",
+    "seconds": 0.08456466603092849,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "networking-ovn-migration-tripleo_environment-playbooks-ovn-migration.yml",
+    "seconds": 0.013355957984458655,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-inventory-env.d-blazar.yml",
+    "seconds": 0.008079541032202542,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-inventory-env.d-cinder.yml",
+    "seconds": 0.012701749976258725,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-inventory-env.d-designate.yml",
+    "seconds": 0.010139917023479939,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-inventory-env.d-neutron.yml",
+    "seconds": 0.013156500004697591,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-inventory-env.d-rsyslog.yml",
+    "seconds": 0.0048434580094181,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-inventory-group_vars-ceilometer_all.yml",
+    "seconds": 0.006497708964161575,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-inventory-group_vars-ceph-rgw.yml",
+    "seconds": 0.004131458001211286,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-inventory-group_vars-designate_all.yml",
+    "seconds": 0.002334167016670108,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-inventory-group_vars-trove_all.yml",
+    "seconds": 0.00308974995277822,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-inventory-group_vars-utility_all.yml",
+    "seconds": 0.012469708046410233,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_data_hosts-meta-main.yml",
+    "seconds": 0.0050366250216029584,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_filebeat-tasks-main.yml",
+    "seconds": 0.02137116703670472,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_heartbeat-handlers-main.yml",
+    "seconds": 0.0059329160139895976,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_journalbeat-vars-redhat.yml",
+    "seconds": 0.001961084024515003,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_kibana-meta-main.yml",
+    "seconds": 0.0048820829833857715,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_logstash-tasks-logstash_arcsight.yml",
+    "seconds": 0.010560458002146333,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_rollup-defaults-main.yml",
+    "seconds": 0.001695042010396719,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elasticsearch-meta-main.yml",
+    "seconds": 0.005875166039913893,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-go_install_1.10-tasks-main.yml",
+    "seconds": 0.003813458955846727,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-elk_metrics_6x-tests-ansible-role-requirements.yml",
+    "seconds": 0.008930833952035755,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-leap-upgrades-upgrade-utilities-mitaka-playbooks-deploy-config-changes-mitaka.yml",
+    "seconds": 0.007785624999087304,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml",
+    "seconds": 0.037634291977155954,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-multi-node-aio-playbooks-host_vars-ceph1.yml",
+    "seconds": 0.008751333982218057,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-multi-node-aio-playbooks-host_vars-compute2.yml",
+    "seconds": 0.010206917009782046,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-ops-pxelinux-provisioning-playbooks-deploy-dhcp.yml",
+    "seconds": 0.0146061250125058,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-playbooks-common-tasks-os-lxc-container-setup.yml",
+    "seconds": 0.0249936250038445,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-playbooks-healthcheck-hosts.yml",
+    "seconds": 0.016832207969855517,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-playbooks-lxc-containers-destroy.yml",
+    "seconds": 0.036236457992345095,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-playbooks-os-designate-install.yml",
+    "seconds": 0.008336750033777207,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-playbooks-os-tempest-install.yml",
+    "seconds": 0.005936166038736701,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-playbooks-utility-install.yml",
+    "seconds": 0.023067416972480714,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-tests-roles-bootstrap-host-defaults-main.yml",
+    "seconds": 0.05075429199496284,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-tests-roles-bootstrap-host-tasks-check-requirements.yml",
+    "seconds": 0.027384334011003375,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-tests-roles-bootstrap-host-tasks-prepare_loopback_machines.yml",
+    "seconds": 0.00865475001046434,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "openstack-ansible-tests-roles-bootstrap-host-tasks-prepare_loopback_zfs.yml",
+    "seconds": 0.005909124971367419,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "puppet-openstack-integration-playbooks-prepare-node-unit.yaml",
+    "seconds": 0.0037866249913349748,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "puppet-openstack-integration-playbooks-run-syntax-tests.yaml",
+    "seconds": 0.002213875006418675,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "tripleo-quickstart-playbooks-libvirt-teardown.yml",
+    "seconds": 0.0014625000185333192,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "tripleo-quickstart-roles-environment-vars-main.yml",
+    "seconds": 0.0006346659502014518,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "tripleo-quickstart-roles-libvirt-setup-meta-main.yml",
+    "seconds": 0.0028594580362550914,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "tripleo-quickstart-roles-libvirt-setup-overcloud-tasks-vars-libvirt_nodepool_vars.yml",
+    "seconds": 0.005160083994269371,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "tripleo-quickstart-roles-libvirt-setup-undercloud-tasks-inject_repos.yml",
+    "seconds": 0.003705749986693263,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "tripleo-quickstart-roles-libvirt-setup-user-meta-main.yml",
+    "seconds": 0.0007997910142876208,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "tripleo-quickstart-roles-parts-kvm-tasks-main.yml",
+    "seconds": 0.019860540982335806,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "tripleo-quickstart-roles-virtbmc-defaults-main.yml",
+    "seconds": 0.0006308750016614795,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-virtbmc-defaults-main.yml\n"
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "windmill-playbooks-bootstrap.yaml",
+    "seconds": 0.005201790947467089,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "windmill-playbooks-zookeeper.yaml",
+    "seconds": 0.0031757919932715595,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "ansible",
+    "configuration": "legacy",
+    "file": "windmill-playbooks-zuul-fingergw.yaml",
+    "seconds": 0.0035405000089667737,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "AYCHIT_Asf-chef-cookbooks-rsnapshot-resources-script.rb",
+    "seconds": 0.3637684590066783,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "DrRayWang_Chef-Base-cookbooks-bcpc-recipes-graphite.rb",
+    "seconds": 0.5294009589706548,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "DrRayWang_Chef-Base-cookbooks-bcpc-recipes-mysql.rb",
+    "seconds": 0.5335381670156494,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "EEDARIT_opsworks-cookbooks-iis-resources-root.rb",
+    "seconds": 1.3585143749951385,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "EEDARIT_opsworks-cookbooks-windows-providers-feature_powershell.rb",
+    "seconds": 0.3494824169902131,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "Nikhil424_chef-repo-cookbooks-jdk-recipes-default.rb",
+    "seconds": 0.29952541703823954,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "Nikhil424_chef-repo-cookbooks-windows-resources-pagefile.rb",
+    "seconds": 0.2607930420199409,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "Nikhil424_chef-repo-cookbooks-yum-mysql-community-attributes-mysql57-community.rb",
+    "seconds": 0.3096520420513116,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "Soluciones_ey-cloud-recipes-cookbooks-solr-attributes-solr.rb",
+    "seconds": 0.2546892919926904,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "TaxiOS_zabbix-recipes-server_source.rb",
+    "seconds": 0.34817579202353954,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "aws_aws-parallelcluster-cookbook-cookbooks-aws-parallelcluster-slurm-recipes-install_slurm.rb",
+    "seconds": 0.3105396669707261,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "binary-com_chef-third-party-cookbooks-cron-attributes-default.rb",
+    "seconds": 0.2886368330218829,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "binary-com_chef-third-party-cookbooks-datadog-recipes-network.rb",
+    "seconds": 0.27030579099664465,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "binary-com_chef-third-party-cookbooks-datadog-recipes-openmetrics.rb",
+    "seconds": 0.22496004099957645,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "binary-com_chef-third-party-cookbooks-poise-files-halite_gem-poise-subcontext-resource_collection.rb",
+    "seconds": 0.22472641698550433,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "chef-boneyard_qa-chef-server-cluster-attributes-default.rb",
+    "seconds": 0.26067024999065325,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "chef_mixlib-install-acceptance-windows-server-2012r2-fips-.acceptance-acceptance-cookbook-recipes-verify.rb",
+    "seconds": 0.21821395796723664,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_hw-nginx-recipes-commons_dir.rb",
+    "seconds": 0.21486879198346287,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-cloud_utils-cookbooks-hadoop_cluster-recipes-default.rb",
+    "seconds": 0.31180783302988857,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-cloud_utils-cookbooks-redis-recipes-install_from_package.rb",
+    "seconds": 0.1910607919562608,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-elasticsearch-cookbooks-install_from-definitions-osx_application.rb",
+    "seconds": 0.2127510419813916,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-ganglia-cookbooks-elasticsearch-recipes-plugins.rb",
+    "seconds": 0.19929399999091402,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-ganglia-cookbooks-hadoop_cluster-example-clusters-science.rb",
+    "seconds": 0.2467043329961598,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-hadoop_cluster-cookbooks-hbase-recipes-stargate.rb",
+    "seconds": 0.18937658303184435,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-hadoop_cluster-cookbooks-zabbix-recipes-database_mysql.rb",
+    "seconds": 0.32654279097914696,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-hadoop_cluster-roles-cassandra_client.rb",
+    "seconds": 0.18733770796097815,
+    "parsed": true,
+    "diagnostics": "Chef - Could not parse file: <PROJECT_ROOT>/artifact/RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-hadoop_cluster-roles-cassandra_client.rb\n"
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-jenkins-cookbooks-zabbix-recipes-agent.rb",
+    "seconds": 0.22156362497480586,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-jenkins-cookbooks-zabbix-recipes-database_mysql.rb",
+    "seconds": 0.3477186670061201,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-motd-roles-elasticsearch_datanode.rb",
+    "seconds": 0.20338554098270833,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-nodejs-cookbooks-hbase-recipes-config_files.rb",
+    "seconds": 0.3837637919932604,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-package_set-cookbooks-rvm-providers-global_gem.rb",
+    "seconds": 0.3423410830437206,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-pig-cookbooks-zabbix-attributes-default.rb",
+    "seconds": 0.4339997500064783,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-snappy-roles-statsd_server.rb",
+    "seconds": 0.2808932079933584,
+    "parsed": true,
+    "diagnostics": "Chef - Could not parse file: <PROJECT_ROOT>/artifact/RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-snappy-roles-statsd_server.rb\n"
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-tuning-cookbooks-ganglia-recipes-default.rb",
+    "seconds": 0.26891991699812934,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-tuning-cookbooks-zabbix-libraries-zabbix_hosts_and_templates.rb",
+    "seconds": 0.32521120802266523,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-volumes-cookbooks-silverware-libraries-dump_aspects.rb",
+    "seconds": 0.319135790981818,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-volumes-cookbooks-strongswan-recipes-routing.rb",
+    "seconds": 0.21388762502465397,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-volumes_ebs-cookbooks-graphite-attributes-default.rb",
+    "seconds": 0.2534874170087278,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-volumes_ebs-cookbooks-mongodb-attributes-mongodb.rb",
+    "seconds": 0.37707241595489904,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-volumes_ebs-cookbooks-resque-attributes-default.rb",
+    "seconds": 0.22874925000360236,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-volumes_ebs-cookbooks-zabbix-resources-user.rb",
+    "seconds": 0.21370591601589695,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "cookbooks_ic-zabbix-cookbooks-zabbix-providers-host.rb",
+    "seconds": 0.34078816697001457,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "danielladd_Chef-Testing-cookbooks-mysql-attributes-server_rhel.rb",
+    "seconds": 0.23804120800923556,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "davestarling_chef-features-data-cookbooks-manage_files-recipes-default.rb",
+    "seconds": 0.177013541047927,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "desirit_chef-bach-cookbooks-bcpc-hadoop-recipes-oozie.rb",
+    "seconds": 0.34468379098689184,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "guymatz_chef-cookbooks-cutlery-libraries-notifying_action.rb",
+    "seconds": 0.20558912499109283,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "guymatz_chef-cookbooks-hive-attributes-default.rb",
+    "seconds": 0.19355212501250207,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "guymatz_chef-cookbooks-mysql-attributes-client.rb",
+    "seconds": 0.2450457079685293,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "guymatz_chef-cookbooks-nagios-recipes-server_package.rb",
+    "seconds": 0.18850879097590223,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "guymatz_chef-cookbooks-psql-resources-user.rb",
+    "seconds": 0.1997026249882765,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "guymatz_chef-cookbooks-python-attributes-default.rb",
+    "seconds": 0.2035920839989558,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "gwalbran_chef-cookbooks-imos_backup-attributes-restore.rb",
+    "seconds": 0.18781358294654638,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "gwalbran_chef-cookbooks-imos_webapps-definitions-ncwms.rb",
+    "seconds": 0.24155412503750995,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "havk64_chef-zero-playground-cookbooks-nginx-attributes-socketproxy.rb",
+    "seconds": 0.2145303749712184,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "havk64_chef-zero-playground-cookbooks-runit-recipes-default.rb",
+    "seconds": 0.2092529580113478,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-iptables-recipes-default.rb",
+    "seconds": 0.20742799999425188,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-nodejs-recipes-install_from_binary.rb",
+    "seconds": 0.26598041702527553,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-python-attributes-default.rb",
+    "seconds": 0.21509249997325242,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-sudo-recipes-default.rb",
+    "seconds": 0.2005324159981683,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-windows-providers-batch.rb",
+    "seconds": 0.21327987499535084,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-zabbix-providers-media_type.rb",
+    "seconds": 0.22285091696539894,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-zsh-recipes-default.rb",
+    "seconds": 0.18950745899928734,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "johnfitzpatrick_ChefTraining-cookbooks-apache-recipes-user01_index.rb",
+    "seconds": 0.184365458029788,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "jonmthomson_cookbooks-mingw-recipes-default.rb",
+    "seconds": 0.18745733401738107,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "kitchenplan_chef-applications-recipes-omnigraffle.rb",
+    "seconds": 0.2884241249994375,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "kitchenware_master-chef-cookbooks-base-recipes-editor.rb",
+    "seconds": 0.18580749997636303,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "michaelklishin_cassandra-chef-cookbook-recipes-opscenter_agent.rb",
+    "seconds": 0.18326150003122166,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "newrelic_infrastructure-agent-chef-recipes-default.rb",
+    "seconds": 0.18474779196549207,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "openstreetmap_chef-cookbooks-accounts-recipes-default.rb",
+    "seconds": 0.2866368339746259,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "openstreetmap_chef-cookbooks-civicrm-recipes-default.rb",
+    "seconds": 0.3469966249540448,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "openstreetmap_chef-cookbooks-networking-libraries-ipaddresses.rb",
+    "seconds": 0.20549075002782047,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "pu239ppy_chef-bach-code-bcpc-recipes-mysql.rb",
+    "seconds": 0.44034741702489555,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "rcbops-cookbooks_keystone-recipes-default.rb",
+    "seconds": 0.29101500002434477,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "sabarisankar27_chef-acceptance-fips-.acceptance-acceptance-cookbook-recipes-destroy.rb",
+    "seconds": 0.23591720801778138,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "sabarisankar27_chef-acceptance-top-cookbooks-.acceptance-acceptance-cookbook-recipes-provision.rb",
+    "seconds": 0.21304999996209517,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "scmgalaxy_chef-training-programs-recipes-raviteja-chef-repo-E4.rb",
+    "seconds": 0.21153945801779628,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "scmgalaxy_chef-training-programs-uma-chef-repo-cookbooks-Application-.delivery-build_cookbook-recipes-provision.rb",
+    "seconds": 0.2204755829880014,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "sous-chefs_nrpe-recipes-default.rb",
+    "seconds": 0.20683804102009162,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "sous-chefs_php-recipes-package.rb",
+    "seconds": 0.20691000000806525,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "improved",
+    "file": "thomasmeeus_chef-apache2-recipes-mod_php5.rb",
+    "seconds": 0.23833020799793303,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "AYCHIT_Asf-chef-cookbooks-rsnapshot-resources-script.rb",
+    "seconds": 0.2005648750346154,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "DrRayWang_Chef-Base-cookbooks-bcpc-recipes-graphite.rb",
+    "seconds": 0.36923704197397456,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "DrRayWang_Chef-Base-cookbooks-bcpc-recipes-mysql.rb",
+    "seconds": 0.2751309580053203,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "EEDARIT_opsworks-cookbooks-iis-resources-root.rb",
+    "seconds": 0.9807126660016365,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "EEDARIT_opsworks-cookbooks-windows-providers-feature_powershell.rb",
+    "seconds": 0.3148184589808807,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "Nikhil424_chef-repo-cookbooks-jdk-recipes-default.rb",
+    "seconds": 0.2406379579915665,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "Nikhil424_chef-repo-cookbooks-windows-resources-pagefile.rb",
+    "seconds": 0.22061970795039088,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "Nikhil424_chef-repo-cookbooks-yum-mysql-community-attributes-mysql57-community.rb",
+    "seconds": 0.24624512495938689,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "Soluciones_ey-cloud-recipes-cookbooks-solr-attributes-solr.rb",
+    "seconds": 0.2012099580024369,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "TaxiOS_zabbix-recipes-server_source.rb",
+    "seconds": 0.335989541024901,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "aws_aws-parallelcluster-cookbook-cookbooks-aws-parallelcluster-slurm-recipes-install_slurm.rb",
+    "seconds": 0.2986459999810904,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "binary-com_chef-third-party-cookbooks-cron-attributes-default.rb",
+    "seconds": 0.2100182919530198,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "binary-com_chef-third-party-cookbooks-datadog-recipes-network.rb",
+    "seconds": 0.18679470801725984,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "binary-com_chef-third-party-cookbooks-datadog-recipes-openmetrics.rb",
+    "seconds": 0.19570874999044463,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "binary-com_chef-third-party-cookbooks-poise-files-halite_gem-poise-subcontext-resource_collection.rb",
+    "seconds": 0.1875793329672888,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "chef-boneyard_qa-chef-server-cluster-attributes-default.rb",
+    "seconds": 0.2353944579954259,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "chef_mixlib-install-acceptance-windows-server-2012r2-fips-.acceptance-acceptance-cookbook-recipes-verify.rb",
+    "seconds": 0.19899587496183813,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_hw-nginx-recipes-commons_dir.rb",
+    "seconds": 0.19445545796770602,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-cloud_utils-cookbooks-hadoop_cluster-recipes-default.rb",
+    "seconds": 0.29076312499819323,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-cloud_utils-cookbooks-redis-recipes-install_from_package.rb",
+    "seconds": 0.2125791659927927,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-elasticsearch-cookbooks-install_from-definitions-osx_application.rb",
+    "seconds": 0.22884537500794977,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-ganglia-cookbooks-elasticsearch-recipes-plugins.rb",
+    "seconds": 0.19616425002459437,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-ganglia-cookbooks-hadoop_cluster-example-clusters-science.rb",
+    "seconds": 0.25833395798690617,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-hadoop_cluster-cookbooks-hbase-recipes-stargate.rb",
+    "seconds": 0.20913229195866734,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-hadoop_cluster-cookbooks-zabbix-recipes-database_mysql.rb",
+    "seconds": 0.3443864170112647,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-hadoop_cluster-roles-cassandra_client.rb",
+    "seconds": 0.18945162504678592,
+    "parsed": true,
+    "diagnostics": "Chef - Could not parse file: <PROJECT_ROOT>/artifact/RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-hadoop_cluster-roles-cassandra_client.rb\n"
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-jenkins-cookbooks-zabbix-recipes-agent.rb",
+    "seconds": 0.24948162504006177,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-jenkins-cookbooks-zabbix-recipes-database_mysql.rb",
+    "seconds": 0.5175866670324467,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-motd-roles-elasticsearch_datanode.rb",
+    "seconds": 0.271196499990765,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-nodejs-cookbooks-hbase-recipes-config_files.rb",
+    "seconds": 0.3198160409810953,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-package_set-cookbooks-rvm-providers-global_gem.rb",
+    "seconds": 0.25075495801866055,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-pig-cookbooks-zabbix-attributes-default.rb",
+    "seconds": 0.28720466600498185,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-snappy-roles-statsd_server.rb",
+    "seconds": 0.2081506249960512,
+    "parsed": true,
+    "diagnostics": "Chef - Could not parse file: <PROJECT_ROOT>/artifact/RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-snappy-roles-statsd_server.rb\n"
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-tuning-cookbooks-ganglia-recipes-default.rb",
+    "seconds": 0.2010739580146037,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-tuning-cookbooks-zabbix-libraries-zabbix_hosts_and_templates.rb",
+    "seconds": 0.25350512500153854,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-volumes-cookbooks-silverware-libraries-dump_aspects.rb",
+    "seconds": 0.30951883300440386,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-volumes-cookbooks-strongswan-recipes-routing.rb",
+    "seconds": 0.23364583402872086,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-volumes_ebs-cookbooks-graphite-attributes-default.rb",
+    "seconds": 0.2751137089799158,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-volumes_ebs-cookbooks-mongodb-attributes-mongodb.rb",
+    "seconds": 0.36802991601871327,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-volumes_ebs-cookbooks-resque-attributes-default.rb",
+    "seconds": 0.23503020801581442,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-volumes_ebs-cookbooks-zabbix-resources-user.rb",
+    "seconds": 0.21933754201745614,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "cookbooks_ic-zabbix-cookbooks-zabbix-providers-host.rb",
+    "seconds": 0.3685163750196807,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "danielladd_Chef-Testing-cookbooks-mysql-attributes-server_rhel.rb",
+    "seconds": 0.2542311670258641,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "davestarling_chef-features-data-cookbooks-manage_files-recipes-default.rb",
+    "seconds": 0.17727820802247152,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "desirit_chef-bach-cookbooks-bcpc-hadoop-recipes-oozie.rb",
+    "seconds": 0.3305032500065863,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "guymatz_chef-cookbooks-cutlery-libraries-notifying_action.rb",
+    "seconds": 0.19776325003476813,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "guymatz_chef-cookbooks-hive-attributes-default.rb",
+    "seconds": 0.20994849997805431,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "guymatz_chef-cookbooks-mysql-attributes-client.rb",
+    "seconds": 0.2609708749805577,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "guymatz_chef-cookbooks-nagios-recipes-server_package.rb",
+    "seconds": 0.1841834579827264,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "guymatz_chef-cookbooks-psql-resources-user.rb",
+    "seconds": 0.19841158302733675,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "guymatz_chef-cookbooks-python-attributes-default.rb",
+    "seconds": 0.21354195900494233,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "gwalbran_chef-cookbooks-imos_backup-attributes-restore.rb",
+    "seconds": 0.1995441250037402,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "gwalbran_chef-cookbooks-imos_webapps-definitions-ncwms.rb",
+    "seconds": 0.2561790829640813,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "havk64_chef-zero-playground-cookbooks-nginx-attributes-socketproxy.rb",
+    "seconds": 0.19479937496362254,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "havk64_chef-zero-playground-cookbooks-runit-recipes-default.rb",
+    "seconds": 0.20952041598502547,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-iptables-recipes-default.rb",
+    "seconds": 0.2027506249723956,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-nodejs-recipes-install_from_binary.rb",
+    "seconds": 0.232573457993567,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-python-attributes-default.rb",
+    "seconds": 0.21494012500625104,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-sudo-recipes-default.rb",
+    "seconds": 0.19904945802409202,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-windows-providers-batch.rb",
+    "seconds": 0.2159325410029851,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-zabbix-providers-media_type.rb",
+    "seconds": 0.21581799996783957,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-zsh-recipes-default.rb",
+    "seconds": 0.19234516698634252,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "johnfitzpatrick_ChefTraining-cookbooks-apache-recipes-user01_index.rb",
+    "seconds": 0.18346450000535697,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "jonmthomson_cookbooks-mingw-recipes-default.rb",
+    "seconds": 0.18797112500760704,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "kitchenplan_chef-applications-recipes-omnigraffle.rb",
+    "seconds": 0.29839529102900997,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "kitchenware_master-chef-cookbooks-base-recipes-editor.rb",
+    "seconds": 0.20188666600733995,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "michaelklishin_cassandra-chef-cookbook-recipes-opscenter_agent.rb",
+    "seconds": 0.19860025000525638,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "newrelic_infrastructure-agent-chef-recipes-default.rb",
+    "seconds": 0.21199883398367092,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "openstreetmap_chef-cookbooks-accounts-recipes-default.rb",
+    "seconds": 0.42291245894739404,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "openstreetmap_chef-cookbooks-civicrm-recipes-default.rb",
+    "seconds": 0.45663520897505805,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "openstreetmap_chef-cookbooks-networking-libraries-ipaddresses.rb",
+    "seconds": 0.22375537495827302,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "pu239ppy_chef-bach-code-bcpc-recipes-mysql.rb",
+    "seconds": 0.3507702499628067,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "rcbops-cookbooks_keystone-recipes-default.rb",
+    "seconds": 0.20072541700210422,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "sabarisankar27_chef-acceptance-fips-.acceptance-acceptance-cookbook-recipes-destroy.rb",
+    "seconds": 0.19783724995795637,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "sabarisankar27_chef-acceptance-top-cookbooks-.acceptance-acceptance-cookbook-recipes-provision.rb",
+    "seconds": 0.19952370796818286,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "scmgalaxy_chef-training-programs-recipes-raviteja-chef-repo-E4.rb",
+    "seconds": 0.19308916601585224,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "scmgalaxy_chef-training-programs-uma-chef-repo-cookbooks-Application-.delivery-build_cookbook-recipes-provision.rb",
+    "seconds": 0.19464212498860434,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "sous-chefs_nrpe-recipes-default.rb",
+    "seconds": 0.20666020800126716,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "sous-chefs_php-recipes-package.rb",
+    "seconds": 0.20451216702349484,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "chef",
+    "configuration": "legacy",
+    "file": "thomasmeeus_chef-apache2-recipes-mod_php5.rb",
+    "seconds": 0.23458133300300688,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "Automattic@vip-quickstart-puppet-manifests-sections-mail.pp",
+    "seconds": 0.0786274999845773,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "Icinga@puppet-icinga2-examples-hostgroup.pp",
+    "seconds": 0.00213816697942093,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp",
+    "seconds": 0.015622499980963767,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "Mirantis@solar-resources-cinder_puppet-actions-run.pp",
+    "seconds": 0.014245875005144626,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp",
+    "seconds": 0.006141749967355281,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "SecGen@SecGen-modules-services-unix-http-tomcat-manifests-instance-dependencies.pp",
+    "seconds": 0.0042638329905457795,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "SecGen@SecGen-modules-services-unix-smb-samba-manifests-params.pp",
+    "seconds": 0.005605583020951599,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp",
+    "seconds": 0.0045827089925296605,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp",
+    "seconds": 0.0018870839849114418,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "StackStorm@st2workroom-modules-profile-manifests-ec2.pp",
+    "seconds": 0.0018616670276969671,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "Vizir@carnival-vagrant-modules-apt-manifests-backports.pp",
+    "seconds": 0.0030524589819833636,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "Yelp@puppet-uchiwa-manifests-repo-yum.pp",
+    "seconds": 0.0027444580337032676,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-govuk-manifests-node-s_calculators_frontend.pp",
+    "seconds": 0.0036720000207424164,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-govuk_beat-manifests-repo.pp",
+    "seconds": 0.001972333004232496,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-govuk_ci-manifests-agent-redis.pp",
+    "seconds": 0.0017375000170432031,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp",
+    "seconds": 0.0031802079756744206,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-scrape_icinga_alerts_for_dashboard_metrics.pp",
+    "seconds": 0.003608083992730826,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-smokey.pp",
+    "seconds": 0.002793916966766119,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp",
+    "seconds": 0.007430457975715399,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-govuk_postgresql-manifests-env_sync_user.pp",
+    "seconds": 0.0023267919896170497,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-govuk_rabbitmq-manifests-monitoring.pp",
+    "seconds": 0.0030176250147633255,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp",
+    "seconds": 0.0027024580049328506,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-icinga-manifests-init.pp",
+    "seconds": 0.002758875023573637,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "alphagov@govuk-puppet-modules-users-manifests-felisialoukou.pp",
+    "seconds": 0.0021364589920267463,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-apache-manifests-mod-pagespeed.pp",
+    "seconds": 0.005712415964808315,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-apache-manifests-ssl.pp",
+    "seconds": 0.0017893750336952507,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp",
+    "seconds": 0.0064217919716611505,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-yum-manifests-repo-jpackage6.pp",
+    "seconds": 0.0021585000213235617,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "camptocamp@puppet-python-manifests-pip-couchdb.pp",
+    "seconds": 0.0018016250105574727,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "cargomedia@puppet-packages-modules-backup-manifests-agent.pp",
+    "seconds": 0.0030879999976605177,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "cargomedia@puppet-packages-modules-capistrano-manifests-init.pp",
+    "seconds": 0.0016252910136245191,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp",
+    "seconds": 0.0016641670372337103,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "cargomedia@puppet-packages-modules-ulimit-manifests-entry.pp",
+    "seconds": 0.0019497080356813967,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "ceph@puppet-ceph-manifests-mds.pp",
+    "seconds": 0.0022071669809520245,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp",
+    "seconds": 0.0025462500052526593,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "duritong@puppet-shorewall-manifests-dnat_rule.pp",
+    "seconds": 0.004290042037609965,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "fuel-infra@puppet-manifests-modules-obs_server-manifests-folders.pp",
+    "seconds": 0.003926958015654236,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "hubspotdevops@puppet-nexus-manifests-params.pp",
+    "seconds": 0.003748167015146464,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "mattheath@puppet-php-manifests-5_3_11.pp",
+    "seconds": 0.0016509579727426171,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "mattheath@puppet-php-manifests-fpm-5_3_15.pp",
+    "seconds": 0.0015921249869279563,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "mattheath@puppet-php-manifests-version.pp",
+    "seconds": 0.008362749998923391,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "mayflower@wasted-site-component-manifests-mongodb.pp",
+    "seconds": 0.0020582920406013727,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "mikeedwards83@Glass.Mapper-Archived-Glass.Mapper.Umb.CastleWindsor-App_Start-GlassMapperUmb.cs.pp",
+    "seconds": 0.005474874982610345,
+    "parsed": true,
+    "diagnostics": "Puppet - Could not parse file: <PROJECT_ROOT>/artifact/RESULTS/puppet/oracle-dataset/mikeedwards83@Glass.Mapper-Archived-Glass.Mapper.Umb.CastleWindsor-App_Start-GlassMapperUmb.cs.pp\n"
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "norcams@himlar-profile-manifests-highavailability-loadbalancing-haproxy-list.pp",
+    "seconds": 0.0017957499949261546,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "norcams@himlar-profile-manifests-storage-ceph-zonegroup.pp",
+    "seconds": 0.0024892090004868805,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@fuel-library-deployment-puppet-cluster-manifests-conntrackd_ocf.pp",
+    "seconds": 0.0052321660332381725,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@fuel-library-deployment-puppet-openstack_tasks-examples-heat-cfn_keystone.pp",
+    "seconds": 0.0014262089971452951,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp",
+    "seconds": 0.0038891250151209533,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@fuel-library-deployment-puppet-osnailyfacter-manifests-plugins-plugins_rsync.pp",
+    "seconds": 0.0019430829561315477,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@fuel-library-deployment-puppet-osnailyfacter-manifests-ssh.pp",
+    "seconds": 0.004995124996639788,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@fuel-library-deployment-puppet-tweaks-manifests-ubuntu_service_override.pp",
+    "seconds": 0.004027582996059209,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@fuel-octane-deployment-puppet-octane_tasks-modular-mysqldump_restore.pp",
+    "seconds": 0.001654833962675184,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@puppet-monasca-manifests-virtualenv-instance.pp",
+    "seconds": 0.004286124953068793,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@puppet-neutron-manifests-params.pp",
+    "seconds": 0.012543124961666763,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@puppet-neutron-manifests-server-placement.pp",
+    "seconds": 0.0042605840135365725,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@puppet-openstack-integration-manifests-designate.pp",
+    "seconds": 0.007135124993510544,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp",
+    "seconds": 0.0035987080191262066,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-manila-api.pp",
+    "seconds": 0.005641083000227809,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-manila-scheduler.pp",
+    "seconds": 0.0020437920466065407,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-neutron-wrappers-dibbler_client.pp",
+    "seconds": 0.002769624989014119,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "openstack@puppet-tripleo-manifests-stunnel-service_proxy.pp",
+    "seconds": 0.002916750032454729,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "poetic@our-boxen-manifests-site.pp",
+    "seconds": 0.0042830409947782755,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "poetic@our-boxen-modules-people-manifests-bobobhai.pp",
+    "seconds": 0.004967458022292703,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "puphpet@puppet-puphpet-manifests-nginx-params.pp",
+    "seconds": 0.003903667035046965,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "puppetlabs@pltraining-userprefs-examples-npp.pp",
+    "seconds": 0.0014827499981038272,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "puppetlabs@puppetlabs-apache-manifests-mod-ssl.pp",
+    "seconds": 0.007056542031932622,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "puppetlabs@puppetlabs-mysql-manifests-server-config.pp",
+    "seconds": 0.003923417010810226,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "purpleidea@puppet-gluster-manifests-simple.pp",
+    "seconds": 0.00890820799395442,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "quintel@boxen-modules-nodejs-manifests-v0_4.pp",
+    "seconds": 0.0020511250477284193,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "quintel@boxen-modules-osx-manifests-recovery_message.pp",
+    "seconds": 0.0048516669776290655,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "redhat-openstack@puppet-galera-manifests-server.pp",
+    "seconds": 0.005654500040691346,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "thiagoarrais@gtk2hs-gtk-Graphics-UI-Gtk-Gdk-PixbufData.hs.pp",
+    "seconds": 0.0016865410143509507,
+    "parsed": true,
+    "diagnostics": "Puppet - Could not parse file: <PROJECT_ROOT>/artifact/RESULTS/puppet/oracle-dataset/thiagoarrais@gtk2hs-gtk-Graphics-UI-Gtk-Gdk-PixbufData.hs.pp\n"
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "voxpupuli@puppet-nginx-examples-server_ssl.pp",
+    "seconds": 0.0035146669833920896,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "voxpupuli@puppet-rabbitmq-examples-permissions-add.pp",
+    "seconds": 0.001962166978046298,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "voxpupuli@puppet-rabbitmq-examples-server.pp",
+    "seconds": 0.001823666039854288,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "voxpupuli@puppet-rundeck-manifests-config-global-framework.pp",
+    "seconds": 0.0039363750256598,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "wesleytodd@YeoPress-app-templates-puppet-modules-mysql-manifests-ruby.pp",
+    "seconds": 0.0019662920385599136,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "wikimedia@mediawiki-vagrant-puppet-modules-ocg-manifests-init.pp",
+    "seconds": 0.003492416988592595,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "wikimedia@mediawiki-vagrant-puppet-modules-role-manifests-notebook.pp",
+    "seconds": 0.0017311249976046383,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "improved",
+    "file": "wikimedia@mediawiki-vagrant-puppet-modules-xhprofgui-manifests-init.pp",
+    "seconds": 0.0020273340051062405,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "Automattic@vip-quickstart-puppet-manifests-sections-mail.pp",
+    "seconds": 0.0036867079907096922,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "Icinga@puppet-icinga2-examples-hostgroup.pp",
+    "seconds": 0.0021135000279173255,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp",
+    "seconds": 0.01240045903250575,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "Mirantis@solar-resources-cinder_puppet-actions-run.pp",
+    "seconds": 0.010270999977365136,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp",
+    "seconds": 0.004486125020775944,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "SecGen@SecGen-modules-services-unix-http-tomcat-manifests-instance-dependencies.pp",
+    "seconds": 0.0041451670113019645,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "SecGen@SecGen-modules-services-unix-smb-samba-manifests-params.pp",
+    "seconds": 0.005065000033937395,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp",
+    "seconds": 0.004253791994415224,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp",
+    "seconds": 0.0018404999864287674,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "StackStorm@st2workroom-modules-profile-manifests-ec2.pp",
+    "seconds": 0.0017547919997014105,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "Vizir@carnival-vagrant-modules-apt-manifests-backports.pp",
+    "seconds": 0.002604416979011148,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "Yelp@puppet-uchiwa-manifests-repo-yum.pp",
+    "seconds": 0.0024192080018110573,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-govuk-manifests-node-s_calculators_frontend.pp",
+    "seconds": 0.003311084001325071,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-govuk_beat-manifests-repo.pp",
+    "seconds": 0.0017572499928064644,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-govuk_ci-manifests-agent-redis.pp",
+    "seconds": 0.0015002499567344785,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp",
+    "seconds": 0.0024809170281514525,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-scrape_icinga_alerts_for_dashboard_metrics.pp",
+    "seconds": 0.002671666967216879,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-smokey.pp",
+    "seconds": 0.002055125019978732,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp",
+    "seconds": 0.0055681670201011,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-govuk_postgresql-manifests-env_sync_user.pp",
+    "seconds": 0.002296958991792053,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-govuk_rabbitmq-manifests-monitoring.pp",
+    "seconds": 0.002795834036078304,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp",
+    "seconds": 0.002572750032413751,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-icinga-manifests-init.pp",
+    "seconds": 0.0027179589960724115,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "alphagov@govuk-puppet-modules-users-manifests-felisialoukou.pp",
+    "seconds": 0.0019903750508092344,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-apache-manifests-mod-pagespeed.pp",
+    "seconds": 0.004269208002369851,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-apache-manifests-ssl.pp",
+    "seconds": 0.0016729579656384885,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp",
+    "seconds": 0.005371958017349243,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-yum-manifests-repo-jpackage6.pp",
+    "seconds": 0.0018817499512806535,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "camptocamp@puppet-python-manifests-pip-couchdb.pp",
+    "seconds": 0.0016990419826470315,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "cargomedia@puppet-packages-modules-backup-manifests-agent.pp",
+    "seconds": 0.0025835419655777514,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "cargomedia@puppet-packages-modules-capistrano-manifests-init.pp",
+    "seconds": 0.0018392500351183116,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp",
+    "seconds": 0.0017465829732827842,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "cargomedia@puppet-packages-modules-ulimit-manifests-entry.pp",
+    "seconds": 0.002021124993916601,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "ceph@puppet-ceph-manifests-mds.pp",
+    "seconds": 0.0022453340352512896,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp",
+    "seconds": 0.002539042034186423,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "duritong@puppet-shorewall-manifests-dnat_rule.pp",
+    "seconds": 0.0038577080122195184,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "fuel-infra@puppet-manifests-modules-obs_server-manifests-folders.pp",
+    "seconds": 0.003047791018616408,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "hubspotdevops@puppet-nexus-manifests-params.pp",
+    "seconds": 0.0030562090105377138,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "mattheath@puppet-php-manifests-5_3_11.pp",
+    "seconds": 0.0016527920379303396,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "mattheath@puppet-php-manifests-fpm-5_3_15.pp",
+    "seconds": 0.0015714170294813812,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "mattheath@puppet-php-manifests-version.pp",
+    "seconds": 0.0063853340107016265,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "mayflower@wasted-site-component-manifests-mongodb.pp",
+    "seconds": 0.0021508329664357007,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "mikeedwards83@Glass.Mapper-Archived-Glass.Mapper.Umb.CastleWindsor-App_Start-GlassMapperUmb.cs.pp",
+    "seconds": 0.00160379201406613,
+    "parsed": true,
+    "diagnostics": "Puppet - Could not parse file: <PROJECT_ROOT>/artifact/RESULTS/puppet/oracle-dataset/mikeedwards83@Glass.Mapper-Archived-Glass.Mapper.Umb.CastleWindsor-App_Start-GlassMapperUmb.cs.pp\n"
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "norcams@himlar-profile-manifests-highavailability-loadbalancing-haproxy-list.pp",
+    "seconds": 0.0018887920305132866,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "norcams@himlar-profile-manifests-storage-ceph-zonegroup.pp",
+    "seconds": 0.002436292008496821,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@fuel-library-deployment-puppet-cluster-manifests-conntrackd_ocf.pp",
+    "seconds": 0.01702141697751358,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@fuel-library-deployment-puppet-openstack_tasks-examples-heat-cfn_keystone.pp",
+    "seconds": 0.001581332995556295,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp",
+    "seconds": 0.0033121250453405082,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@fuel-library-deployment-puppet-osnailyfacter-manifests-plugins-plugins_rsync.pp",
+    "seconds": 0.001854332978837192,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@fuel-library-deployment-puppet-osnailyfacter-manifests-ssh.pp",
+    "seconds": 0.003757041005883366,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@fuel-library-deployment-puppet-tweaks-manifests-ubuntu_service_override.pp",
+    "seconds": 0.0035287089995108545,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@fuel-octane-deployment-puppet-octane_tasks-modular-mysqldump_restore.pp",
+    "seconds": 0.0016334999818354845,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@puppet-monasca-manifests-virtualenv-instance.pp",
+    "seconds": 0.0037756250239908695,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@puppet-neutron-manifests-params.pp",
+    "seconds": 0.009657290996983647,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@puppet-neutron-manifests-server-placement.pp",
+    "seconds": 0.0034222910180687904,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@puppet-openstack-integration-manifests-designate.pp",
+    "seconds": 0.005266041029244661,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp",
+    "seconds": 0.002859207976143807,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-manila-api.pp",
+    "seconds": 0.004642083018552512,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-manila-scheduler.pp",
+    "seconds": 0.001981541980057955,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-neutron-wrappers-dibbler_client.pp",
+    "seconds": 0.002438874973449856,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "openstack@puppet-tripleo-manifests-stunnel-service_proxy.pp",
+    "seconds": 0.002450792002491653,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "poetic@our-boxen-manifests-site.pp",
+    "seconds": 0.0035896250046789646,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "poetic@our-boxen-modules-people-manifests-bobobhai.pp",
+    "seconds": 0.0037940830225124955,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "puphpet@puppet-puphpet-manifests-nginx-params.pp",
+    "seconds": 0.0034826669725589454,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "puppetlabs@pltraining-userprefs-examples-npp.pp",
+    "seconds": 0.0016581249656155705,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "puppetlabs@puppetlabs-apache-manifests-mod-ssl.pp",
+    "seconds": 0.006526625016704202,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "puppetlabs@puppetlabs-mysql-manifests-server-config.pp",
+    "seconds": 0.0036932079819962382,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "purpleidea@puppet-gluster-manifests-simple.pp",
+    "seconds": 0.007042790995910764,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "quintel@boxen-modules-nodejs-manifests-v0_4.pp",
+    "seconds": 0.001737083017360419,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "quintel@boxen-modules-osx-manifests-recovery_message.pp",
+    "seconds": 0.0032639159471727908,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "redhat-openstack@puppet-galera-manifests-server.pp",
+    "seconds": 0.0038653330411762,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "thiagoarrais@gtk2hs-gtk-Graphics-UI-Gtk-Gdk-PixbufData.hs.pp",
+    "seconds": 0.0014816669863648713,
+    "parsed": true,
+    "diagnostics": "Puppet - Could not parse file: <PROJECT_ROOT>/artifact/RESULTS/puppet/oracle-dataset/thiagoarrais@gtk2hs-gtk-Graphics-UI-Gtk-Gdk-PixbufData.hs.pp\n"
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "voxpupuli@puppet-nginx-examples-server_ssl.pp",
+    "seconds": 0.0025701249833218753,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "voxpupuli@puppet-rabbitmq-examples-permissions-add.pp",
+    "seconds": 0.001832542009651661,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "voxpupuli@puppet-rabbitmq-examples-server.pp",
+    "seconds": 0.001714541984256357,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "voxpupuli@puppet-rundeck-manifests-config-global-framework.pp",
+    "seconds": 0.0033818749943748116,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "wesleytodd@YeoPress-app-templates-puppet-modules-mysql-manifests-ruby.pp",
+    "seconds": 0.0020444169640541077,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "wikimedia@mediawiki-vagrant-puppet-modules-ocg-manifests-init.pp",
+    "seconds": 0.003495291981380433,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "wikimedia@mediawiki-vagrant-puppet-modules-role-manifests-notebook.pp",
+    "seconds": 0.001903249998576939,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "tech": "puppet",
+    "configuration": "legacy",
+    "file": "wikimedia@mediawiki-vagrant-puppet-modules-xhprofgui-manifests-init.pp",
+    "seconds": 0.0021063750027678907,
+    "parsed": true,
+    "diagnostics": ""
+  }
+]

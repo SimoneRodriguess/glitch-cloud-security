@@ -1,0 +1,74 @@
+type,PATH,LINE,ERROR,CODE,TEXT
+FN,Yelp@puppet-uchiwa-manifests-repo-yum.pp,21,no-integrity-check,,
+FN,openstack@puppet-openstack-integration-manifests-designate.pp,26,hardcoded-secret,,
+FN,openstack@puppet-openstack-integration-manifests-designate.pp,27,hardcoded-secret,,
+FP,Automattic@vip-quickstart-puppet-manifests-sections-mail.pp,1,suspicious comment,sec_susp_comm,Postfix
+FP,Automattic@vip-quickstart-puppet-manifests-sections-mail.pp,7,hardcoded-secret,sec_hard_secr,user:'root'
+FP,SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,3,hardcoded-secret,sec_hard_secr,$backupuser:''
+FP,SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,4,hardcoded-secret,sec_hard_secr,$backuppassword:''
+FP,SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,9,admin-by-default,sec_def_admin,$backupdirgroup:'$mysql::params::root_group'
+FP,SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,32,hardcoded-secret,sec_hard_secr,user:'root'
+FP,SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,42,hardcoded-secret,sec_hard_secr,user:'root'
+FP,SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,62,admin-by-default,sec_def_admin,group:'$mysql::params::root_group'
+FP,SecGen@SecGen-modules-services-unix-http-tomcat-manifests-instance-dependencies.pp,6,weak cryptography algorithms,sec_weak_crypt,"$home_sha:""sha1('$catalina_home')"""
+FP,SecGen@SecGen-modules-services-unix-http-tomcat-manifests-instance-dependencies.pp,7,weak cryptography algorithms,sec_weak_crypt,"$base_sha:""sha1('$catalina_base')"""
+FP,SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,23,suspicious comment,sec_susp_comm,RHEL 7 and later and Fedora 15 and later require the iptables-services
+FP,SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,67,hardcoded-secret,sec_hard_secr,$seluser:'unconfined_u'
+FP,SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,68,hardcoded-secret,sec_hard_secr,$seluser:'system_u'
+FP,SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,72,hardcoded-secret,sec_hard_secr,$seluser:''
+FP,Vizir@carnival-vagrant-modules-apt-manifests-backports.pp,45,hardcoded-secret,sec_hard_secr,key_server:'pgp.mit.edu'
+FP,alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp,48,hardcoded-secret,sec_hard_secr,$root_password:''
+FP,alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp,70,missing default case statement,sec_no_default_switch,"$slow_query_log?{'True': 'ON', 'False': 'OFF'}"
+FP,alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp,76,missing default case statement,sec_no_default_switch,"$slow_query_log?{'True': '$slow_query_log_file', 'False': 'False'}"
+FP,alphagov@govuk-puppet-modules-govuk_postgresql-manifests-env_sync_user.pp,14,hardcoded-secret,sec_hard_secr,superuser:'True'
+FP,alphagov@govuk-puppet-modules-govuk_postgresql-manifests-env_sync_user.pp,22,hardcoded-secret,sec_hard_secr,user:'env-sync'
+FP,boxbilling@boxbilling-puphpet-puppet-modules-yum-manifests-repo-jpackage6.pp,9,use of http,sec_https,mirrorlist:'http://www.jpackage.org/mirrorlist.php?dist=generic&type=free&release=6.0'
+FP,boxbilling@boxbilling-puphpet-puppet-modules-yum-manifests-repo-jpackage6.pp,12,use of http,sec_https,gpgkey:'http://www.jpackage.org/jpackage.asc'
+FP,camptocamp@puppet-python-manifests-pip-couchdb.pp,20,suspicious comment,sec_susp_comm,with the service/package couchdb! Hoping that one day we can properly solve
+FP,camptocamp@puppet-python-manifests-pip-couchdb.pp,21,suspicious comment,sec_susp_comm,this problem using e.g. composite name identifier
+FP,hubspotdevops@puppet-nexus-manifests-params.pp,28,use of http,sec_https,$download_site:'http://download.sonatype.com/nexus/oss'
+FP,hubspotdevops@puppet-nexus-manifests-params.pp,29,hardcoded-secret,sec_hard_secr,$nexus_root:'/srv'
+FP,hubspotdevops@puppet-nexus-manifests-params.pp,34,hardcoded-secret,sec_hard_secr,$nexus_user:'nexus'
+FP,hubspotdevops@puppet-nexus-manifests-params.pp,39,hardcoded-secret,sec_hard_secr,$nexus_manage_user:'True'
+FP,hubspotdevops@puppet-nexus-manifests-params.pp,40,use of http,sec_https,$pro_download_site:'http://download.sonatype.com/nexus/professional-bundle'
+FP,openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,9,admin-by-default,sec_def_admin,"$mysql_root_user:""pick('$mysql_hash[root_user]','root')"""
+FP,openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,9,hardcoded-secret,sec_hard_secr,"$mysql_root_user:""pick('$mysql_hash[root_user]','root')"""
+FP,openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,11,admin-by-default,sec_def_admin,$mysql_root_password:'$mysql_hash[root_password]'
+FP,openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,13,hardcoded-secret,sec_hard_secr,"$db_user:""pick('$ironic_hash[db_user]','ironic')"""
+FP,openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,15,admin-by-default,sec_def_admin,"$db_password:""pick('$ironic_hash[db_password]','$mysql_root_password')"""
+FP,openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,15,hardcoded-secret,sec_hard_secr,"$db_password:""pick('$ironic_hash[db_password]','$mysql_root_password')"""
+FP,openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,19,admin-by-default,sec_def_admin,"$db_root_user:""pick('$ironic_hash[root_user]','$mysql_root_user')"""
+FP,openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,19,hardcoded-secret,sec_hard_secr,"$db_root_user:""pick('$ironic_hash[root_user]','$mysql_root_user')"""
+FP,openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,20,admin-by-default,sec_def_admin,"$db_root_password:""pick('$ironic_hash[root_password]','$mysql_root_password')"""
+FP,openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,20,hardcoded-secret,sec_hard_secr,"$db_root_password:""pick('$ironic_hash[root_password]','$mysql_root_password')"""
+FP,openstack@fuel-library-deployment-puppet-osnailyfacter-manifests-ssh.pp,40,hardcoded-secret,sec_hard_secr,$permit_root:''
+FP,openstack@puppet-monasca-manifests-virtualenv-instance.pp,19,suspicious comment,sec_susp_comm,and with different $venv_prefix options.  The monasca::agent class will allow
+FP,openstack@puppet-monasca-manifests-virtualenv-instance.pp,42,suspicious comment,sec_susp_comm,[*venv_prefix*] Prefix to give to virtualenv directories
+FP,openstack@puppet-neutron-manifests-server-placement.pp,71,hardcoded-secret,sec_hard_secr,$username:'nova'
+FP,openstack@puppet-neutron-manifests-server-placement.pp,87,hardcoded-secret,sec_hard_secr,secret:'True'
+FP,openstack@puppet-openstack-integration-manifests-designate.pp,58,hardcoded-secret,sec_hard_secr,enable_api_admin:'True'
+FP,openstack@puppet-openstack-integration-manifests-designate.pp,61,suspicious comment,sec_susp_comm,IPv6 doesn't work for mdns ? https://bugs.launchpad.net/designate/+bug/1501396
+FP,openstack@puppet-tripleo-manifests-profile-base-neutron-wrappers-dibbler_client.pp,30,suspicious comment,sec_susp_comm,[*debug*]
+FP,openstack@puppet-tripleo-manifests-profile-base-neutron-wrappers-dibbler_client.pp,31,suspicious comment,sec_susp_comm,Enable debug messages for the wrapper script.
+FP,puphpet@puppet-puphpet-manifests-nginx-params.pp,5,hardcoded-secret,sec_hard_secr,$webroot_user:'www-data'
+FP,puppetlabs@puppetlabs-apache-manifests-mod-ssl.pp,9,weak cryptography algorithms,sec_weak_crypt,$ssl_cipher:'HIGH:MEDIUM:!aNULL:!MD5:!RC4:!3DES'
+FP,puppetlabs@puppetlabs-mysql-manifests-server-config.pp,13,admin-by-default,sec_def_admin,group:'$mysql::server::root_group'
+FP,quintel@boxen-modules-osx-manifests-recovery_message.pp,22,hardcoded-secret,sec_hard_secr,user:'root'
+FP,quintel@boxen-modules-osx-manifests-recovery_message.pp,29,hardcoded-secret,sec_hard_secr,user:'root'
+FP,quintel@boxen-modules-osx-manifests-recovery_message.pp,37,hardcoded-secret,sec_hard_secr,key:'LoginwindowText'
+FP,quintel@boxen-modules-osx-manifests-recovery_message.pp,48,hardcoded-secret,sec_hard_secr,user:'root'
+FP,quintel@boxen-modules-osx-manifests-recovery_message.pp,57,hardcoded-secret,sec_hard_secr,key:'LoginwindowText'
+FP,quintel@boxen-modules-osx-manifests-recovery_message.pp,67,hardcoded-secret,sec_hard_secr,user:'root'
+FP,redhat-openstack@puppet-galera-manifests-server.pp,47,suspicious comment,sec_susp_comm,[*debug*]
+FP,redhat-openstack@puppet-galera-manifests-server.pp,98,hardcoded-secret,sec_hard_secr,$wsrep_sst_username:'root'
+FP,redhat-openstack@puppet-galera-manifests-server.pp,99,hardcoded-secret,sec_hard_secr,$wsrep_sst_password:''
+FP,voxpupuli@puppet-nginx-examples-server_ssl.pp,5,hardcoded-secret,sec_hard_secr,www_root:'/var/www/nginx-default'
+FP,voxpupuli@puppet-nginx-examples-server_ssl.pp,7,hardcoded-secret,sec_hard_secr,ssl_cert:'puppet:///modules/sslkey/whildcard_mydomain.crt'
+FP,voxpupuli@puppet-nginx-examples-server_ssl.pp,8,hardcoded-secret,sec_hard_secr,ssl_client_cert:'puppet:///modules/sslkey/whildcard_mydomain.crt'
+FP,voxpupuli@puppet-nginx-examples-server_ssl.pp,9,hardcoded-secret,sec_hard_secr,ssl_key:'puppet:///modules/sslkey/whildcard_mydomain.key'
+FP,voxpupuli@puppet-nginx-examples-server_ssl.pp,14,hardcoded-secret,sec_hard_secr,www_root:'/var/www/nginx-default'
+FP,voxpupuli@puppet-nginx-examples-server_ssl.pp,16,hardcoded-secret,sec_hard_secr,ssl_cert:'puppet:///modules/sslkey/whildcard_mydomain.crt'
+FP,voxpupuli@puppet-nginx-examples-server_ssl.pp,17,hardcoded-secret,sec_hard_secr,ssl_key:'puppet:///modules/sslkey/whildcard_mydomain.key'
+FP,voxpupuli@puppet-nginx-examples-server_ssl.pp,22,hardcoded-secret,sec_hard_secr,www_root:'/var/www/bob'
+FP,voxpupuli@puppet-nginx-examples-server_ssl.pp,29,hardcoded-secret,sec_hard_secr,www_root:'/var/www/bob'
+FP,voxpupuli@puppet-rabbitmq-examples-server.pp,3,hardcoded-secret,sec_hard_secr,delete_guest_user:'True'

@@ -1,0 +1,132 @@
+{
+  "official_scorer_checks": [
+    {
+      "tech": "ansible",
+      "configuration": "improved",
+      "independent_scorer_matches_official": true
+    },
+    {
+      "tech": "ansible",
+      "configuration": "legacy",
+      "independent_scorer_matches_official": true
+    },
+    {
+      "tech": "chef",
+      "configuration": "improved",
+      "independent_scorer_matches_official": true
+    },
+    {
+      "tech": "chef",
+      "configuration": "legacy",
+      "independent_scorer_matches_official": true
+    },
+    {
+      "tech": "puppet",
+      "configuration": "improved",
+      "independent_scorer_matches_official": true
+    },
+    {
+      "tech": "puppet",
+      "configuration": "legacy",
+      "independent_scorer_matches_official": true
+    }
+  ],
+  "native_vs_author_predictions": [
+    {
+      "tech": "ansible",
+      "configuration": "improved",
+      "native_only": [],
+      "authors_only": [],
+      "exact_prediction_set_match": true
+    },
+    {
+      "tech": "ansible",
+      "configuration": "legacy",
+      "native_only": [],
+      "authors_only": [],
+      "exact_prediction_set_match": true
+    },
+    {
+      "tech": "chef",
+      "configuration": "improved",
+      "native_only": [],
+      "authors_only": [],
+      "exact_prediction_set_match": true
+    },
+    {
+      "tech": "chef",
+      "configuration": "legacy",
+      "native_only": [],
+      "authors_only": [],
+      "exact_prediction_set_match": true
+    },
+    {
+      "tech": "puppet",
+      "configuration": "improved",
+      "native_only": [],
+      "authors_only": [],
+      "exact_prediction_set_match": true
+    },
+    {
+      "tech": "puppet",
+      "configuration": "legacy",
+      "native_only": [],
+      "authors_only": [],
+      "exact_prediction_set_match": true
+    }
+  ],
+  "source_commit": "91831ed97abc1379d8c3db9dacb86b40d09508f9",
+  "python": "3.10.15",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "ruby": "ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.arm64e-darwin25]",
+  "packages": {
+    "ruamel.yaml": "0.17.21",
+    "ply": "3.11",
+    "pandas": "2.3.3",
+    "numpy": "2.2.6"
+  },
+  "files_by_technology": {
+    "ansible": 81,
+    "chef": 80,
+    "puppet": 80
+  },
+  "split_manifest_sha256": "39022ca92042e545f16030975fb0624b3a0e1b22ff1ef7a6af72276e8dfbefe7",
+  "source_code_sha256": {
+    "glitch/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/__main__.py": "1cbc1b75989d84f006218aa971a677b6b57072c89f73875237d28d7f5b8df0ef",
+    "glitch/analysis/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/analysis/design.py": "d645d77fe1ecf6cfcc770e5b6e47cc414aa9c4b03ee6ecc20b01f0d4c7d851a6",
+    "glitch/analysis/rules.py": "c52fe18772b93610476f1c0f62ee5b0cd310509e11c8bb714fd4ab86b24afbf5",
+    "glitch/analysis/security.py": "709d084e096d457070454f7072086d9e001accee1a6d89522b8ee354c4c7a35b",
+    "glitch/exceptions.py": "b81ab78077fb63987290a44fa8d4b78a4f09af9d2b151b45a00cda8256256510",
+    "glitch/helpers.py": "ae55149aed48812c08500f35d3f29df43c2d0871bbf82baabbc1bd80f1f6ca70",
+    "glitch/parsers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/parsers/cmof.py": "faa7f40dbbc44fcd831eb49300c9601e6f62281a1faed0155e5676ab6f027ab4",
+    "glitch/parsers/parser.py": "8b4c81c48f5d6a1f6284fef877df093bbf2581b3d9174f958a084e8314959c77",
+    "glitch/parsers/parsetab.py": "57b640fe27937d96ff3bcd87096c366ed57783df60a8bf7586c8c0c91981a556",
+    "glitch/parsers/ripper_parser.py": "0cdfc2374a7606afbcbcc74c8dbf270fae24129648631e198a56724fe59cf5ac",
+    "glitch/repr/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/repr/inter.py": "ddf84736302641e635a7982961eee3bc1da295ff9776e1440544243a0eb17279",
+    "glitch/stats/print.py": "4f8824df8d0f5223e984ed3cd83153c4d57fb8898fecded54fc76ecf33189664",
+    "glitch/stats/stats.py": "aafbe8f09e2b9e2fc3922f9819e50e25765b554c0413feb2c76a0ec994a9273c",
+    "glitch/tech.py": "7420a48c4ccffc2b1ea814b015f477b2db90af0b771d347f35ce8cff55a55290",
+    "glitch/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/tests/design/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/tests/design/ansible/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/tests/design/ansible/test_design.py": "b1c1dc7bfc73f4ec030c4871c65269ea6bed6c23d7862a0c1d020d4f39d9ccc3",
+    "glitch/tests/design/chef/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/tests/design/chef/test_design.py": "1bf3de09d10be639e32d4ec248124006d12eba7c65a9ad627ba6a8d5c28ad593",
+    "glitch/tests/design/puppet/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/tests/design/puppet/test_design.py": "404d28a3b7050408897f13229d0ffdb37c2e91a6683f044916f8e366197a31a5",
+    "glitch/tests/security/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/tests/security/ansible/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/tests/security/ansible/test_security.py": "6c2c4a0de83aad9d72a5314f488963b12beedb95a851c37f01178cf677057e35",
+    "glitch/tests/security/chef/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/tests/security/chef/test_security.py": "36c5c8f9e0b5cc5110b63f6a31e7100b646df6cafcab53c37e65cee7f0307179",
+    "glitch/tests/security/puppet/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "glitch/tests/security/puppet/test_security.py": "0ff0759d837402a1bdbab77560d74fa2ef94bbf3d60dc4ef3d7b5120d9086f45",
+    "setup.py": "25da7314fee55bb8ea433a82f92a9206d6418d9dda931ec1b9e2bd6cbd6c5bfd"
+  },
+  "scope": "All 241 manually annotated oracle scripts; full 196755-script frequency rerun not performed.",
+  "execution": "Individual files parsed with original parsers/visitors, explicit unknown block type; no IaC execution."
+}

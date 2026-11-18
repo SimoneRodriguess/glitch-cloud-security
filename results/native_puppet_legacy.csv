@@ -1,0 +1,163 @@
+PATH,LINE,ERROR,CODE,TEXT
+Automattic@vip-quickstart-puppet-manifests-sections-mail.pp,7,hardcoded-secret,sec_hard_secr,user:'root'
+Automattic@vip-quickstart-puppet-manifests-sections-mail.pp,7,hardcoded-username,sec_hard_user,user:'root'
+Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,74,improper ip address binding,sec_invalid_bind,value:'0.0.0.0'
+Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,166,hardcoded-secret,sec_hard_secr,key:'bind'
+Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,171,hardcoded-secret,sec_hard_secr,key:'save'
+Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,176,hardcoded-secret,sec_hard_secr,key:'dbfilename'
+SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,3,hardcoded-secret,sec_hard_secr,$backupuser:''
+SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,3,hardcoded-username,sec_hard_user,$backupuser:''
+SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,4,empty-password,sec_empty_pass,$backuppassword:''
+SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,4,hardcoded-password,sec_hard_pass,$backuppassword:''
+SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,4,hardcoded-secret,sec_hard_secr,$backuppassword:''
+SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,32,hardcoded-secret,sec_hard_secr,user:'root'
+SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,32,hardcoded-username,sec_hard_user,user:'root'
+SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,42,hardcoded-secret,sec_hard_secr,user:'root'
+SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp,42,hardcoded-username,sec_hard_user,user:'root'
+SecGen@SecGen-modules-services-unix-http-tomcat-manifests-instance-dependencies.pp,6,weak cryptography algorithms,sec_weak_crypt,"$home_sha:""sha1('$catalina_home')"""
+SecGen@SecGen-modules-services-unix-http-tomcat-manifests-instance-dependencies.pp,7,weak cryptography algorithms,sec_weak_crypt,"$base_sha:""sha1('$catalina_base')"""
+SecGen@SecGen-modules-services-unix-smb-samba-manifests-params.pp,111,improper ip address binding,sec_invalid_bind,$firewall_src:'0.0.0.0/0'
+SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,23,suspicious comment,sec_susp_comm,RHEL 7 and later and Fedora 15 and later require the iptables-services
+SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,67,hardcoded-secret,sec_hard_secr,$seluser:'unconfined_u'
+SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,67,hardcoded-username,sec_hard_user,$seluser:'unconfined_u'
+SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,68,hardcoded-secret,sec_hard_secr,$seluser:'system_u'
+SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,68,hardcoded-username,sec_hard_user,$seluser:'system_u'
+SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,72,hardcoded-secret,sec_hard_secr,$seluser:''
+SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp,72,hardcoded-username,sec_hard_user,$seluser:''
+SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp,2,hardcoded-secret,sec_hard_secr,user:'root'
+SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp,2,hardcoded-username,sec_hard_user,user:'root'
+Vizir@carnival-vagrant-modules-apt-manifests-backports.pp,31,missing default case statement,sec_no_default_switch,"$::lsbdistid?{'debian': '55BE302B', 'ubuntu': '437D05B5'}"
+Vizir@carnival-vagrant-modules-apt-manifests-backports.pp,35,missing default case statement,sec_no_default_switch,"$::lsbdistid?{'debian': 'main contrib non-free', 'ubuntu': 'main universe multiverse restricted'}"
+alphagov@govuk-puppet-modules-govuk-manifests-node-s_calculators_frontend.pp,1,suspicious comment,sec_susp_comm,FIXME: This class needs better documentation as per https://docs.puppetlabs.com/guides/style_guide.html#puppet-doc
+alphagov@govuk-puppet-modules-govuk-manifests-node-s_calculators_frontend.pp,29,improper ip address binding,sec_invalid_bind,listen_ip:'0.0.0.0'
+alphagov@govuk-puppet-modules-govuk_beat-manifests-repo.pp,16,use of http,sec_https,location:'http://${apt_mirror_hostname}/elastic-beats'
+alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp,1,suspicious comment,sec_susp_comm,FIXME: This class needs better documentation as per https://docs.puppetlabs.com/guides/style_guide.html#puppet-doc
+alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp,31,hardcoded-secret,sec_hard_secr,user:'elasticsearch'
+alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp,31,hardcoded-username,sec_hard_user,user:'elasticsearch'
+alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-scrape_icinga_alerts_for_dashboard_metrics.pp,29,hardcoded-secret,sec_hard_secr,$private_key:''
+alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp,48,empty-password,sec_empty_pass,$root_password:''
+alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp,48,hardcoded-password,sec_hard_pass,$root_password:''
+alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp,48,hardcoded-secret,sec_hard_secr,$root_password:''
+alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp,70,missing default case statement,sec_no_default_switch,"$slow_query_log?{'True': 'ON', 'False': 'OFF'}"
+alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp,76,missing default case statement,sec_no_default_switch,"$slow_query_log?{'True': '$slow_query_log_file', 'False': 'False'}"
+alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp,81,improper ip address binding,sec_invalid_bind,bind-address:'0.0.0.0'
+alphagov@govuk-puppet-modules-govuk_postgresql-manifests-env_sync_user.pp,14,hardcoded-secret,sec_hard_secr,superuser:'True'
+alphagov@govuk-puppet-modules-govuk_postgresql-manifests-env_sync_user.pp,14,hardcoded-username,sec_hard_user,superuser:'True'
+alphagov@govuk-puppet-modules-govuk_postgresql-manifests-env_sync_user.pp,22,hardcoded-secret,sec_hard_secr,user:'env-sync'
+alphagov@govuk-puppet-modules-govuk_postgresql-manifests-env_sync_user.pp,22,hardcoded-username,sec_hard_user,user:'env-sync'
+alphagov@govuk-puppet-modules-govuk_postgresql-manifests-env_sync_user.pp,23,weak cryptography algorithms,sec_weak_crypt,auth_method:'md5'
+alphagov@govuk-puppet-modules-govuk_rabbitmq-manifests-monitoring.pp,1,suspicious comment,sec_susp_comm,FIXME: This class needs better documentation as per https://docs.puppetlabs.com/guides/style_guide.html#puppet-doc
+alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp,18,use of http,sec_https,location:'http://${apt_mirror_hostname}/rbenv-ruby'
+alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp,21,hardcoded-secret,sec_hard_secr,key:'3803E444EB0235822AA36A66EC5FE1A937E3ACBB'
+alphagov@govuk-puppet-modules-icinga-manifests-init.pp,1,suspicious comment,sec_susp_comm,FIXME: This class needs better documentation as per https://docs.puppetlabs.com/guides/style_guide.html#puppet-doc
+alphagov@govuk-puppet-modules-users-manifests-felisialoukou.pp,5,hardcoded-secret,sec_hard_secr,"ssh_key:""['ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDlxJNWiWOVbtSwe5DNNzN8csunIvCX6XUIAT141EjGZpOaEjK3yFtvv96OukdWTXPQXnWBDOIWg+fNJWc4LsfqnCV5CrHftykTqHeKakEcVX2aW5UrWvlOWHoTdkbFv+L67MaT2xIT/KWLYPliyZJOmwwF+W1kiFq3xVtI5qgMha7s2I3thuBo8lgLXsmxdVcYoa32MBKabNyknvZaF/l2l/D/wssbC/3N5zeLupJJXDRA4BWw6nqAW97AOceVH04twCG6+B5qL/M56D/YW8kMIx/XSSIAde4+yXCX0gLr5p4L6pNvD2vn/nJSY/rMDtO5rPX+XQjmM7eti50FvkflvGzuaUoSXb1sP+rwOtGMVQBn4pnB1whd8jZSQC+SRsXAgj7TgQfKLux/T00cq+pC09HrBPLag1TUcueJE65FM6mi2uyi+sYYOnVfr4ZhgiEBY+uFoOWl/TwnKuIAXXXD4aL9BXpOTdy3XxxEwHeobfv2AOa8QH8rGQXuXExTjaMXQEbQ6rnhUEmccu1fSTZt4rEUlv2a61Bp2XKcjvKNodNHqQwFXWbX+qmKpGTurPQZG9wqJzejUer1YYSuraxezQtSpM0ZREFhIQMSA5F137bCPVwLanJ3A/XN+1aEwjynrDALOmYOyJw/eblYCUX84At55tbDt+XdmIXiVeg0eQ== felisia.loukou@digital.cabinet-office.gov.uk']"""
+boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp,17,missing default case statement,sec_no_default_switch,"$::osfamily?{'Debian': {'mongo': $::lsbdistcodename?{'precise': 'mongo', 'default': 'False'}}, 'Redhat': {}}"
+boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp,29,missing default case statement,sec_no_default_switch,"$::osfamily?{'Debian': {'augeas': 'augeas', 'zendopcache': $::operatingsystem?{'debian': 'False', 'ubuntu': 'ZendOpcache'}}, 'Redhat': {}}"
+boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp,32,missing default case statement,sec_no_default_switch,"$::operatingsystem?{'debian': 'False', 'ubuntu': 'ZendOpcache'}"
+boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp,42,missing default case statement,sec_no_default_switch,"$::osfamily?{'Debian': {'apc': $::operatingsystem?{'debian': 'php5-apc', 'ubuntu': 'php5-apcu'}, 'apcu': 'php5-apcu', 'imagick': 'php5-imagick', 'memcache': 'php5-memcache', 'memcached': 'php5-memcached', 'mongo': $::lsbdistcodename?{'precise': 'False', 'default': 'php5-mongo'}, 'redis': 'php5-redis', 'sqlite': 'php5-sqlite', 'zendopcache': 'php5-zendopcache'}, 'Redhat': {'apc': 'php-pecl-apcu', 'apcu': 'php-pecl-apcu', 'imagick': 'php-pecl-imagick', 'memcache': 'php-pecl-memcache', 'memcached': 'php-pecl-memcached', 'mongo': 'php-pecl-mongo', 'redis': 'php-pecl-redis', 'sqlite': 'php-pecl-sqlite', 'zendopcache': 'php-pecl-zendopcache'}}"
+boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp,44,missing default case statement,sec_no_default_switch,"$::operatingsystem?{'debian': 'php5-apc', 'ubuntu': 'php5-apcu'}"
+boxbilling@boxbilling-puphpet-puppet-modules-yum-manifests-repo-jpackage6.pp,9,use of http,sec_https,mirrorlist:'http://www.jpackage.org/mirrorlist.php?dist=generic&type=free&release=6.0'
+boxbilling@boxbilling-puphpet-puppet-modules-yum-manifests-repo-jpackage6.pp,12,hardcoded-secret,sec_hard_secr,gpgkey:'http://www.jpackage.org/jpackage.asc'
+boxbilling@boxbilling-puphpet-puppet-modules-yum-manifests-repo-jpackage6.pp,12,use of http,sec_https,gpgkey:'http://www.jpackage.org/jpackage.asc'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,21,hardcoded-secret,sec_hard_secr,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,21,hardcoded-username,sec_hard_user,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,26,hardcoded-secret,sec_hard_secr,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,26,hardcoded-username,sec_hard_user,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,33,hardcoded-secret,sec_hard_secr,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,33,hardcoded-username,sec_hard_user,user:'root'
+cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp,1,empty-password,sec_empty_pass,$root_password:''
+cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp,1,hardcoded-password,sec_hard_pass,$root_password:''
+cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp,1,hardcoded-secret,sec_hard_secr,$root_password:''
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,9,hardcoded-password,sec_hard_pass,root_password:'strongpassword'
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,9,hardcoded-secret,sec_hard_secr,root_password:'strongpassword'
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,13,hardcoded-secret,sec_hard_secr,user:'bitbucket'
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,13,hardcoded-username,sec_hard_user,user:'bitbucket'
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,14,hardcoded-password,sec_hard_pass,password:'password'
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,14,hardcoded-secret,sec_hard_secr,password:'password'
+hubspotdevops@puppet-nexus-manifests-params.pp,28,use of http,sec_https,$download_site:'http://download.sonatype.com/nexus/oss'
+hubspotdevops@puppet-nexus-manifests-params.pp,34,hardcoded-secret,sec_hard_secr,$nexus_user:'nexus'
+hubspotdevops@puppet-nexus-manifests-params.pp,34,hardcoded-username,sec_hard_user,$nexus_user:'nexus'
+hubspotdevops@puppet-nexus-manifests-params.pp,36,improper ip address binding,sec_invalid_bind,$nexus_host:'0.0.0.0'
+hubspotdevops@puppet-nexus-manifests-params.pp,39,hardcoded-secret,sec_hard_secr,$nexus_manage_user:'True'
+hubspotdevops@puppet-nexus-manifests-params.pp,39,hardcoded-username,sec_hard_user,$nexus_manage_user:'True'
+hubspotdevops@puppet-nexus-manifests-params.pp,40,use of http,sec_https,$pro_download_site:'http://download.sonatype.com/nexus/professional-bundle'
+openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,9,hardcoded-secret,sec_hard_secr,"$mysql_root_user:""pick('$mysql_hash[root_user]','root')"""
+openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,9,hardcoded-username,sec_hard_user,"$mysql_root_user:""pick('$mysql_hash[root_user]','root')"""
+openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,13,hardcoded-secret,sec_hard_secr,"$db_user:""pick('$ironic_hash[db_user]','ironic')"""
+openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,13,hardcoded-username,sec_hard_user,"$db_user:""pick('$ironic_hash[db_user]','ironic')"""
+openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,15,hardcoded-password,sec_hard_pass,"$db_password:""pick('$ironic_hash[db_password]','$mysql_root_password')"""
+openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,15,hardcoded-secret,sec_hard_secr,"$db_password:""pick('$ironic_hash[db_password]','$mysql_root_password')"""
+openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,19,hardcoded-secret,sec_hard_secr,"$db_root_user:""pick('$ironic_hash[root_user]','$mysql_root_user')"""
+openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,19,hardcoded-username,sec_hard_user,"$db_root_user:""pick('$ironic_hash[root_user]','$mysql_root_user')"""
+openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,20,hardcoded-password,sec_hard_pass,"$db_root_password:""pick('$ironic_hash[root_password]','$mysql_root_password')"""
+openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp,20,hardcoded-secret,sec_hard_secr,"$db_root_password:""pick('$ironic_hash[root_password]','$mysql_root_password')"""
+openstack@fuel-library-deployment-puppet-osnailyfacter-manifests-ssh.pp,35,weak cryptography algorithms,sec_weak_crypt,"$macs:'hmac-sha2-512,hmac-sha2-256,hmac-ripemd160,hmac-sha1'"
+openstack@puppet-neutron-manifests-server-placement.pp,77,use of http,sec_https,$auth_url:'http://127.0.0.1:5000'
+openstack@puppet-neutron-manifests-server-placement.pp,87,hardcoded-secret,sec_hard_secr,secret:'True'
+openstack@puppet-openstack-integration-manifests-designate.pp,11,hardcoded-password,sec_hard_pass,password:'an_even_bigger_secret'
+openstack@puppet-openstack-integration-manifests-designate.pp,11,hardcoded-secret,sec_hard_secr,password:'an_even_bigger_secret'
+openstack@puppet-openstack-integration-manifests-designate.pp,16,hardcoded-password,sec_hard_pass,password:'designate'
+openstack@puppet-openstack-integration-manifests-designate.pp,16,hardcoded-secret,sec_hard_secr,password:'designate'
+openstack@puppet-openstack-integration-manifests-designate.pp,37,suspicious comment,sec_susp_comm,TODO: Support SSL
+openstack@puppet-openstack-integration-manifests-designate.pp,39,hardcoded-password,sec_hard_pass,password:'a_big_secret'
+openstack@puppet-openstack-integration-manifests-designate.pp,39,hardcoded-secret,sec_hard_secr,password:'a_big_secret'
+openstack@puppet-openstack-integration-manifests-designate.pp,40,use of http,sec_https,public_url:'http://${::openstack_integration::config::ip_for_url}:9001'
+openstack@puppet-openstack-integration-manifests-designate.pp,41,use of http,sec_https,internal_url:'http://${::openstack_integration::config::ip_for_url}:9001'
+openstack@puppet-openstack-integration-manifests-designate.pp,42,use of http,sec_https,admin_url:'http://${::openstack_integration::config::ip_for_url}:9001'
+openstack@puppet-openstack-integration-manifests-designate.pp,45,hardcoded-password,sec_hard_pass,password:'a_big_secret'
+openstack@puppet-openstack-integration-manifests-designate.pp,45,hardcoded-secret,sec_hard_secr,password:'a_big_secret'
+openstack@puppet-openstack-integration-manifests-designate.pp,55,use of http,sec_https,api_base_uri:'http://${::openstack_integration::config::ip_for_url}:9001'
+openstack@puppet-openstack-integration-manifests-designate.pp,61,suspicious comment,sec_susp_comm,IPv6 doesn't work for mdns ? https://bugs.launchpad.net/designate/+bug/1501396
+openstack@puppet-openstack-integration-manifests-designate.pp,100,suspicious comment,sec_susp_comm,TODO: Implement pools.yaml management in puppet-designate
+openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,36,hardcoded-secret,sec_hard_secr,user:'root'
+openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,36,hardcoded-username,sec_hard_user,user:'root'
+openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,44,hardcoded-secret,sec_hard_secr,user:'root'
+openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,44,hardcoded-username,sec_hard_user,user:'root'
+openstack@puppet-tripleo-manifests-profile-base-neutron-wrappers-dibbler_client.pp,30,suspicious comment,sec_susp_comm,[*debug*]
+openstack@puppet-tripleo-manifests-profile-base-neutron-wrappers-dibbler_client.pp,31,suspicious comment,sec_susp_comm,Enable debug messages for the wrapper script.
+puphpet@puppet-puphpet-manifests-nginx-params.pp,5,hardcoded-secret,sec_hard_secr,$webroot_user:'www-data'
+puphpet@puppet-puphpet-manifests-nginx-params.pp,5,hardcoded-username,sec_hard_user,$webroot_user:'www-data'
+puphpet@puppet-puphpet-manifests-nginx-params.pp,25,weak cryptography algorithms,sec_weak_crypt,"$allowed_ciphers:""['ECDHE-RSA-AES256-GCM-SHA384', 'ECDHE-RSA-AES128-GCM-SHA256', 'DHE-RSA-AES256-GCM-SHA384', 'DHE-RSA-AES128-GCM-SHA256', 'ECDHE-RSA-AES256-SHA384', 'ECDHE-RSA-AES128-SHA256', 'ECDHE-RSA-AES256-SHA', 'ECDHE-RSA-AES128-SHA', 'DHE-RSA-AES256-SHA256', 'DHE-RSA-AES128-SHA256', 'DHE-RSA-AES256-SHA', 'DHE-RSA-AES128-SHA', 'ECDHE-RSA-DES-CBC3-SHA', 'EDH-RSA-DES-CBC3-SHA', 'AES256-GCM-SHA384', 'AES128-GCM-SHA256', 'AES256-SHA256', 'AES128-SHA256', 'AES256-SHA', 'AES128-SHA', 'DES-CBC3-SHA', 'HIGH', '!aNULL', '!eNULL', '!EXPORT', '!DES', '!MD5', '!PSK', '!RC4']"""
+puphpet@puppet-puphpet-manifests-nginx-params.pp,36,missing default case statement,sec_no_default_switch,"$::osfamily?{'Debian': '/etc/ssl/certs/ssl-cert-snakeoil.pem', 'Redhat': '/etc/ssl/certs/ssl-cert-snakeoil'}"
+puphpet@puppet-puphpet-manifests-nginx-params.pp,41,missing default case statement,sec_no_default_switch,"$::osfamily?{'Debian': '/etc/ssl/private/ssl-cert-snakeoil.key', 'Redhat': '/etc/ssl/certs/ssl-cert-snakeoil'}"
+puppetlabs@puppetlabs-apache-manifests-mod-ssl.pp,6,hardcoded-secret,sec_hard_secr,$ssl_cert:''
+puppetlabs@puppetlabs-apache-manifests-mod-ssl.pp,7,hardcoded-secret,sec_hard_secr,$ssl_key:''
+puppetlabs@puppetlabs-apache-manifests-mod-ssl.pp,9,weak cryptography algorithms,sec_weak_crypt,$ssl_cipher:'HIGH:MEDIUM:!aNULL:!MD5:!RC4:!3DES'
+puppetlabs@puppetlabs-apache-manifests-mod-ssl.pp,68,missing default case statement,sec_no_default_switch,"$::osfamily?{'debian': '\\${APACHE_RUN_DIR}/ocsp(32768)', 'redhat': '/run/httpd/ssl_stapling(32768)', 'freebsd': '/var/run/ssl_stapling(32768)', 'gentoo': '/var/run/ssl_stapling(32768)', 'Suse': '/var/lib/apache2/ssl_stapling(32768)'}"
+purpleidea@puppet-gluster-manifests-simple.pp,8,suspicious comment,sec_susp_comm,(at your option) any later version.
+purpleidea@puppet-gluster-manifests-simple.pp,22,suspicious comment,sec_susp_comm,TODO: not fully implemented in puppet-gluster
+purpleidea@puppet-gluster-manifests-simple.pp,26,empty-password,sec_empty_pass,$password:''
+purpleidea@puppet-gluster-manifests-simple.pp,26,hardcoded-password,sec_hard_pass,$password:''
+purpleidea@puppet-gluster-manifests-simple.pp,26,hardcoded-secret,sec_hard_secr,$password:''
+purpleidea@puppet-gluster-manifests-simple.pp,81,suspicious comment,sec_susp_comm,TODO: check that each element of array is a valid hash!
+purpleidea@puppet-gluster-manifests-simple.pp,145,suspicious comment,sec_susp_comm,TODO: should we use the same pattern for 1 or many ?
+quintel@boxen-modules-osx-manifests-recovery_message.pp,22,hardcoded-secret,sec_hard_secr,user:'root'
+quintel@boxen-modules-osx-manifests-recovery_message.pp,22,hardcoded-username,sec_hard_user,user:'root'
+quintel@boxen-modules-osx-manifests-recovery_message.pp,29,hardcoded-secret,sec_hard_secr,user:'root'
+quintel@boxen-modules-osx-manifests-recovery_message.pp,29,hardcoded-username,sec_hard_user,user:'root'
+quintel@boxen-modules-osx-manifests-recovery_message.pp,37,hardcoded-secret,sec_hard_secr,key:'LoginwindowText'
+quintel@boxen-modules-osx-manifests-recovery_message.pp,48,hardcoded-secret,sec_hard_secr,user:'root'
+quintel@boxen-modules-osx-manifests-recovery_message.pp,48,hardcoded-username,sec_hard_user,user:'root'
+quintel@boxen-modules-osx-manifests-recovery_message.pp,57,hardcoded-secret,sec_hard_secr,key:'LoginwindowText'
+quintel@boxen-modules-osx-manifests-recovery_message.pp,67,hardcoded-secret,sec_hard_secr,user:'root'
+quintel@boxen-modules-osx-manifests-recovery_message.pp,67,hardcoded-username,sec_hard_user,user:'root'
+redhat-openstack@puppet-galera-manifests-server.pp,47,suspicious comment,sec_susp_comm,[*debug*]
+redhat-openstack@puppet-galera-manifests-server.pp,99,empty-password,sec_empty_pass,$wsrep_sst_password:''
+redhat-openstack@puppet-galera-manifests-server.pp,99,hardcoded-password,sec_hard_pass,$wsrep_sst_password:''
+redhat-openstack@puppet-galera-manifests-server.pp,99,hardcoded-secret,sec_hard_secr,$wsrep_sst_password:''
+redhat-openstack@puppet-galera-manifests-server.pp,100,hardcoded-secret,sec_hard_secr,$wsrep_ssl:'False'
+redhat-openstack@puppet-galera-manifests-server.pp,101,hardcoded-secret,sec_hard_secr,$wsrep_ssl_key:''
+redhat-openstack@puppet-galera-manifests-server.pp,102,hardcoded-secret,sec_hard_secr,$wsrep_ssl_cert:''
+redhat-openstack@puppet-galera-manifests-server.pp,106,improper ip address binding,sec_invalid_bind,$wsrep_bind_address:'0.0.0.0'
+voxpupuli@puppet-nginx-examples-server_ssl.pp,6,hardcoded-secret,sec_hard_secr,ssl:'True'
+voxpupuli@puppet-nginx-examples-server_ssl.pp,7,hardcoded-secret,sec_hard_secr,ssl_cert:'puppet:///modules/sslkey/whildcard_mydomain.crt'
+voxpupuli@puppet-nginx-examples-server_ssl.pp,8,hardcoded-secret,sec_hard_secr,ssl_client_cert:'puppet:///modules/sslkey/whildcard_mydomain.crt'
+voxpupuli@puppet-nginx-examples-server_ssl.pp,9,hardcoded-secret,sec_hard_secr,ssl_key:'puppet:///modules/sslkey/whildcard_mydomain.key'
+voxpupuli@puppet-nginx-examples-server_ssl.pp,15,hardcoded-secret,sec_hard_secr,ssl:'True'
+voxpupuli@puppet-nginx-examples-server_ssl.pp,16,hardcoded-secret,sec_hard_secr,ssl_cert:'puppet:///modules/sslkey/whildcard_mydomain.crt'
+voxpupuli@puppet-nginx-examples-server_ssl.pp,17,hardcoded-secret,sec_hard_secr,ssl_key:'puppet:///modules/sslkey/whildcard_mydomain.key'
+voxpupuli@puppet-rabbitmq-examples-permissions-add.pp,2,hardcoded-password,sec_hard_pass,password:'foo'
+voxpupuli@puppet-rabbitmq-examples-permissions-add.pp,2,hardcoded-secret,sec_hard_secr,password:'foo'
+voxpupuli@puppet-rabbitmq-examples-server.pp,3,hardcoded-secret,sec_hard_secr,delete_guest_user:'True'
+voxpupuli@puppet-rabbitmq-examples-server.pp,3,hardcoded-username,sec_hard_user,delete_guest_user:'True'
+voxpupuli@puppet-rundeck-manifests-config-global-framework.pp,28,use of http,sec_https,url:'http://${rundeck_hostname}:${rundeck_port}'

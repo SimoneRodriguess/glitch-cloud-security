@@ -1,0 +1,101 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{amsmath,amssymb}
+\usepackage{newtxtext,newtxmath}
+\usepackage{graphicx,booktabs,url}
+\usepackage[hidelinks]{hyperref}
+\input{generated.tex}
+\title{Command-Aware Administrative-User Detection in Infrastructure as Code: An Artifact-Based Extension of GLITCH}
+\author{\IEEEauthorblockN{Student Author [Replace Before Submission]}
+\IEEEauthorblockA{Department and Institution [Replace]\\City, Country [Replace]\\Email [Replace]}}
+\begin{document}
+\maketitle
+\begin{abstract}
+Infrastructure-as-Code analyzers must identify security smells across heterogeneous configuration languages. We reproduce the labeled accuracy evaluation of GLITCH, an ASE 2022 technology-agnostic analyzer, using its original archived source, parser dependency, configurations, annotations, and oracle scripts. Rather than applying a new tool version to a different dataset, we compare freshly generated predictions with author-stored results and independently verify the original matching protocol. \BaselineAbstract{}
+Motivated by observed development errors and the paper's discussion, we extend administrative-user detection to literal database users embedded in command-valued intermediate-representation nodes. A lexical recognizer distinguishes executable database commands from quoted mentions and unresolved user expressions, without executing infrastructure scripts. The rule is frozen before evaluating reserved file-disjoint test data. \ExtensionAbstract{}
+The contribution is a bounded, reproducible correction to the archived analyzer, not proof that every administrative command is exploitable or that a small oracle represents production clouds.
+\end{abstract}
+\begin{IEEEkeywords}
+cloud security, Infrastructure as Code, static analysis, security smells, reproducibility, least privilege
+\end{IEEEkeywords}
+
+\section{Introduction}
+Infrastructure as Code (IaC) enables repeatable configuration of cloud servers, services, and application environments. Configuration mistakes can nevertheless embed weak credentials, excessive privileges, or insecure communication patterns. GLITCH~\cite{glitch2022} translates Ansible, Chef, and Puppet scripts into a common intermediate representation (IR), enabling reusable detection rules instead of separate language-specific implementations.
+
+A meaningful extension requires both a trustworthy baseline and an observed limitation. We therefore select the base study by artifact availability: its archived package~\cite{artifact} includes original source, parser dependency, manually annotated oracles, and stored outputs. The objective is not to optimize arbitrary results until they resemble published tables. It is to establish reproduction fidelity, identify a development-set failure mechanism, and evaluate one narrowly defined correction on reserved files.
+
+We address three questions: RQ1, can the archived accuracy evaluation be reproduced natively; RQ2, which baseline failure mechanism motivates the extension; and RQ3, does the frozen correction improve administrative-user detection without altering unrelated smells? Contributions are an independently audited oracle reproduction, a reusable command-aware IR rule, and measured development/test results with negative and boundary-case tests. We do not claim the first-ever command analyzer or comprehensive least-privilege verification.
+
+\section{Background and Related Work}
+SLIC~\cite{slic} identified security smells in Puppet; SLAC~\cite{slac} extended this line of research to Ansible and Chef. Their language-specific implementations motivate GLITCH's common IR~\cite{glitch2022}. Unit blocks contain variables, attributes, atomic units, conditions, and comments; each retains source locations and, where applicable, information about variable references. The original detector applies configurable name/value patterns to these elements.
+
+GLITCH's nine security smells include administrative defaults, empty passwords, hard-coded secrets, invalid IP binding, suspicious comments, HTTP without TLS, missing integrity checks, weak cryptography, and missing default case branches. A smell indicates a potentially problematic coding pattern, not a confirmed exploit. The administrative-default category relates to unnecessary privileges, CWE-250~\cite{cwe250}.
+
+The base paper reports Chef administrative-default recall of 0.41 and explicitly discusses root users embedded in commands such as \texttt{mysql -uroot}. Its rule examines user-named fields and can miss a literal user encoded in a command-valued field. The MySQL command interface exposes the user through short and long options~\cite{mysql}. Shell-like lexical analysis~\cite{shlex} offers a lightweight way to recognize these options while avoiding unrestricted substring matching. Our contribution extends this archived rule on common IR elements; claims of novelty beyond this baseline require a broader literature and current-tool review.
+
+\section{Artifacts and Reproduction Protocol}
+\subsection{Version and Provenance}
+We use Figshare version 2 of the replication image~\cite{artifact}, not GLITCH's current development branch or the separate Zenodo v1.0.0 source release. The 1,819,003,392-byte image matches its published MD5 checksum. Its recovered GLITCH source commit is \texttt{91831ed97abc1379d8c3db9dacb86b40d09508f9}; its final installed Puppet dependency is \texttt{puppetparser 0.1.3}. Docker layer whiteouts are respected, including removal of the earlier parser source directory. Only selected regular files are extracted; arbitrary paths and symlinks are not materialized.
+
+The package contains the original 81 Ansible, 80 Chef, and 80 Puppet oracle scripts and majority-vote annotations. We analyze all 241 scripts with original improved and SLIC/SLAC-like configurations. Individual file enumeration ensures coverage, while original parsers and visitors remain unchanged. Chef scripts remain in the artifact's \texttt{recipes} folder; no configuration scripts are executed. Ruby Ripper parses source rather than evaluating recipes.
+
+\subsection{Original Matching and Sensitivity}
+Fresh predictions are distinguished from author-cached outputs. We independently implement the original technology-specific scoring and run the authors' unmodified scorer scripts on native predictions. Chef and Puppet primarily match file, line, and category, with category-specific file-level exceptions. Ansible's original output lacks line numbers: it matches reported key/value or comment content against the annotated source line. Native exact-line sensitivity is reported separately. We do not silently replace these matching protocols with a different metric while calling the result a reproduction.
+
+Hard-coded password and user reports are subtypes, not additional categories in the nine-smell scores. The paper's ``No smell'' category is a separate file-level class. Undefined precision/recall is not converted into evidence of perfect performance. We retain raw predictions, parse diagnostics, per-category counts, package versions, and hashes.
+
+\subsection{Scope and Partition}
+The scope is the labeled accuracy experiment, not the unlabelled frequency study over 196,755 scripts. The latter is much larger; the authors report approximately 1,400 minutes for Chef analysis alone. Full-corpus density and timing results are not claimed here.
+
+Before inspecting individual baseline errors or implementing the extension, files are ordered by a fixed SHA-256 key and partitioned approximately 50/50 into development and reserved test sets within each technology. \PartitionDescription{}
+Baseline reproduction uses the complete oracle, whereas extension design uses only development error cases. Rule source and configuration are frozen and hashed before test scoring. This is a transparent internal holdout, not a preregistered study or an independent production dataset.
+
+\section{Observed Limitation and Correction}
+\subsection{Development Evidence}
+\DevelopmentEvidence{}
+The limitation is structural: an explicit database user may occur in a field such as \texttt{cmd} or \texttt{command}, not in a field whose name matches a user keyword. Moreover, interpolation elsewhere in the command does not necessarily make its administrative user dynamic. An entropy or placeholder filter would target a different smell and does not address this failure.
+
+\subsection{Command-Aware Rule}
+\RuleDescription{}
+The extended visitor preserves all original detections and adds only administrative-default reports. It neither changes credential detection nor relabels the oracle. Source-location reporting and deduplication follow the original file/line/category identity. Recognized command mentions are treated as smell evidence, not proof of a deployed privilege violation.
+
+\subsection{Controls and Boundary Tests}
+Positive tests cover supported short/long literal-user forms, executable paths, mixed interpolation, and command chaining. Negative tests cover nonadministrative users, unresolved user variables, quoted documentation or \texttt{echo} mentions, and misleading substrings. Parser integration tests exercise equivalent examples in Ansible, Chef, and Puppet. These synthetic fixtures are correctness tests, not replacement benchmark data.
+
+\section{Results}
+\subsection{Reproduction Fidelity}
+\ReproductionDiscussion{}
+\begingroup\setlength{\tabcolsep}{3pt}\BaselineTable{}\endgroup
+
+\subsection{Frozen Extension Evaluation}
+\ExtensionDiscussion{}
+\begingroup\setlength{\tabcolsep}{3pt}\ExtensionTable{}\endgroup
+\AblationDiscussion{}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{chef_holdout.png}
+\caption{Reserved Chef administrative-default results. The command-aware rule improves recall while retaining one false positive; naive substring matching adds false positives. These are point estimates on 16 annotated occurrences.}
+\end{figure}
+
+\subsection{Verification and Cost}
+\VerificationDiscussion{}
+No training, GPU, or paid cloud runtime is necessary. Timing refers to local static analysis, not execution of the infrastructure. Numerical results are counts from the preserved oracle, not generated examples or copied paper values.
+
+\section{Discussion and Limitations}
+An IR-level extension preserves the polyglot design: the same rule can process common variable/attribute nodes from several IaC technologies. Nevertheless, command syntax remains a language boundary within those values. The recognizer is deliberately bounded and is not a complete shell interpreter. It does not infer users from external files, runtime state, defaults, arbitrary wrappers, or resolved variable values.
+
+The oracle is small and was partly selected using detector reports in the original study~\cite{glitch2022}; recall/precision therefore need not transfer to a representative production sample. A file-disjoint holdout prevents within-file leakage but not correlations between scripts from the same originating project. Majority-vote annotations measure agreement with a smell definition, not exploitability. Administrative access can be necessary in legitimate provisioning, so a report should prompt review rather than automatic privilege removal.
+
+Original Ansible content matching and selected file-level exceptions can credit reports with imprecise locations. Exact-line sensitivity therefore accompanies the published protocol. Cached outputs are explicitly labeled; native parsing may be affected by platform and Ruby-version differences even when Python analyzer source is identical. Any such differences are retained rather than concealed. \SpecificLimitations{}
+
+The base paper itself identifies command-embedded users as a limitation. Our correction should therefore be described as an implementation and measured extension of GLITCH's archived behavior, not a newly discovered universal vulnerability or unprecedented algorithm. Larger project-disjoint datasets, richer command representations, and human review of false positives are appropriate next steps.
+
+\section{Conclusion}
+\MeasuredConclusion{}
+An artifact-first workflow enables precise comparison and a bounded correction without changing the benchmark to suit the implementation. The source, partitions, predictions, matching protocols, rule freeze, and audit artifacts support inspection and rerunning.
+
+\section*{Reproducibility and Submission Note}
+The accompanying \texttt{glitch-project} contains original artifact provenance, native predictions, scores, tests, and the extension. Original GLITCH and derived code retain GPL-3.0-compatible terms. Replace author/affiliation placeholders and review all results and institutional AI-assistance rules before submission. This is an IEEE conference-format student research report, not an accepted IEEE publication.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\end{document}

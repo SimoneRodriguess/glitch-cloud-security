@@ -1,0 +1,9 @@
+type,PATH,LINE,ERROR,CODE,TEXT
+FP,browbeat-ansible-install-roles-fluentd-tasks-main.yml,16,hardcoded-secret,sec_hard_secr,rpm_key:'key=https://packages.treasuredata.com/GPG-KEY-td-agent state=present'
+FP,openstack-ansible-ops-leap-upgrades-upgrade-utilities-mitaka-playbooks-deploy-config-changes-mitaka.yml,20,hardcoded-secret,sec_hard_secr,user:'root'
+FP,openstack-ansible-playbooks-common-tasks-os-lxc-container-setup.yml,96,suspicious comment,sec_susp_comm,# Due to https://github.com/ansible/ansible-modules-extras/issues/2691
+FP,openstack-ansible-playbooks-common-tasks-os-lxc-container-setup.yml,119,suspicious comment,sec_susp_comm,# Due to https://github.com/ansible/ansible-modules-extras/issues/2691
+FP,openstack-ansible-playbooks-os-designate-install.yml,22,hardcoded-secret,sec_hard_secr,user:'root'
+FP,openstack-ansible-playbooks-utility-install.yml,18,hardcoded-secret,sec_hard_secr,user:'root'
+FP,openstack-ansible-playbooks-utility-install.yml,70,hardcoded-secret,sec_hard_secr,dest:'/root/.ssh/id_rsa'
+FP,tripleo-quickstart-roles-libvirt-setup-overcloud-tasks-vars-libvirt_nodepool_vars.yml,16,hardcoded-secret,sec_hard_secr,vm_pass:'random'

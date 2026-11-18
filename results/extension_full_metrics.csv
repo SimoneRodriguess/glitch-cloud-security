@@ -1,0 +1,91 @@
+category,tp,fp,fn,precision,recall,f1,tech,method,phase
+use of http,20,1,0,0.9523809523809523,1.0,0.975609756097561,ansible,baseline,full_oracle_descriptive
+admin-by-default,7,0,0,1.0,1.0,1.0,ansible,baseline,full_oracle_descriptive
+suspicious comment,6,2,0,0.75,1.0,0.8571428571428571,ansible,baseline,full_oracle_descriptive
+empty-password,1,0,0,1.0,1.0,1.0,ansible,baseline,full_oracle_descriptive
+hardcoded-secret,8,11,0,0.42105263157894735,1.0,0.5925925925925926,ansible,baseline,full_oracle_descriptive
+improper ip address binding,1,0,0,1.0,1.0,1.0,ansible,baseline,full_oracle_descriptive
+no-integrity-check,0,1,1,0.0,0.0,0.0,ansible,baseline,full_oracle_descriptive
+missing default case statement,0,0,0,,,,ansible,baseline,full_oracle_descriptive
+weak cryptography algorithms,0,0,0,,,,ansible,baseline,full_oracle_descriptive
+none,65,0,4,1.0,0.9420289855072463,0.9701492537313433,ansible,baseline,full_oracle_descriptive
+use of http,20,1,0,0.9523809523809523,1.0,0.975609756097561,ansible,command_aware,full_oracle_descriptive
+admin-by-default,7,0,0,1.0,1.0,1.0,ansible,command_aware,full_oracle_descriptive
+suspicious comment,6,2,0,0.75,1.0,0.8571428571428571,ansible,command_aware,full_oracle_descriptive
+empty-password,1,0,0,1.0,1.0,1.0,ansible,command_aware,full_oracle_descriptive
+hardcoded-secret,8,11,0,0.42105263157894735,1.0,0.5925925925925926,ansible,command_aware,full_oracle_descriptive
+improper ip address binding,1,0,0,1.0,1.0,1.0,ansible,command_aware,full_oracle_descriptive
+no-integrity-check,0,1,1,0.0,0.0,0.0,ansible,command_aware,full_oracle_descriptive
+missing default case statement,0,0,0,,,,ansible,command_aware,full_oracle_descriptive
+weak cryptography algorithms,0,0,0,,,,ansible,command_aware,full_oracle_descriptive
+none,65,0,4,1.0,0.9420289855072463,0.9701492537313433,ansible,command_aware,full_oracle_descriptive
+use of http,20,1,0,0.9523809523809523,1.0,0.975609756097561,ansible,naive_substring,full_oracle_descriptive
+admin-by-default,7,0,0,1.0,1.0,1.0,ansible,naive_substring,full_oracle_descriptive
+suspicious comment,6,2,0,0.75,1.0,0.8571428571428571,ansible,naive_substring,full_oracle_descriptive
+empty-password,1,0,0,1.0,1.0,1.0,ansible,naive_substring,full_oracle_descriptive
+hardcoded-secret,8,11,0,0.42105263157894735,1.0,0.5925925925925926,ansible,naive_substring,full_oracle_descriptive
+improper ip address binding,1,0,0,1.0,1.0,1.0,ansible,naive_substring,full_oracle_descriptive
+no-integrity-check,0,1,1,0.0,0.0,0.0,ansible,naive_substring,full_oracle_descriptive
+missing default case statement,0,0,0,,,,ansible,naive_substring,full_oracle_descriptive
+weak cryptography algorithms,0,0,0,,,,ansible,naive_substring,full_oracle_descriptive
+none,65,0,4,1.0,0.9420289855072463,0.9701492537313433,ansible,naive_substring,full_oracle_descriptive
+use of http,12,5,1,0.7058823529411765,0.9230769230769231,0.8,chef,baseline,full_oracle_descriptive
+admin-by-default,15,1,22,0.9375,0.40540540540540543,0.5660377358490566,chef,baseline,full_oracle_descriptive
+suspicious comment,4,6,0,0.4,1.0,0.5714285714285714,chef,baseline,full_oracle_descriptive
+empty-password,3,0,1,1.0,0.75,0.8571428571428571,chef,baseline,full_oracle_descriptive
+hardcoded-secret,9,37,4,0.1956521739130435,0.6923076923076923,0.3050847457627119,chef,baseline,full_oracle_descriptive
+improper ip address binding,7,0,0,1.0,1.0,1.0,chef,baseline,full_oracle_descriptive
+no-integrity-check,6,0,0,1.0,1.0,1.0,chef,baseline,full_oracle_descriptive
+missing default case statement,19,0,1,1.0,0.95,0.9743589743589743,chef,baseline,full_oracle_descriptive
+weak cryptography algorithms,1,1,0,0.5,1.0,0.6666666666666666,chef,baseline,full_oracle_descriptive
+none,38,2,5,0.95,0.8837209302325582,0.9156626506024096,chef,baseline,full_oracle_descriptive
+use of http,12,5,1,0.7058823529411765,0.9230769230769231,0.8,chef,command_aware,full_oracle_descriptive
+admin-by-default,27,1,10,0.9642857142857143,0.7297297297297297,0.8307692307692308,chef,command_aware,full_oracle_descriptive
+suspicious comment,4,6,0,0.4,1.0,0.5714285714285714,chef,command_aware,full_oracle_descriptive
+empty-password,3,0,1,1.0,0.75,0.8571428571428571,chef,command_aware,full_oracle_descriptive
+hardcoded-secret,9,37,4,0.1956521739130435,0.6923076923076923,0.3050847457627119,chef,command_aware,full_oracle_descriptive
+improper ip address binding,7,0,0,1.0,1.0,1.0,chef,command_aware,full_oracle_descriptive
+no-integrity-check,6,0,0,1.0,1.0,1.0,chef,command_aware,full_oracle_descriptive
+missing default case statement,19,0,1,1.0,0.95,0.9743589743589743,chef,command_aware,full_oracle_descriptive
+weak cryptography algorithms,1,1,0,0.5,1.0,0.6666666666666666,chef,command_aware,full_oracle_descriptive
+none,38,2,5,0.95,0.8837209302325582,0.9156626506024096,chef,command_aware,full_oracle_descriptive
+use of http,12,5,1,0.7058823529411765,0.9230769230769231,0.8,chef,naive_substring,full_oracle_descriptive
+admin-by-default,35,15,2,0.7,0.9459459459459459,0.8045977011494253,chef,naive_substring,full_oracle_descriptive
+suspicious comment,4,6,0,0.4,1.0,0.5714285714285714,chef,naive_substring,full_oracle_descriptive
+empty-password,3,0,1,1.0,0.75,0.8571428571428571,chef,naive_substring,full_oracle_descriptive
+hardcoded-secret,9,37,4,0.1956521739130435,0.6923076923076923,0.3050847457627119,chef,naive_substring,full_oracle_descriptive
+improper ip address binding,7,0,0,1.0,1.0,1.0,chef,naive_substring,full_oracle_descriptive
+no-integrity-check,6,0,0,1.0,1.0,1.0,chef,naive_substring,full_oracle_descriptive
+missing default case statement,19,0,1,1.0,0.95,0.9743589743589743,chef,naive_substring,full_oracle_descriptive
+weak cryptography algorithms,1,1,0,0.5,1.0,0.6666666666666666,chef,naive_substring,full_oracle_descriptive
+none,38,2,5,0.95,0.8837209302325582,0.9156626506024096,chef,naive_substring,full_oracle_descriptive
+use of http,5,6,0,0.45454545454545453,1.0,0.625,puppet,baseline,full_oracle_descriptive
+admin-by-default,13,3,1,0.8125,0.9285714285714286,0.8666666666666667,puppet,baseline,full_oracle_descriptive
+suspicious comment,9,14,0,0.391304347826087,1.0,0.5625,puppet,baseline,full_oracle_descriptive
+empty-password,5,0,0,1.0,1.0,1.0,puppet,baseline,full_oracle_descriptive
+hardcoded-secret,9,57,2,0.13636363636363635,0.8181818181818182,0.23376623376623376,puppet,baseline,full_oracle_descriptive
+improper ip address binding,6,0,0,1.0,1.0,1.0,puppet,baseline,full_oracle_descriptive
+no-integrity-check,0,0,1,,0.0,0.0,puppet,baseline,full_oracle_descriptive
+missing default case statement,10,2,0,0.8333333333333334,1.0,0.9090909090909091,puppet,baseline,full_oracle_descriptive
+weak cryptography algorithms,4,3,0,0.5714285714285714,1.0,0.7272727272727273,puppet,baseline,full_oracle_descriptive
+none,37,1,15,0.9736842105263158,0.7115384615384616,0.8222222222222222,puppet,baseline,full_oracle_descriptive
+use of http,5,6,0,0.45454545454545453,1.0,0.625,puppet,command_aware,full_oracle_descriptive
+admin-by-default,13,3,1,0.8125,0.9285714285714286,0.8666666666666667,puppet,command_aware,full_oracle_descriptive
+suspicious comment,9,14,0,0.391304347826087,1.0,0.5625,puppet,command_aware,full_oracle_descriptive
+empty-password,5,0,0,1.0,1.0,1.0,puppet,command_aware,full_oracle_descriptive
+hardcoded-secret,9,57,2,0.13636363636363635,0.8181818181818182,0.23376623376623376,puppet,command_aware,full_oracle_descriptive
+improper ip address binding,6,0,0,1.0,1.0,1.0,puppet,command_aware,full_oracle_descriptive
+no-integrity-check,0,0,1,,0.0,0.0,puppet,command_aware,full_oracle_descriptive
+missing default case statement,10,2,0,0.8333333333333334,1.0,0.9090909090909091,puppet,command_aware,full_oracle_descriptive
+weak cryptography algorithms,4,3,0,0.5714285714285714,1.0,0.7272727272727273,puppet,command_aware,full_oracle_descriptive
+none,37,1,15,0.9736842105263158,0.7115384615384616,0.8222222222222222,puppet,command_aware,full_oracle_descriptive
+use of http,5,6,0,0.45454545454545453,1.0,0.625,puppet,naive_substring,full_oracle_descriptive
+admin-by-default,13,10,1,0.5652173913043478,0.9285714285714286,0.7027027027027027,puppet,naive_substring,full_oracle_descriptive
+suspicious comment,9,14,0,0.391304347826087,1.0,0.5625,puppet,naive_substring,full_oracle_descriptive
+empty-password,5,0,0,1.0,1.0,1.0,puppet,naive_substring,full_oracle_descriptive
+hardcoded-secret,9,57,2,0.13636363636363635,0.8181818181818182,0.23376623376623376,puppet,naive_substring,full_oracle_descriptive
+improper ip address binding,6,0,0,1.0,1.0,1.0,puppet,naive_substring,full_oracle_descriptive
+no-integrity-check,0,0,1,,0.0,0.0,puppet,naive_substring,full_oracle_descriptive
+missing default case statement,10,2,0,0.8333333333333334,1.0,0.9090909090909091,puppet,naive_substring,full_oracle_descriptive
+weak cryptography algorithms,4,3,0,0.5714285714285714,1.0,0.7272727272727273,puppet,naive_substring,full_oracle_descriptive
+none,36,1,16,0.972972972972973,0.6923076923076923,0.8089887640449438,puppet,naive_substring,full_oracle_descriptive

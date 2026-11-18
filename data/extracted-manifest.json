@@ -1,0 +1,1869 @@
+{
+  "files": [
+    {
+      "path": "GLITCH/.git/HEAD",
+      "bytes": 21,
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+    },
+    {
+      "path": "GLITCH/.git/logs/HEAD",
+      "bytes": 476,
+      "sha256": "14a82a3826fd3200e316e80e235d5310eb036a76a4f1265779d7e216bfde22f8"
+    },
+    {
+      "path": "GLITCH/.git/logs/refs/heads/main",
+      "bytes": 476,
+      "sha256": "14a82a3826fd3200e316e80e235d5310eb036a76a4f1265779d7e216bfde22f8"
+    },
+    {
+      "path": "GLITCH/.git/logs/refs/remotes/origin/HEAD",
+      "bytes": 176,
+      "sha256": "cd90bb1d5f198e3fc3c08a2da85edd169786fcf41352987f20a836d936435a6d"
+    },
+    {
+      "path": "GLITCH/.git/logs/refs/remotes/origin/main",
+      "bytes": 300,
+      "sha256": "b9e2c7a64124d0304552dc8d130d7046221b95403c1fb8d1bbc5106e37a2e126"
+    },
+    {
+      "path": "GLITCH/.git/refs/heads/main",
+      "bytes": 41,
+      "sha256": "5de6f776b2735443a627c836d5715a7c259de351edbf57e0a3cf416dc6398ca9"
+    },
+    {
+      "path": "GLITCH/.git/refs/remotes/origin/HEAD",
+      "bytes": 30,
+      "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+    },
+    {
+      "path": "GLITCH/.git/refs/remotes/origin/main",
+      "bytes": 41,
+      "sha256": "5de6f776b2735443a627c836d5715a7c259de351edbf57e0a3cf416dc6398ca9"
+    },
+    {
+      "path": "GLITCH/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "GLITCH/README.md",
+      "bytes": 3231,
+      "sha256": "af585544287635e0825def48c7f593b0188d3c9c9b4a65e33e80cc267ac7ac78"
+    },
+    {
+      "path": "GLITCH/configs/SLAC_ansible.ini",
+      "bytes": 1308,
+      "sha256": "d50f1cead9f7c6fd79cbb6fe699feee75c505677551faf7da2ddc49baefee2bd"
+    },
+    {
+      "path": "GLITCH/configs/SLAC_chef.ini",
+      "bytes": 850,
+      "sha256": "c6f8d5a613a04a347c1636655e603536e925d6bb8618dc76c8bd1f52b39cba2f"
+    },
+    {
+      "path": "GLITCH/configs/SLIC_puppet.ini",
+      "bytes": 563,
+      "sha256": "49c71711cd6ee07e1226be1e538a226c4e80559b57a40e2785e63a002c6f0fd8"
+    },
+    {
+      "path": "GLITCH/configs/design_ansible.ini",
+      "bytes": 198,
+      "sha256": "a6356161612d72a37c9748fff50928faab5fa5996b5fb6a4d956566befd1e8fa"
+    },
+    {
+      "path": "GLITCH/configs/design_chef.ini",
+      "bytes": 71,
+      "sha256": "b8d381bdef680725a0ee616f564bd72c99c1fea0ae2c67c5d4acdfeb956a2b5b"
+    },
+    {
+      "path": "GLITCH/configs/design_puppet.ini",
+      "bytes": 59,
+      "sha256": "f25588f7e4c67eaef322093de1dcd607fa601e940585e4af0d0eb95a77b7486d"
+    },
+    {
+      "path": "GLITCH/configs/improved.ini",
+      "bytes": 1387,
+      "sha256": "be6aa5b72091d9c68446d4865c44fbe2e26a2eea5c50524b8930c3e3b43f5e8d"
+    },
+    {
+      "path": "GLITCH/glitch.egg-info/PKG-INFO",
+      "bytes": 233,
+      "sha256": "cc57dd3d0b0e6f6925375b8e99fc026793daaea6fd7e0977e01b908060ee14d3"
+    },
+    {
+      "path": "GLITCH/glitch.egg-info/SOURCES.txt",
+      "bytes": 1242,
+      "sha256": "6bc091f0780663f405dad0655b7846d73bab4eb6aa627d9a9c0fe87470d7e7b1"
+    },
+    {
+      "path": "GLITCH/glitch.egg-info/dependency_links.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "GLITCH/glitch.egg-info/entry_points.txt",
+      "bytes": 49,
+      "sha256": "e847d594a8cb5675fa51fbf6ca23589e50204996acd56b825497b1f146f889f1"
+    },
+    {
+      "path": "GLITCH/glitch.egg-info/requires.txt",
+      "bytes": 89,
+      "sha256": "2dd57a651653ba613e3b0b5699d6beb7ee2ff8d5ebdd509424285919fd7ac4ae"
+    },
+    {
+      "path": "GLITCH/glitch.egg-info/top_level.txt",
+      "bytes": 7,
+      "sha256": "01c7c5290e12af0c3d459b476ac941d12fb9a2b2f963f234cc33c3b92f47c58d"
+    },
+    {
+      "path": "GLITCH/glitch/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/__main__.py",
+      "bytes": 6263,
+      "sha256": "1cbc1b75989d84f006218aa971a677b6b57072c89f73875237d28d7f5b8df0ef"
+    },
+    {
+      "path": "GLITCH/glitch/analysis/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/analysis/design.py",
+      "bytes": 12864,
+      "sha256": "d645d77fe1ecf6cfcc770e5b6e47cc414aa9c4b03ee6ecc20b01f0d4c7d851a6"
+    },
+    {
+      "path": "GLITCH/glitch/analysis/rules.py",
+      "bytes": 8289,
+      "sha256": "c52fe18772b93610476f1c0f62ee5b0cd310509e11c8bb714fd4ab86b24afbf5"
+    },
+    {
+      "path": "GLITCH/glitch/analysis/security.py",
+      "bytes": 7374,
+      "sha256": "709d084e096d457070454f7072086d9e001accee1a6d89522b8ee354c4c7a35b"
+    },
+    {
+      "path": "GLITCH/glitch/configs/default.ini",
+      "bytes": 1427,
+      "sha256": "c6a1474dd2fdea188e7053d771efe2a445f9ea50d77d4190ffeb96a802202136"
+    },
+    {
+      "path": "GLITCH/glitch/exceptions.py",
+      "bytes": 587,
+      "sha256": "b81ab78077fb63987290a44fa8d4b78a4f09af9d2b151b45a00cda8256256510"
+    },
+    {
+      "path": "GLITCH/glitch/helpers.py",
+      "bytes": 3186,
+      "sha256": "ae55149aed48812c08500f35d3f29df43c2d0871bbf82baabbc1bd80f1f6ca70"
+    },
+    {
+      "path": "GLITCH/glitch/parsers/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/parsers/cmof.py",
+      "bytes": 59899,
+      "sha256": "faa7f40dbbc44fcd831eb49300c9601e6f62281a1faed0155e5676ab6f027ab4"
+    },
+    {
+      "path": "GLITCH/glitch/parsers/parser.py",
+      "bytes": 1177,
+      "sha256": "8b4c81c48f5d6a1f6284fef877df093bbf2581b3d9174f958a084e8314959c77"
+    },
+    {
+      "path": "GLITCH/glitch/parsers/parsetab.py",
+      "bytes": 3317,
+      "sha256": "57b640fe27937d96ff3bcd87096c366ed57783df60a8bf7586c8c0c91981a556"
+    },
+    {
+      "path": "GLITCH/glitch/parsers/resources/comments.rb.template",
+      "bytes": 217,
+      "sha256": "ab3db45f17c5b70f8970271da329e039e66b799ba41941d64a05e4203f0cc221"
+    },
+    {
+      "path": "GLITCH/glitch/parsers/ripper_parser.py",
+      "bytes": 2523,
+      "sha256": "0cdfc2374a7606afbcbcc74c8dbf270fae24129648631e198a56724fe59cf5ac"
+    },
+    {
+      "path": "GLITCH/glitch/repr/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/repr/inter.py",
+      "bytes": 8746,
+      "sha256": "ddf84736302641e635a7982961eee3bc1da295ff9776e1440544243a0eb17279"
+    },
+    {
+      "path": "GLITCH/glitch/stats/print.py",
+      "bytes": 3224,
+      "sha256": "4f8824df8d0f5223e984ed3cd83153c4d57fb8898fecded54fc76ecf33189664"
+    },
+    {
+      "path": "GLITCH/glitch/stats/stats.py",
+      "bytes": 3004,
+      "sha256": "aafbe8f09e2b9e2fc3922f9819e50e25765b554c0413feb2c76a0ec994a9273c"
+    },
+    {
+      "path": "GLITCH/glitch/tech.py",
+      "bytes": 109,
+      "sha256": "7420a48c4ccffc2b1ea814b015f477b2db90af0b771d347f35ce8cff55a55290"
+    },
+    {
+      "path": "GLITCH/glitch/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/ansible/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/ansible/design_ansible.ini",
+      "bytes": 198,
+      "sha256": "a6356161612d72a37c9748fff50928faab5fa5996b5fb6a4d956566befd1e8fa"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/ansible/test_design.py",
+      "bytes": 3046,
+      "sha256": "b1c1dc7bfc73f4ec030c4871c65269ea6bed6c23d7862a0c1d020d4f39d9ccc3"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/design_chef.ini",
+      "bytes": 71,
+      "sha256": "b8d381bdef680725a0ee616f564bd72c99c1fea0ae2c67c5d4acdfeb956a2b5b"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/files/avoid_comments.rb",
+      "bytes": 749,
+      "sha256": "c67deed504939c0f509962146588f2477ba7345d8f22ebb96ac5e9a3fc96133d"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/files/duplicate_block.rb",
+      "bytes": 557,
+      "sha256": "023adda60832a8a3f889e0ec3c4babfcfa008b91cecf4f6b6e75503d67d9a306"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/files/improper_alignment.rb",
+      "bytes": 325,
+      "sha256": "c7532a2330808e014c63ecc7445354426068cbc9db412613161404ea0a85c301"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/files/long_resource.rb",
+      "bytes": 456,
+      "sha256": "7b2d5c75e7135906b0b68e525e5b954e13eb92948e69084e785b8e930e8112a3"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/files/long_statement.rb",
+      "bytes": 543,
+      "sha256": "b2c465cd3b0e8e6e16d03712a1abcf135384b01a385eb462711edbd3e011142c"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/files/misplaced_attribute.rb",
+      "bytes": 242,
+      "sha256": "62c62f17212b48208fd3eb57b6bd91914af0d8026480301eb17d0d7bf104ad48"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/files/multifaceted_abstraction.rb",
+      "bytes": 217,
+      "sha256": "5bb4844be533019dd09f3a0b9dcfb8214d8c7cfc95f751346a943d4889721abe"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/files/too_many_variables.rb",
+      "bytes": 856,
+      "sha256": "24ed89c57bca47f9b5273b322911a5f627fe685089fda2541747e14414f55e9b"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/chef/test_design.py",
+      "bytes": 2846,
+      "sha256": "1bf3de09d10be639e32d4ec248124006d12eba7c65a9ad627ba6a8d5c28ad593"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/puppet/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/puppet/design_puppet.ini",
+      "bytes": 59,
+      "sha256": "f25588f7e4c67eaef322093de1dcd607fa601e940585e4af0d0eb95a77b7486d"
+    },
+    {
+      "path": "GLITCH/glitch/tests/design/puppet/test_design.py",
+      "bytes": 3085,
+      "sha256": "404d28a3b7050408897f13229d0ffdb37c2e91a6683f044916f8e366197a31a5"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/ansible/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/ansible/test_security.py",
+      "bytes": 2499,
+      "sha256": "6c2c4a0de83aad9d72a5314f488963b12beedb95a851c37f01178cf677057e35"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/files/admin.rb",
+      "bytes": 320,
+      "sha256": "a96543079001be36c2c6e5eb376281aef9ed6175c86fef42379c44ee2739e14d"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/files/empty.rb",
+      "bytes": 44,
+      "sha256": "20e5df326de565a74327eb12ef09616cb7a215f4a02655722ff14bcd4b1ffe34"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/files/hard_secr.rb",
+      "bytes": 259,
+      "sha256": "f61fb6132b3089559a8fab83cf87c5c5c818c08c2aa043c46de9074de6240bfd"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/files/http.rb",
+      "bytes": 182,
+      "sha256": "faa9400f6987f0ebad9effb884cec3f4ac6aec45de9415d60318e09c2de0dde8"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/files/int_check.rb",
+      "bytes": 247,
+      "sha256": "ca5ba8f9452b10e66d5db4814c301cb78e76c25e0fb2c2f2ddb66f5064d42f36"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/files/inv_bind.rb",
+      "bytes": 288,
+      "sha256": "420e73e9bf987cbc01e36cddf75ee86ecc21597331f89b11520de459f37bac3b"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/files/missing_default.rb",
+      "bytes": 161,
+      "sha256": "9bec4850b05a918f9c7200afab07e56b163054b854f5e5fbefce307a0656252e"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/files/susp.rb",
+      "bytes": 342,
+      "sha256": "75c21943f9ef1b13eb1c5902843a7f1ade5d087a982c69f4368005b1fa278097"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/files/weak_crypt.rb",
+      "bytes": 315,
+      "sha256": "019c0786db73f40c0d69126b330a0ead86a3726da47a16c3188bd6101f93151d"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/chef/test_security.py",
+      "bytes": 2388,
+      "sha256": "36c5c8f9e0b5cc5110b63f6a31e7100b646df6cafcab53c37e65cee7f0307179"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/puppet/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GLITCH/glitch/tests/security/puppet/test_security.py",
+      "bytes": 2433,
+      "sha256": "0ff0759d837402a1bdbab77560d74fa2ef94bbf3d60dc4ef3d7b5120d9086f45"
+    },
+    {
+      "path": "GLITCH/mypy.ini",
+      "bytes": 77,
+      "sha256": "f93819c99e49925890ac91f2f87414c0d781a119c9ca53435861d2259d5e00aa"
+    },
+    {
+      "path": "GLITCH/requirements.txt",
+      "bytes": 88,
+      "sha256": "3bf201098fb6d18ec256279eabaad14864b30366c259df2b7a260ff536086c9f"
+    },
+    {
+      "path": "GLITCH/setup.py",
+      "bytes": 720,
+      "sha256": "25da7314fee55bb8ea433a82f92a9206d6418d9dda931ec1b9e2bd6cbd6c5bfd"
+    },
+    {
+      "path": "GLITCH/vscode-extension/glitch/CHANGELOG.md",
+      "bytes": 233,
+      "sha256": "09c1c9651f24eae933bf07cf3c3cdfb4ca9cbba8db756bada5373be1856a948b"
+    },
+    {
+      "path": "GLITCH/vscode-extension/glitch/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "GLITCH/vscode-extension/glitch/README.md",
+      "bytes": 1481,
+      "sha256": "a14cf6a0f899e2e34e7ce1433990216a6bb8ef9f28a2b3f390c54f1b003d64ae"
+    },
+    {
+      "path": "GLITCH/vscode-extension/glitch/vsc-extension-quickstart.md",
+      "bytes": 2616,
+      "sha256": "5ed7e4cae679fef2b2340d905144402f1f9429eb66e9c1a61245b247ffbdec6c"
+    },
+    {
+      "path": "README",
+      "bytes": 196,
+      "sha256": "e735d8b433eaafea9e94e13b1874d36345bf98116ea8d51eb9b1f6e4cf093dc9"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/GLITCH-SLAC-ansible-oracle.csv",
+      "bytes": 10567,
+      "sha256": "4a13583fd90234e2cc91853312a968b3f4bd7b3e1e2745b687d31a2e16eeab2d"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/GLITCH-ansible-oracle.csv",
+      "bytes": 9373,
+      "sha256": "191a01dbd7f8a3c15d6291cbdd60c9df0f6aaf0d4521d3663c7e93b2898a1ba2"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/SLAC-ansible-oracle.csv",
+      "bytes": 10522,
+      "sha256": "8971e8d9a45764cfa23d58ada227a6b4147e080c75cbeb5cdd31d9c2d9c34d2e"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/calculate-metrics.py",
+      "bytes": 4506,
+      "sha256": "a7a66cd51a7aa09ec923f50c2fa3d7d065240657be5602fce1ad43d8f70a7646"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/fix_glitch_dataset.py",
+      "bytes": 894,
+      "sha256": "83ec3414b6fe23e666687ab4885f8ebf3246808726f95d9583591dce97172e51"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/fix_slac_dataset.py",
+      "bytes": 210,
+      "sha256": "fa0489d2bb5934d97299a2a20ff0af2fe30ffea5d503648f7d56149a130e222f"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/manual-inspection/first-author.csv",
+      "bytes": 7963,
+      "sha256": "b7ac1820c9a549db1a5f20afad9c59fa8271fdc01a90886fbb14d9ae92d38996"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/manual-inspection/rater1.csv",
+      "bytes": 13109,
+      "sha256": "73e6ff6e5be2937341589360a2986e6ec608a0182c39be09c8f15fe7b22fde40"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/manual-inspection/rater2.csv",
+      "bytes": 9003,
+      "sha256": "029af297ed647737a9863b2505832deed9c861cd7d1b9c954cdcb639577857eb"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/oracle_dataset.csv",
+      "bytes": 9077,
+      "sha256": "59edd565c2efba4779c97debbd38a495180560d256be7d44c7ae063d2d176cb9"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/oracle_results.sh",
+      "bytes": 1319,
+      "sha256": "6d740385ba5feba915eb8fd2845a6d51c26798bb102686d83a1c3f5154c1238f"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset-analysis/original-labeling/ANSIBLE_FINAL_ORACLE_DATASET.csv",
+      "bytes": 6271,
+      "sha256": "3b279fd575da587dff5d6c7d1a9724b95f6edd0236595d9d9ef9a143fb212eb9"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/ansible-role-container-registry-tasks-docker-distribution.yml",
+      "bytes": 564,
+      "sha256": "f2fbb086ab8306d32c03acba7d93b97e62115aa08065c1067430cc5d050bd938"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/ansible-role-container-registry-vars-main.yml",
+      "bytes": 351,
+      "sha256": "c36c5d0353a537e485f7cdfc7d035682d5d6de64213af5e0ee0cbb26b1b9dd29"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/ansible-role-systemd_mount-ansible-role-requirements.yaml",
+      "bytes": 121,
+      "sha256": "ba67311c6d3aee67d78d1e1243f0fad9380ef7cfd8209c6f7980008ebd26ea0a"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/ansible-role-systemd_mount-tasks-systemd_mounts.yml",
+      "bytes": 3295,
+      "sha256": "7ae9667737b9b48a34af317148022e914aa3e36cc2189438e637db1024b883ba"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/ansible-role-systemd_mount-tests-group_vars-all_containers.yml",
+      "bytes": 836,
+      "sha256": "daeccaee4340bc867d7ffea9c4f9298d57ac2fb7f6add9b6f4c992b1633bc7c1"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/ansible-role-systemd_mount-vars-main.yml",
+      "bytes": 727,
+      "sha256": "ba1082806524fc4338d9472e2b574b2b9fd7d829c024f114700121a8f77ca96b"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/ansible-role-systemd_networkd-zuul.d-project.yaml",
+      "bytes": 744,
+      "sha256": "4384f681ac425e930bc58511e0ff940ce0d21f161d844d26652a8870b503b426"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/ansible-role-tripleo-modify-image-tasks-modify_image.yml",
+      "bytes": 1322,
+      "sha256": "ebdcc78b789408d2be601319e3af13b39c6572cc485d41dea3a741292ac8caa4"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-install.yaml",
+      "bytes": 1847,
+      "sha256": "1687ce873b1f78143729506cc8f0cb0cd09d1b61f830afd5328f2be50cb973f0"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-ironic-install-defaults-required_defaults_Fedora_26.yml",
+      "bytes": 807,
+      "sha256": "2acec6992183e8559db639a41092c9b330a589c7964b3cf142e8302603d834f2"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-ironic-install-defaults-required_defaults_Ubuntu_15.04.yml",
+      "bytes": 95,
+      "sha256": "47eeb8faf25a4a69996c8512cc2cc71d43275f3c984f0c794d8e7b84c5fdb909"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-keystone-client-config-defaults-main.yml",
+      "bytes": 95,
+      "sha256": "38502b98a5126858cb1ccaca8e532b4e0e05298b67712b869ad239159beaafef"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml",
+      "bytes": 2228,
+      "sha256": "00822c3dd188e91c0ca460efff5b185b633e9e59b9baaaa0eb64d70a72be2014"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Debian_jessie.yml",
+      "bytes": 382,
+      "sha256": "e4b288bcc75f9df53da929fe1bfc0730bc0bf1acfca47eb1e1c81e0a5f87f82a"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Fedora_22.yml",
+      "bytes": 223,
+      "sha256": "df27161524c1e5cd10a24b2e2fc84a7caf57c8238b7d4dab1e091feab4e07758"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-dhcp-defaults-main.yml",
+      "bytes": 43,
+      "sha256": "4a6bb9e0737289654eadda02a69a197b0d2238ded063a02f0ed894be34bb6059"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-inspection-handlers-main.yml",
+      "bytes": 49,
+      "sha256": "9f4853a99060b9596a0e26630afa7bdfd7e76d1bb049c7b7647120f7a11f77f2"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-vm-handlers-main.yml",
+      "bytes": 41,
+      "sha256": "4d8199fd197a6be1884553f3732f6e7594fa0c50a708cb12d9c680aa20ad2475"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-unprovision-node-dynamic-tasks-main.yml",
+      "bytes": 1643,
+      "sha256": "b9493218bfa3afe7d3116f397cf39d5848620a4d587a5650f3d0cdc67ec20bc1"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-browbeat-roles-gnocchi-config-tasks-main.yml",
+      "bytes": 811,
+      "sha256": "934d03a5609cd9aaab2f22e8a3277f62c9f03498fe114388357b4ec4dd599617"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-browbeat-roles-keystone-token-tasks-main.yml",
+      "bytes": 3404,
+      "sha256": "e404006174195d9ac6ac74f07900fcec89d38c9a6c41b157a27596825679da49"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-browbeat-roles-nova-db-tasks-main.yml",
+      "bytes": 566,
+      "sha256": "d756e86d54c907ac07767c53500a3c770c48f7ce075ad5e75c086b2cedc40cd2"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-check-roles-controller-tasks-main.yml",
+      "bytes": 2577,
+      "sha256": "c2e5f946c1f17d472a1867e10bebfbdda712ac046cd650fb8b0b4aba99bf03bc"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-gather-roles-rabbitmq-tasks-main.yml",
+      "bytes": 1009,
+      "sha256": "70f4a63c12542cd28eaada3fc96ae0d9e5a4fb1813b2f2ce1dc73c2b788b0457"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-gather-roles-undercloud-tasks-main.yml",
+      "bytes": 2468,
+      "sha256": "ae3c495162ddcf4bfd0498198485b19a14cea0e0b21d407bf773ee1a578207d9"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-install-roles-common-tasks-main.yml",
+      "bytes": 488,
+      "sha256": "dd1d8ad8811bc4c423c6a95676ac3b883eac4e7c3f2d3067d0c8242619097883"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-install-roles-epel-defaults-main.yml",
+      "bytes": 200,
+      "sha256": "243d693ca0d0b2d3c165672373067a2e3e532097a3e8ea7eb57238da1a295df6"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-install-roles-fluentd-tasks-main.yml",
+      "bytes": 6854,
+      "sha256": "05745ffbc4e81b723ac822e5ce56bbd15451bfc9eb54e5ce778e80f5cca7e035"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-install-roles-grafana-dashboards-files-cloud_instance_count.yaml",
+      "bytes": 1529,
+      "sha256": "2ff96264b7e7fa2fb37297d2238e4d16985d031f03ecdaff9fe24da557917f89"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-install-roles-grafana-dashboards-templates-partials-ironic_metrics.yaml",
+      "bytes": 3831,
+      "sha256": "281e9ab851f14d6d1b74cbf0b22ed9769c330ee4ffbed5d6ac551d1804b4c8bf"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-install-roles-grafana-dashboards-templates-partials-processes.yaml",
+      "bytes": 1404,
+      "sha256": "884a0ecae88beed774c52d71453c0c83c943ee8a1b22f103dcbc13ad21302f8e"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/browbeat-ansible-install-roles-kibana-visualization-vars-keystone_controller_count_visualizations.yml",
+      "bytes": 19810,
+      "sha256": "b437af1af6b5391417fdc7fd6150bf5146303089e623b5bc2f04cf453a6206e3"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/networking-ovn-migration-tripleo_environment-playbooks-ovn-migration.yml",
+      "bytes": 2115,
+      "sha256": "ba92e7a1a2d89b429638d9e97b8649a336188e750c7f91a48a0aed79eba0e314"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-inventory-env.d-blazar.yml",
+      "bytes": 980,
+      "sha256": "c37a4d88d01d0504947855c6b99319ce06fe8a307f5b4017a2baf5495273d596"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-inventory-env.d-cinder.yml",
+      "bytes": 1786,
+      "sha256": "0e6e0174f27d0f7b1f334713be603b29c89e78ec1eb34a1e7325f14bf79f3fde"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-inventory-env.d-designate.yml",
+      "bytes": 1320,
+      "sha256": "3f1eff37f3322485068f5a69b656ec01c55f8c01e01f46855ac6f5802dd04059"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-inventory-env.d-neutron.yml",
+      "bytes": 1999,
+      "sha256": "aecfd30cff6302694c2665b460a2829439c085ad4bb0788881c3eed5cb155193"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-inventory-env.d-rsyslog.yml",
+      "bytes": 877,
+      "sha256": "f6b60d252f7fe54a5c3c0d0c1f6de226ed2a84af0bd3a7ebc4e1c78cb2ad14f8"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-inventory-group_vars-ceilometer_all.yml",
+      "bytes": 1791,
+      "sha256": "0db619567b2ed5a27cb4d9920b2cc3afe5119c1c0535425cda7a9352eeac8452"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-inventory-group_vars-ceph-rgw.yml",
+      "bytes": 586,
+      "sha256": "9d41dda304363541be61847d1c5e401627f926c6e936095941e4f47a92107c5f"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-inventory-group_vars-designate_all.yml",
+      "bytes": 987,
+      "sha256": "bf6794cebbab694a7faa96514dd913376a841a69791b817093a37b3e92397535"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-inventory-group_vars-trove_all.yml",
+      "bytes": 1086,
+      "sha256": "dff4137cd9f6ad566825ef81f9f88f6314ceefd1e4097a1a382037f8a82adc48"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-inventory-group_vars-utility_all.yml",
+      "bytes": 3214,
+      "sha256": "4ee44d207911a6ea162bee7945eeebdcb211d76d42c6b23a6d8adcc6d81e59c0"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-elk_metrics_6x-roles-elastic_data_hosts-meta-main.yml",
+      "bytes": 933,
+      "sha256": "5d3d944c9e3fb49895a3bf74d6cddd4de92199d1b401cdc6f2d207f1226238c8"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-elk_metrics_6x-roles-elastic_filebeat-tasks-main.yml",
+      "bytes": 3386,
+      "sha256": "1394234e695a2d8c4f5e6569de4fdd34197ffa473513711c8ae6811b7697ff61"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-elk_metrics_6x-roles-elastic_heartbeat-handlers-main.yml",
+      "bytes": 1083,
+      "sha256": "45bc4f67c4f4d8166d270dc14d0fa7a0790ba0679932da6df946d85d08d7bbd8"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-elk_metrics_6x-roles-elastic_journalbeat-vars-redhat.yml",
+      "bytes": 634,
+      "sha256": "dcc7fa972f49ef29176caee3d9cb5a580bc9c80a75f66e00dc513c8eab62c4a1"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-elk_metrics_6x-roles-elastic_kibana-meta-main.yml",
+      "bytes": 957,
+      "sha256": "514fa3cddd7e9a8f6762c2492fb2d683748484236d9950da71d7d81b48b10cc3"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-elk_metrics_6x-roles-elastic_logstash-tasks-logstash_arcsight.yml",
+      "bytes": 2356,
+      "sha256": "e5caf330a45769fe8c62510f5b8d3888c3bf0bb82eda1cb06a048511b4b8919c"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-elk_metrics_6x-roles-elastic_rollup-defaults-main.yml",
+      "bytes": 623,
+      "sha256": "1e28a937dd4153f6be7428229987fd2dec1ee4b4e30d210658b1c4c21f667f8b"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-elk_metrics_6x-roles-elasticsearch-meta-main.yml",
+      "bytes": 1122,
+      "sha256": "944b41f664d3da625d440b248fd85289e46a41224fc71a5191fc302b0096e6d5"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-elk_metrics_6x-roles-go_install_1.10-tasks-main.yml",
+      "bytes": 771,
+      "sha256": "876ca482945aaa97560ab0aae997f3f496101a427c30569c0c9490d17247e571"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-elk_metrics_6x-tests-ansible-role-requirements.yml",
+      "bytes": 1020,
+      "sha256": "ad514df9530664a69d5f6692c7386329f30b6c85a43528543e699a736803a5cd"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-leap-upgrades-upgrade-utilities-mitaka-playbooks-deploy-config-changes-mitaka.yml",
+      "bytes": 1565,
+      "sha256": "31d61771ed4eeb64dc52b6b0793f6d7b54e2ee0a008f594f3159f6298ce910f6"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml",
+      "bytes": 6679,
+      "sha256": "9d10ef8541e41d4ebad48e31a39e9a9b8cd565bf9d22fe19ac3a6a1d0d7ec2e2"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-multi-node-aio-playbooks-host_vars-ceph1.yml",
+      "bytes": 1373,
+      "sha256": "64aed727a1b5762614aa4feca9ac6aae5acfc9fb6a1bae1f42bcbaaf4b36251d"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-multi-node-aio-playbooks-host_vars-compute2.yml",
+      "bytes": 1419,
+      "sha256": "8b98d2e2ef2326748f3ba6c4df071c566b9766f88e20f0482865f8ba4890e53a"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-ops-pxelinux-provisioning-playbooks-deploy-dhcp.yml",
+      "bytes": 2443,
+      "sha256": "5b9241d4d19cdce04d07b1871d959630d2b7151b0c3375bf6a8760e6d871f304"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-playbooks-common-tasks-os-lxc-container-setup.yml",
+      "bytes": 5516,
+      "sha256": "ce47047c3d175d4c4963a8ff3cec4af9d736797fb9bc9b61649c239f219d0c1a"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-playbooks-healthcheck-hosts.yml",
+      "bytes": 3332,
+      "sha256": "e66a3a256195dbeeb0c900642c18a776128a912a3ec7d9b1fcf27683857298de"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-playbooks-lxc-containers-destroy.yml",
+      "bytes": 2868,
+      "sha256": "66dc92957d4fada5b71340b948be67f0c64354a1f3c62716449da07458ade0f4"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-playbooks-os-designate-install.yml",
+      "bytes": 1765,
+      "sha256": "001dffc02b831f8f9affc5ba0efb6ade19eb60e3832620d1b05964058522f583"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-playbooks-os-tempest-install.yml",
+      "bytes": 1254,
+      "sha256": "141ee7c08be425930fdba1d324d583249dd46175cadf2fb742e140681dec05f4"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-playbooks-utility-install.yml",
+      "bytes": 4545,
+      "sha256": "de1bfd973fa45d29bd464f16014a2f9391e7d7f62dff5752d8055eb45b8f0c78"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-tests-roles-bootstrap-host-defaults-main.yml",
+      "bytes": 8091,
+      "sha256": "fb8300a1bf4c5824ab7184a9027cd674a3ff80a61a68ec5da0d713d0071f5cd5"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-tests-roles-bootstrap-host-tasks-check-requirements.yml",
+      "bytes": 4766,
+      "sha256": "13d2302fc6757c0451928fc104fa7094631fb7cb381b4720b130108701554032"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-tests-roles-bootstrap-host-tasks-prepare_loopback_machines.yml",
+      "bytes": 1375,
+      "sha256": "c266cb7c43ac7217a845aec31eb0ed2abd70546012b5e8b94602b0c3967f18ec"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/openstack-ansible-tests-roles-bootstrap-host-tasks-prepare_loopback_zfs.yml",
+      "bytes": 1268,
+      "sha256": "175dbefeff4c1c4536c1afb0b8884523cea5178fadef629fad8aa19c92374c58"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/puppet-openstack-integration-playbooks-prepare-node-unit.yaml",
+      "bytes": 1173,
+      "sha256": "508ebe6086815e67d1ec6c22cb86cb28d44daf2198a0a78a1d9d8ad04a0feaca"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/puppet-openstack-integration-playbooks-run-syntax-tests.yaml",
+      "bytes": 437,
+      "sha256": "16fea69e04f2e3cc136dce6335b98b03295a94166547150ddf593d36aceab04f"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/tripleo-quickstart-playbooks-libvirt-teardown.yml",
+      "bytes": 116,
+      "sha256": "e35492b21a505e7884c51b72c640e544a36646309521ddf7ebc22dba49d22d59"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-environment-vars-main.yml",
+      "bytes": 42,
+      "sha256": "856ebe6fc655ea3381cd28ffe386fe443cd9989607e1c0a0932f0bd86545f5e3"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-libvirt-setup-meta-main.yml",
+      "bytes": 493,
+      "sha256": "f31b8aff0008c43c175a887e82d3d6d1766764b116455e5a08337b66e92813fc"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-libvirt-setup-overcloud-tasks-vars-libvirt_nodepool_vars.yml",
+      "bytes": 677,
+      "sha256": "36136ee840cd4c0a16e06264784b3768419463c376162551eb4eff433283caf5"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-libvirt-setup-undercloud-tasks-inject_repos.yml",
+      "bytes": 388,
+      "sha256": "eba3f2303ae484d15a4a21587e4cce23cab647491dfa6ed038312916b96fa4fd"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-libvirt-setup-user-meta-main.yml",
+      "bytes": 28,
+      "sha256": "965c12643ef6b5b63fb87243c036c3d92f9caa25adaa714af7139d5ec30f3217"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-parts-kvm-tasks-main.yml",
+      "bytes": 2711,
+      "sha256": "afbe829661c32804b0dbdce36e59e78e9de13d52ce79ea86f37500559962af83"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-virtbmc-defaults-main.yml",
+      "bytes": 53,
+      "sha256": "7a83a44322fa8603152896349714fb340d60ee42b2afccf8b95f05646106adc6"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/windmill-playbooks-bootstrap.yaml",
+      "bytes": 1161,
+      "sha256": "14629802f5210641da2a55426f5dc697802196d5c14c4d78beb33b4af34ab87a"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/windmill-playbooks-zookeeper.yaml",
+      "bytes": 831,
+      "sha256": "31722acde4678a1218dc9e6c20b78b7464e0edba4d23e4879469d11ce05fd7df"
+    },
+    {
+      "path": "RESULTS/ansible/oracle-dataset/windmill-playbooks-zuul-fingergw.yaml",
+      "bytes": 939,
+      "sha256": "a5b8323b986f09e1ea30afb9aa1ede2d353d49fd070db49d7c826c7fb47961ef"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/GLITCH-SLAC-chef-oracle.csv",
+      "bytes": 11933,
+      "sha256": "02ba37348d612ecd5ebee2c5b75f7305d0deaaa0f933b3622480e505ab97575a"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/GLITCH-chef-oracle.csv",
+      "bytes": 13946,
+      "sha256": "de8a4afb4dad4ddc4641f00906464f65eb06933a214bcd6e62868fa2ad3c4c43"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/SLAC-chef-oracle.csv",
+      "bytes": 12268,
+      "sha256": "4576ba4fae279aec7d55577cf01cddad5c17c54cddd5767614ee5cb9f031c25f"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/calculate-metrics.py",
+      "bytes": 4404,
+      "sha256": "4cffacc8e7762c4b648149afefd0b9a3e1f8596b8d515684122f092c44098ba7"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/calculate-metrics.py.orig",
+      "bytes": 4404,
+      "sha256": "fb98487b61532005b821af1200106807e67404fd52caadbfc3f43db0489948aa"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/fix_glitch_dataset.py",
+      "bytes": 998,
+      "sha256": "8457d63a5deb915aca6b27e891189ca997be02a5776a7c0b60b086cf2d9894af"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/fix_slac_dataset.py",
+      "bytes": 1149,
+      "sha256": "6347835d083844f20a7cffe1f4b07812e1198826e2e6333047866d5efb27e0c2"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/manual-inspection/first-author.csv",
+      "bytes": 9923,
+      "sha256": "c5905fd1c10800d476506d260345f6420a1d0f220e07c2406ce7bb5dbb6b5a4e"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/manual-inspection/rater1.csv",
+      "bytes": 15442,
+      "sha256": "ba13e43a89d491df057ebf592d1399bc47a176211228dc8d7b4c0bd528b2704d"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/manual-inspection/rater2.csv",
+      "bytes": 15084,
+      "sha256": "f7ccd501a0c936ca95ed19f6ab3cbf88fb3b6181c227775f6d005eb44ae3e3f4"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/oracle_dataset.csv",
+      "bytes": 12597,
+      "sha256": "53d96bd2e5dc1d8e09467fa144fcce1fb9caef17e3fe2a05e27e28f129c22d7c"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset-analysis/oracle_results.sh",
+      "bytes": 1505,
+      "sha256": "ad208d1b05e337bd0f20cbcca1f790042c22f1647467e1433c2a30bea995e622"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/AYCHIT_Asf-chef-cookbooks-rsnapshot-resources-script.rb",
+      "bytes": 144,
+      "sha256": "fc6143cd32ee2ed9e008f796ab985c91ed7da2f4fae8d20578305b70c8025c9d"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/DrRayWang_Chef-Base-cookbooks-bcpc-recipes-graphite.rb",
+      "bytes": 6346,
+      "sha256": "90dc127bc28bd38f7ffce5abdafaa4f2999741c5c7b35dc795cbf31a6a753e52"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/DrRayWang_Chef-Base-cookbooks-bcpc-recipes-mysql.rb",
+      "bytes": 4376,
+      "sha256": "7805fc31ad4dabb19a0a00e2686eccca2a0045aa8ceab6287a18a1b8ab659eb7"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/EEDARIT_opsworks-cookbooks-iis-resources-root.rb",
+      "bytes": 22384,
+      "sha256": "049498470025cc8587bdf214bf3b73b838b72fc79ed7b0732d9c591fc734456c"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/EEDARIT_opsworks-cookbooks-windows-providers-feature_powershell.rb",
+      "bytes": 1040,
+      "sha256": "ed2967447903e67dfd544e39b7cb8559451365a81649eb07d722df09755b0e20"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/Nikhil424_chef-repo-cookbooks-jdk-recipes-default.rb",
+      "bytes": 329,
+      "sha256": "4ec62da12a52f047d2152006cb748bcf4c40ea560ec6ad10b6c7a37fcdf58ca6"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/Nikhil424_chef-repo-cookbooks-windows-resources-pagefile.rb",
+      "bytes": 1011,
+      "sha256": "a41b1fe6eafcefe07a31f7194641f76fda25572b4811d6c8bce9f764fc5ecb11"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/Nikhil424_chef-repo-cookbooks-yum-mysql-community-attributes-mysql57-community.rb",
+      "bytes": 1984,
+      "sha256": "00fa2646db1306d30a432799471c95aef2f6b066422f6b48aa42a2a95474d4a1"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/Soluciones_ey-cloud-recipes-cookbooks-solr-attributes-solr.rb",
+      "bytes": 223,
+      "sha256": "21279028239d47709f4b393c572558d39074ee8d916ae7e94e66d7a7d899ca32"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/TaxiOS_zabbix-recipes-server_source.rb",
+      "bytes": 3936,
+      "sha256": "2346c887241594ce66fa63ac5222a743e4729c9ad3de47ca1a6aef1ba63c1b74"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/aws_aws-parallelcluster-cookbook-cookbooks-aws-parallelcluster-slurm-recipes-install_slurm.rb",
+      "bytes": 3790,
+      "sha256": "03932252c59f084c878f7bc018da65ed8abc4c6ab4dc8a8e044344b7abab20f4"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/binary-com_chef-third-party-cookbooks-cron-attributes-default.rb",
+      "bytes": 1526,
+      "sha256": "5e22f728714bdd0707df05b68e3e01223ae64d9ce208ad17e54b324388aa5790"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/binary-com_chef-third-party-cookbooks-datadog-recipes-network.rb",
+      "bytes": 673,
+      "sha256": "d21f2d83c5742f41304415f9a6a0edd4e33dd427e7b69ea78e2ff7514dce82cf"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/binary-com_chef-third-party-cookbooks-datadog-recipes-openmetrics.rb",
+      "bytes": 7044,
+      "sha256": "1be064e23de3680d153133edaf74191393772360ce383f6f6dfc15f57ea86f68"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/binary-com_chef-third-party-cookbooks-poise-files-halite_gem-poise-subcontext-resource_collection.rb",
+      "bytes": 2158,
+      "sha256": "9a78b5be91886de1a06a95b9479de947e3764a7cbf5721177641f61c591679bf"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/chef-boneyard_qa-chef-server-cluster-attributes-default.rb",
+      "bytes": 4317,
+      "sha256": "0d0788d45cec0a5c6aca7c8a1a16265e81952f998a202e8b2ceaafae3c04eff6"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/chef_mixlib-install-acceptance-windows-server-2012r2-fips-.acceptance-acceptance-cookbook-recipes-verify.rb",
+      "bytes": 571,
+      "sha256": "2162dc3fe99ed8a9a54099bf43b6e8da8e779d86e51e0b84611b1a7cd3a47905"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_hw-nginx-recipes-commons_dir.rb",
+      "bytes": 1036,
+      "sha256": "b333ea0bc6b9a84b07b3c19455f2807e089a61d5c31b43110ab165ce08e3d040"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-cloud_utils-cookbooks-hadoop_cluster-recipes-default.rb",
+      "bytes": 4398,
+      "sha256": "568eb8610d1afae1b7b13d32e0214721373b1139f4c18287773a96a55d0296ab"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-cloud_utils-cookbooks-redis-recipes-install_from_package.rb",
+      "bytes": 880,
+      "sha256": "cdd19a0cc3b0397b9a582739ec0e400487a9a7294248cf32d1327d6afda2881e"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-elasticsearch-cookbooks-install_from-definitions-osx_application.rb",
+      "bytes": 993,
+      "sha256": "d4081e557f25d39d6dab976a839af5e84017231ae22fec483cfcad3506432ad0"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-ganglia-cookbooks-elasticsearch-recipes-plugins.rb",
+      "bytes": 1235,
+      "sha256": "187b5d56f757a309d80abaf9bc97fb782a55e9db66ee6a1d775b39b264305859"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-ganglia-cookbooks-hadoop_cluster-example-clusters-science.rb",
+      "bytes": 4730,
+      "sha256": "b7f443730616e57115a5129208bf00bb40b9e9c7157b365110e778a423ba2c91"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-hadoop_cluster-cookbooks-hbase-recipes-stargate.rb",
+      "bytes": 1221,
+      "sha256": "52cde6cd97fc81c180a34e27ebf7a1ec20ca8157ab53660d84233e1fa70051de"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-hadoop_cluster-cookbooks-zabbix-recipes-database_mysql.rb",
+      "bytes": 6697,
+      "sha256": "fffd79a5206315e2b114a2a5a3ed145eee2685b49cc2848c760d51709e3903fe"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-hadoop_cluster-roles-cassandra_client.rb",
+      "bytes": 258,
+      "sha256": "6c198bedbfd09ec5b84fa486e0e02fadeb80e66b9f461a51cfac70f700784fc7"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-jenkins-cookbooks-zabbix-recipes-agent.rb",
+      "bytes": 2584,
+      "sha256": "cb66fd9828059e9179f151f0b1e91ace4beacd2814bd0a8bb38284b99b11888e"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-jenkins-cookbooks-zabbix-recipes-database_mysql.rb",
+      "bytes": 6687,
+      "sha256": "8784755c8761aeef171ef386bbc88ae1c7d090ed1abd63e6fa75df74a5558710"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-motd-roles-elasticsearch_datanode.rb",
+      "bytes": 691,
+      "sha256": "930cb821a02b931612a99354b8d2872b00a4a1511806aedf9eca73f9a83cf0cc"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-nodejs-cookbooks-hbase-recipes-config_files.rb",
+      "bytes": 3165,
+      "sha256": "75a56e2b340c128fd989f6d31f48491006206eb3966d66a2db54d43098ac5c4b"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-package_set-cookbooks-rvm-providers-global_gem.rb",
+      "bytes": 2860,
+      "sha256": "894dada632fee5b3fe4bcfbeb943d3d5b6bbd71dc81969754f289a7a452379ce"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-pig-cookbooks-zabbix-attributes-default.rb",
+      "bytes": 2286,
+      "sha256": "f2e9a02a31c5b2e193eab5f9499163a2edcc71943ee4fc49099afd59a6bf07e7"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-snappy-roles-statsd_server.rb",
+      "bytes": 134,
+      "sha256": "e7d395879dc27f49ce710aca266809e895dc56aadf484b378a7a54725afecb0d"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-tuning-cookbooks-ganglia-recipes-default.rb",
+      "bytes": 822,
+      "sha256": "972f9fdbbda7102ccb143cfe0be9ac13547210288882f71359339a0aac048c5a"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-tuning-cookbooks-zabbix-libraries-zabbix_hosts_and_templates.rb",
+      "bytes": 1424,
+      "sha256": "120f1b3dde7d653b472b1ddf90606ab2f65b378ca7c3c5fbb5d852b3bd6973a5"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-volumes-cookbooks-silverware-libraries-dump_aspects.rb",
+      "bytes": 3100,
+      "sha256": "45dcdff9792c700cfeabea0fddf953e17001f83fba80250192c00c6bb88928cb"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-volumes-cookbooks-strongswan-recipes-routing.rb",
+      "bytes": 1463,
+      "sha256": "84cd32ef88b6313aa1a7d6ef889295c8501bc6c05956ea37bc771b9f6c4de14a"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-volumes_ebs-cookbooks-graphite-attributes-default.rb",
+      "bytes": 2167,
+      "sha256": "8a746eb4ab976f279be01bf948479e8f821f366e260bf9bba2645a8537fddacb"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-volumes_ebs-cookbooks-mongodb-attributes-mongodb.rb",
+      "bytes": 3893,
+      "sha256": "7edcf8f3bdb6df2817e08b5319fa83d2c964ab9044db8c7b33359a727ff7d186"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-volumes_ebs-cookbooks-resque-attributes-default.rb",
+      "bytes": 1080,
+      "sha256": "9eaf576fefc6129fc45dc5870e07a80c57ceaf13b535420ff7e5e4c5a3cea6b4"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-volumes_ebs-cookbooks-zabbix-resources-user.rb",
+      "bytes": 823,
+      "sha256": "5747629e22bc70f9511b266267c48f059e6ee56fdc1f91cf16f125b5fe20d44a"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/cookbooks_ic-zabbix-cookbooks-zabbix-providers-host.rb",
+      "bytes": 5983,
+      "sha256": "6e83043cda791bc8df7033a1152bd676f0af606e236309d67e766a541eaee19f"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/danielladd_Chef-Testing-cookbooks-mysql-attributes-server_rhel.rb",
+      "bytes": 2143,
+      "sha256": "12411e9bb6d174059b3d69eabf493c6b3e364ad02b4678715da276fa65c4c8ca"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/davestarling_chef-features-data-cookbooks-manage_files-recipes-default.rb",
+      "bytes": 624,
+      "sha256": "9c198a61e9830ae1738d444d47c7b279f544d98e0567626e2493c0e5e87c121b"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/desirit_chef-bach-cookbooks-bcpc-hadoop-recipes-oozie.rb",
+      "bytes": 5608,
+      "sha256": "1aeea9e0197bb2ce1fdaccbbb16fe078633f8a475691d5295093400ccd5f3935"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/guymatz_chef-cookbooks-cutlery-libraries-notifying_action.rb",
+      "bytes": 2198,
+      "sha256": "1b479ac97bec3f429b8819e656e16bd482ef53fe5d618f1ce00fc3375e5b3a67"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/guymatz_chef-cookbooks-hive-attributes-default.rb",
+      "bytes": 625,
+      "sha256": "b95c3bf92f7033e5fee024fa4be4998d7129eb07dd4e7933b8baed3ad98a15df"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/guymatz_chef-cookbooks-mysql-attributes-client.rb",
+      "bytes": 2479,
+      "sha256": "8226306c43c2770be4e852cbd8743eaf1b82c171fe89f71ea9c4ee2adbe909c3"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/guymatz_chef-cookbooks-nagios-recipes-server_package.rb",
+      "bytes": 819,
+      "sha256": "f5dc5d331eb487a5f825ee3dba8d88d844538643be486b74efcd8715c8306886"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/guymatz_chef-cookbooks-psql-resources-user.rb",
+      "bytes": 959,
+      "sha256": "9d775a5e1371bd043aff09924da4f1ebce0b870eec9dae9e7c9ccd90fa62f281"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/guymatz_chef-cookbooks-python-attributes-default.rb",
+      "bytes": 1479,
+      "sha256": "4283275578a1740ec69f7211035e83071ad322010220bda657c7621d396b8eff"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/gwalbran_chef-cookbooks-imos_backup-attributes-restore.rb",
+      "bytes": 382,
+      "sha256": "2fcc1c89063632e236758e6c41431aba688f52fa08aa2df4d3bb75619c89152a"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/gwalbran_chef-cookbooks-imos_webapps-definitions-ncwms.rb",
+      "bytes": 2646,
+      "sha256": "2f371d64512743e73ab8a7d350ba993e941e21112a49ef7b79a7c5f8e94b427d"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/havk64_chef-zero-playground-cookbooks-nginx-attributes-socketproxy.rb",
+      "bytes": 512,
+      "sha256": "59ba310e2f8f72759a602c07e24555b308a704b67e85be5b6e0fbf82503e6fb5"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/havk64_chef-zero-playground-cookbooks-runit-recipes-default.rb",
+      "bytes": 1340,
+      "sha256": "e51c433b4fd1039681fbe249995f35030883bde6e4f522acf415c6ce44516a89"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/infochimps-labs_ironfan-pantry-cookbooks-iptables-recipes-default.rb",
+      "bytes": 1325,
+      "sha256": "218a4f284df3a49f41865ed8347fc57442851a9f7223fedf2f1e5cd67fd00cfe"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/infochimps-labs_ironfan-pantry-cookbooks-nodejs-recipes-install_from_binary.rb",
+      "bytes": 2849,
+      "sha256": "067bab2d05e4f096997a55c6f57411a50f92e58caf65921dd3d93b0cf81b7d68"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/infochimps-labs_ironfan-pantry-cookbooks-python-attributes-default.rb",
+      "bytes": 1684,
+      "sha256": "f905ace9c07e926d3697fa9e447871955e56b8ead0c4426e19ca137fc6a97bd6"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/infochimps-labs_ironfan-pantry-cookbooks-sudo-recipes-default.rb",
+      "bytes": 1034,
+      "sha256": "0bca423369abe6f426f81e03089e8f990cf35998e60bf498a26ed166341bb996"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/infochimps-labs_ironfan-pantry-cookbooks-windows-providers-batch.rb",
+      "bytes": 1859,
+      "sha256": "3bdb25aa40ab495c1628368bef1075b03921cd20b3e2c2a8f1809fd87c0d875b"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/infochimps-labs_ironfan-pantry-cookbooks-zabbix-providers-media_type.rb",
+      "bytes": 1369,
+      "sha256": "148471e33b90a743918c09c7948c8ba961b32232fa517d16767103da29f64fa2"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/infochimps-labs_ironfan-pantry-cookbooks-zsh-recipes-default.rb",
+      "bytes": 832,
+      "sha256": "35f4c83c2307113e922cfdce2b6c949ba76cce8f4fa376a85099349dd8a41b41"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/johnfitzpatrick_ChefTraining-cookbooks-apache-recipes-user01_index.rb",
+      "bytes": 99,
+      "sha256": "38a1114d7d87b10a7d342d815ae4fa8ff15d6d8867ee8723922ab79b57b0f81d"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/jonmthomson_cookbooks-mingw-recipes-default.rb",
+      "bytes": 307,
+      "sha256": "6a5ade1c9cfc76bfc2298a823521b5e2af68db7af243a5c53ced8a9a2acf1b29"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/kitchenplan_chef-applications-recipes-omnigraffle.rb",
+      "bytes": 4045,
+      "sha256": "f9b84575a462c293d0ef63bf7c3e12c06a6f638e393a1ea900daf90ea1ffcd20"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/kitchenware_master-chef-cookbooks-base-recipes-editor.rb",
+      "bytes": 252,
+      "sha256": "2211085acc1152ec93c65b7223d1d8d95dc80cb7af9ceb6345e8985ad211bb27"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/michaelklishin_cassandra-chef-cookbook-recipes-opscenter_agent.rb",
+      "bytes": 895,
+      "sha256": "749318be0dbbc4d3ada534622bdd0ae017247a4c2a262f3cf0408002042d5ab0"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/newrelic_infrastructure-agent-chef-recipes-default.rb",
+      "bytes": 262,
+      "sha256": "0297f9d4b544ad392e2be7c7470e6d8bf352597fbb65a79a8b4b3e98d43093e7"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/openstreetmap_chef-cookbooks-accounts-recipes-default.rb",
+      "bytes": 2914,
+      "sha256": "3634af1bf9b1f9b6ee593927a828aa7fe801c31a1f6893d9525633c571f43d9c"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/openstreetmap_chef-cookbooks-civicrm-recipes-default.rb",
+      "bytes": 5439,
+      "sha256": "efe08dd3ac9223147dcdaaac2fdc416a228f06cf8caba419c2d0160cdea0411b"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/openstreetmap_chef-cookbooks-networking-libraries-ipaddresses.rb",
+      "bytes": 598,
+      "sha256": "f339051d123d23eb9565d310ba485e1cc068db44b02a389f19ba44e8da67cd41"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/pu239ppy_chef-bach-code-bcpc-recipes-mysql.rb",
+      "bytes": 5651,
+      "sha256": "b6c5f8cb4a055a4777146d49aa2b8fd81f17a7682e56345de580eeed17ae1907"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/rcbops-cookbooks_keystone-recipes-default.rb",
+      "bytes": 714,
+      "sha256": "f6ae89977be45f3893c1491122a99be10719bf6a521f0f5016ad344147c6b1aa"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/sabarisankar27_chef-acceptance-fips-.acceptance-acceptance-cookbook-recipes-destroy.rb",
+      "bytes": 18,
+      "sha256": "f51ae50761460b1f9448830ca7dafe25bd8503db1a0044aa300ed3a040088df0"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/sabarisankar27_chef-acceptance-top-cookbooks-.acceptance-acceptance-cookbook-recipes-provision.rb",
+      "bytes": 25,
+      "sha256": "c781c41d8960abbee11a6a4a4a8f44bb805c9de13071322b520a6881c1ce6a4f"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/scmgalaxy_chef-training-programs-recipes-raviteja-chef-repo-E4.rb",
+      "bytes": 323,
+      "sha256": "fad2ccddc11c85c415b9a12e610ee2351f6dfa7b64299b1cf2807b04d7255ec5"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/scmgalaxy_chef-training-programs-uma-chef-repo-cookbooks-Application-.delivery-build_cookbook-recipes-provision.rb",
+      "bytes": 150,
+      "sha256": "f4d32232014ba2a841160200a5e73e168f8e84ea97b9bc934bf615f02b042fbf"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/sous-chefs_nrpe-recipes-default.rb",
+      "bytes": 1188,
+      "sha256": "5f0628c209c20339af87a15bf89228076865aefa71909f24e600d9b075152f8a"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/sous-chefs_php-recipes-package.rb",
+      "bytes": 833,
+      "sha256": "5832c27f7f02c787a0fe43531b5a1032bd04c9cf6b91a9ed360214e0574f996a"
+    },
+    {
+      "path": "RESULTS/chef/oracle-dataset/recipes/thomasmeeus_chef-apache2-recipes-mod_php5.rb",
+      "bytes": 1719,
+      "sha256": "c38af5adb9ada23d0223cde21d6c3fde14c85d886206ec2d7fe149ad0800b3aa"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/GLITCH-SLIC-puppet-oracle.csv",
+      "bytes": 14104,
+      "sha256": "0c07622896187167483791a3dc585ac7462d26df0832f6a3cef43d01ab0c16e2"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/GLITCH-puppet-oracle.csv",
+      "bytes": 16950,
+      "sha256": "a2a68c62cffddc066d45e6cb1c27164f82f7acb6fa7bdd5a61c2f7812554b5da"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/SLIC-puppet-oracle.csv",
+      "bytes": 13619,
+      "sha256": "02f8a5f85d613d178567c7b72a69407774619cc2c9357b363a50858c08a6574f"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/calculate-metrics.py",
+      "bytes": 4633,
+      "sha256": "457b9081615feaa938f71429e5793f7101617b7718e045fee4448a7ff47f6c5a"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/fix_glitch_dataset.py",
+      "bytes": 998,
+      "sha256": "8457d63a5deb915aca6b27e891189ca997be02a5776a7c0b60b086cf2d9894af"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/fix_slic_dataset.py",
+      "bytes": 1149,
+      "sha256": "6347835d083844f20a7cffe1f4b07812e1198826e2e6333047866d5efb27e0c2"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/manual-inspection/first-author.csv",
+      "bytes": 9953,
+      "sha256": "b79acc68f41e7eb9fbe67e2d9a7a5146a0aeeafdd7677fb008ee956a9ca855f5"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/manual-inspection/rater1.csv",
+      "bytes": 9857,
+      "sha256": "0f5fd66fcf0215366a2eca1f810e7e2cff7feb5b65ed68e9e226df8c45a55790"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/manual-inspection/rater2.csv",
+      "bytes": 8426,
+      "sha256": "edcf738978418ff0f29ae6363ddd2b4d84f9c84e7812f821f224b5688529599b"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/new/GLITCH-SLIC-puppet-oracle.csv",
+      "bytes": 14104,
+      "sha256": "0c07622896187167483791a3dc585ac7462d26df0832f6a3cef43d01ab0c16e2"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/new/GLITCH-puppet-oracle.csv",
+      "bytes": 16950,
+      "sha256": "a2a68c62cffddc066d45e6cb1c27164f82f7acb6fa7bdd5a61c2f7812554b5da"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/new/SLIC-puppet-oracle.csv",
+      "bytes": 13619,
+      "sha256": "02f8a5f85d613d178567c7b72a69407774619cc2c9357b363a50858c08a6574f"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/oracle-dataset.csv",
+      "bytes": 9715,
+      "sha256": "13013d52ca7351d95f60daa10d4ba46191576bfeabce4a5033ee1c75c37f5717"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset-analysis/oracle_results.sh",
+      "bytes": 1533,
+      "sha256": "f32935c6d3548200eb0f4e30243988adef3e9bc49a3a822ade4633d5ad1d3073"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/Automattic@vip-quickstart-puppet-manifests-sections-mail.pp",
+      "bytes": 420,
+      "sha256": "22e1b3f9397ecfbe8f67fb8e333ae9198f2cdbf5fff9cb10a93079f3cf4d5b65"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/Icinga@puppet-icinga2-examples-hostgroup.pp",
+      "bytes": 243,
+      "sha256": "c85539f4ecdd19d0977b559177a938c36bd0277fb1387c5ea4a9ccf31ab56619"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp",
+      "bytes": 9741,
+      "sha256": "4d63aa5d566252864e9640144bf4d0d0b19b3ea0d2b21e84186fb7b58722acd4"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/Mirantis@solar-resources-cinder_puppet-actions-run.pp",
+      "bytes": 6670,
+      "sha256": "658253257fbb374ee846c4aa9a60b6ae921c9aa37faddee22fcd80004e5cca07"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/SecGen@SecGen-modules-services-unix-database-mysql-manifests-backup-xtrabackup.pp",
+      "bytes": 1750,
+      "sha256": "aab95c6b8b4931ed1d680327317f9309dae5cbbb445687564fb8ff9943615f3a"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/SecGen@SecGen-modules-services-unix-http-tomcat-manifests-instance-dependencies.pp",
+      "bytes": 2252,
+      "sha256": "0fea8fa6ebf6f3d342029dc76142539c31cfd51d6bf55c80956e0629e0afa558"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/SecGen@SecGen-modules-services-unix-smb-samba-manifests-params.pp",
+      "bytes": 2706,
+      "sha256": "18ec99e656d077aba42a38c112c9eff5de1a34e9d748a53b883020c63ec9627d"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/SecGen@SecGen-modules-utilities-unix-firewall-firewall-manifests-linux-redhat.pp",
+      "bytes": 2428,
+      "sha256": "4d1e8b66fc2af7fd38d70b7d96c414f02410c8b25df56b37a98d9c44be461a2b"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp",
+      "bytes": 148,
+      "sha256": "fba8aca454207b3f1ac5eed2ae4741991e93912888ba1035604d7b93f02bef0b"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/StackStorm@st2workroom-modules-profile-manifests-ec2.pp",
+      "bytes": 168,
+      "sha256": "af7fcb9c60a1fc4e4f810d4ffa4911bc402d82c64c554fa62d6baa4143932d45"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/Vizir@carnival-vagrant-modules-apt-manifests-backports.pp",
+      "bytes": 1199,
+      "sha256": "52117049dd32f06c98a97484a9eae27e1fc8cf3a48ac87da1a1fa6c3fcc957b5"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/Yelp@puppet-uchiwa-manifests-repo-yum.pp",
+      "bytes": 798,
+      "sha256": "87a16af07a300a71c30ae88b91e624bb0894c860bb96ac0b4ac1172ab4145723"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-govuk-manifests-node-s_calculators_frontend.pp",
+      "bytes": 1841,
+      "sha256": "1c6a1951112117b5d616adad0f7e78dcd360fe9273d233a34da46ac95c0b4914"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-govuk_beat-manifests-repo.pp",
+      "bytes": 454,
+      "sha256": "31d08ed3e7aecc7ab0e1272d29d160c97e15654af0e8415a7fb64985db93b2d0"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-govuk_ci-manifests-agent-redis.pp",
+      "bytes": 298,
+      "sha256": "5aa5eb0165c251e95a5d86274d5d3cac5655ea6b33996b775233a2bc41214980"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp",
+      "bytes": 929,
+      "sha256": "b8762c6dc584d2cc3fe8d3cde5361597840b5782ff3c09474181ebddddb9dc2d"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-scrape_icinga_alerts_for_dashboard_metrics.pp",
+      "bytes": 1854,
+      "sha256": "7ed4e421c69bee547442ad338aae9d8f76b1357037e65d9213bf3c9558696548"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-smokey.pp",
+      "bytes": 878,
+      "sha256": "0ac697309c1f1df2192d8b9553c35ea68ba157e78bfa726da5fb45166f69c1e8"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-govuk_mysql-manifests-server.pp",
+      "bytes": 4742,
+      "sha256": "1a0c6291e9a6efb8a480e50df95b86f7625f0de158021aad8e1807372b9e8cc4"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-govuk_postgresql-manifests-env_sync_user.pp",
+      "bytes": 740,
+      "sha256": "3ebe6963ea7385796b25b9b3bc531182b61c78d83e450c51093898220d082cad"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-govuk_rabbitmq-manifests-monitoring.pp",
+      "bytes": 1404,
+      "sha256": "fe0ac94206fdc39e512e901e628f0f51580ca7388b348648871a9f7dcb0e9d2c"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp",
+      "bytes": 1021,
+      "sha256": "7bf4456022b681fba83e5346fe72e9667f1f9ced1ff2aff01367ea33b5a23fa8"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-icinga-manifests-init.pp",
+      "bytes": 926,
+      "sha256": "65a4fa9893d3f88ff4d11814935f80688df4b72eb01c5bc91e3b161b0fe715d7"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/alphagov@govuk-puppet-modules-users-manifests-felisialoukou.pp",
+      "bytes": 1002,
+      "sha256": "7bb5a76e77ae69fda7ff4bad56a31b0e2b56364234d3d0e1afe035a6db9d28a7"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/boxbilling@boxbilling-puphpet-puppet-modules-apache-manifests-mod-pagespeed.pp",
+      "bytes": 1932,
+      "sha256": "15bbef7dc9379f057f1a13c4e1454a2194b82bdb37abb361688da5cf0250e8ee"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/boxbilling@boxbilling-puphpet-puppet-modules-apache-manifests-ssl.pp",
+      "bytes": 345,
+      "sha256": "f384f1d7285485008a61708739ac909288ef69aa97210dffb5004a8b30573363"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp",
+      "bytes": 3230,
+      "sha256": "75c643868bd552190b916350306f66cc49c34da90e79bc134a31ede68db076e2"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/boxbilling@boxbilling-puphpet-puppet-modules-yum-manifests-repo-jpackage6.pp",
+      "bytes": 465,
+      "sha256": "797f352f46ece87771fb3795642323743d70589af6c4cb3c0ac2205659f91609"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/camptocamp@puppet-python-manifests-pip-couchdb.pp",
+      "bytes": 626,
+      "sha256": "d8a0dd031422875e33b7f8bcbd16af9a35c7eec09fd37f2e28c288d570c93112"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/cargomedia@puppet-packages-modules-backup-manifests-agent.pp",
+      "bytes": 1102,
+      "sha256": "2cc0549e7753abdcec0218444189e5220395e2e022eff6626d55532affae9f41"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/cargomedia@puppet-packages-modules-capistrano-manifests-init.pp",
+      "bytes": 135,
+      "sha256": "8418fb9ef6abc02ca599ed89166fcfe4c7ae75a13add15338c0d0da6bc826c80"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp",
+      "bytes": 232,
+      "sha256": "db97964b78a6720e518563bad32a8f5d1db755bad473a8e1a85118bb5d2a730c"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/cargomedia@puppet-packages-modules-ulimit-manifests-entry.pp",
+      "bytes": 230,
+      "sha256": "f18e838ec2dcb03566546e984f634efea10ff3ac98f0091dee3e7c1fb8f18228"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/ceph@puppet-ceph-manifests-mds.pp",
+      "bytes": 1540,
+      "sha256": "9afa4f0b9cf7e9e0cc01048b64d43b2b46ea4ce82952abfc7c4e00d18da968cf"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp",
+      "bytes": 612,
+      "sha256": "8847e9f8334b83ec1968637773e0dac8f166430176e099f9156c085d3e8ffb4a"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/duritong@puppet-shorewall-manifests-dnat_rule.pp",
+      "bytes": 2011,
+      "sha256": "705b8f92f1e43c26c30a388ceafc35ebeb9f6065e23f5db66aac0137b5105829"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/fuel-infra@puppet-manifests-modules-obs_server-manifests-folders.pp",
+      "bytes": 938,
+      "sha256": "18c11f2081e60ef2402f7a0fa6fdd929d370db4408d2faab5ef4fa3f481d8093"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/hubspotdevops@puppet-nexus-manifests-params.pp",
+      "bytes": 1307,
+      "sha256": "dc26f16ddc2e1d3a9fc23abf7e070ab969ddc71417a2df8f8d00efd4c6b80af6"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/mattheath@puppet-php-manifests-5_3_11.pp",
+      "bytes": 114,
+      "sha256": "6bc290ecfcb0be62dff7ad53f263f4ee4387fb0b02d7d0309bc566461e4cce26"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/mattheath@puppet-php-manifests-fpm-5_3_15.pp",
+      "bytes": 196,
+      "sha256": "5c5bcb56742b04a57241f84f6c2e28477f9c457080217e3c16d75fcaa98bf620"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/mattheath@puppet-php-manifests-version.pp",
+      "bytes": 4742,
+      "sha256": "e3bacad43413497685fd736b91f3ab25cf7ee115cd9e8693ff836386fa1dc666"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/mayflower@wasted-site-component-manifests-mongodb.pp",
+      "bytes": 467,
+      "sha256": "4877ac18b424827624fe78d149c228a5858a6e416ea5ba4a3f5770fd15bc3b51"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/mikeedwards83@Glass.Mapper-Archived-Glass.Mapper.Umb.CastleWindsor-App_Start-GlassMapperUmb.cs.pp",
+      "bytes": 779,
+      "sha256": "28a38e1378528235911cfd650f6a37f29680441a3282dececd4f91c0ba12b6b5"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/norcams@himlar-profile-manifests-highavailability-loadbalancing-haproxy-list.pp",
+      "bytes": 278,
+      "sha256": "e7c4ac519e2f8dd886611a3fd4c1b674838644414dcf930994c80dc54cde4750"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/norcams@himlar-profile-manifests-storage-ceph-zonegroup.pp",
+      "bytes": 689,
+      "sha256": "dee3a2483987e5f8778237dd799e9035ab866ff5759075055e4add5860767dc3"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@fuel-library-deployment-puppet-cluster-manifests-conntrackd_ocf.pp",
+      "bytes": 2208,
+      "sha256": "93350b7aa81aeb8548ea8f185571f6a407a84e1fe4cc36dd639fd2677828a100"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@fuel-library-deployment-puppet-openstack_tasks-examples-heat-cfn_keystone.pp",
+      "bytes": 95,
+      "sha256": "e884481d8ae59747fc95cc809e25bbdfc7f3b75665a4b0b1c348f108d25f2b03"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@fuel-library-deployment-puppet-openstack_tasks-manifests-ironic-db.pp",
+      "bytes": 1609,
+      "sha256": "287977c638fdc0601e31aa6b7d4b98de377864211ce277b43c61f456e3302f8e"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@fuel-library-deployment-puppet-osnailyfacter-manifests-plugins-plugins_rsync.pp",
+      "bytes": 362,
+      "sha256": "0db1b634c49ec394aa12824598319a643678c7e51800aaf840b75cbe9231fe86"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@fuel-library-deployment-puppet-osnailyfacter-manifests-ssh.pp",
+      "bytes": 2861,
+      "sha256": "393a0320a2590cf20eba1e23e22aefa12e679a802beeea47d5eebb8d48ed4a83"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@fuel-library-deployment-puppet-tweaks-manifests-ubuntu_service_override.pp",
+      "bytes": 2631,
+      "sha256": "cc85ed19f471d5da23ba602f1f1024c045d6020adb1abe3b6f61746f2e86172c"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@fuel-octane-deployment-puppet-octane_tasks-modular-mysqldump_restore.pp",
+      "bytes": 94,
+      "sha256": "3fffc73464985710f09693e1e92b4e988ea723b77a5ae4e6e9b1635d1b7c736c"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@puppet-monasca-manifests-virtualenv-instance.pp",
+      "bytes": 3950,
+      "sha256": "542d78c64de2d6e6622be32370481da472ffbe78902eba93ac4db8d5ac40eca6"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@puppet-neutron-manifests-params.pp",
+      "bytes": 7792,
+      "sha256": "ad11584655bd69f7d1981dc9888d9f22a961db8af1f39c9f6cde82e251307f56"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@puppet-neutron-manifests-server-placement.pp",
+      "bytes": 3233,
+      "sha256": "60738d28e4ebea2cdef2ca6f0924740513aa48aa6929eb3344c75fa9c0c93650"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@puppet-openstack-integration-manifests-designate.pp",
+      "bytes": 3972,
+      "sha256": "8946b0e4b36a65a8084dc3baf090cf748769797abdf569fcf6f31b1608f39f7a"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp",
+      "bytes": 1741,
+      "sha256": "39d2be272b2a45cdcb9c809b4496136268bd9d97a355541ecc9662a26479a1a1"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@puppet-tripleo-manifests-profile-base-manila-api.pp",
+      "bytes": 5120,
+      "sha256": "ae7991d86f65180c54ae2febc2751f6ea8030c72edcbdc1ee565d1f22dda14a4"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@puppet-tripleo-manifests-profile-base-manila-scheduler.pp",
+      "bytes": 1098,
+      "sha256": "384b4c6283ec3943473d6d1ea49c99cc205bd9d8aacd4f7faf1569e6582a7280"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@puppet-tripleo-manifests-profile-base-neutron-wrappers-dibbler_client.pp",
+      "bytes": 1564,
+      "sha256": "79e8e690d6b342f8ed027c56c18b9dc7ccbe70560f9dd0fce5e15f4d3cb5e80c"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/openstack@puppet-tripleo-manifests-stunnel-service_proxy.pp",
+      "bytes": 1839,
+      "sha256": "b27df69fc31ccf6c49e9f5c019506a3a27485a91c3b7b965d440b089aef1e742"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/poetic@our-boxen-manifests-site.pp",
+      "bytes": 1704,
+      "sha256": "50fd5a6f75d6f653e05ff14ce22baa64aca6aa6d62366b762241056894514382"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/poetic@our-boxen-modules-people-manifests-bobobhai.pp",
+      "bytes": 1448,
+      "sha256": "c6ea578ddc602a1e3422eea304b502c086f49951157fa4835eba6d2fa2ceddd0"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/puphpet@puppet-puphpet-manifests-nginx-params.pp",
+      "bytes": 1574,
+      "sha256": "c43cc2839f0d6beecaea303b4eb68538b75d3242eb1ba6c1406ee7c4ef545aaf"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/puppetlabs@pltraining-userprefs-examples-npp.pp",
+      "bytes": 62,
+      "sha256": "40015bce958b30b5cdfcb9073d0641e8b2a1e7d5b89eca51fe1ebec6ae44e982"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/puppetlabs@puppetlabs-apache-manifests-mod-ssl.pp",
+      "bytes": 4040,
+      "sha256": "edfd991bef7a8cf0f70821dfd609c684a214a80158179a3d368d2e8f7694c52c"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/puppetlabs@puppetlabs-mysql-manifests-server-config.pp",
+      "bytes": 2329,
+      "sha256": "37101297c2abb8b0f2811d44b0c4d14aa1f241af475f90b387f38b56ec27c86f"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/purpleidea@puppet-gluster-manifests-simple.pp",
+      "bytes": 7976,
+      "sha256": "0b336d9e0fadf98b68e39d7f1ce49bc71e18085451ae2ecb0bdb4d62aca2e724"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/quintel@boxen-modules-nodejs-manifests-v0_4.pp",
+      "bytes": 326,
+      "sha256": "b4b7af8b487b8add63017d4588915659a0eac74575e12e2fbcf4c18e5dda4854"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/quintel@boxen-modules-osx-manifests-recovery_message.pp",
+      "bytes": 2265,
+      "sha256": "4598cfb43018c9fd5a12f1ca3c23e8c3918dfd7de44c69161eac934c58893117"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/redhat-openstack@puppet-galera-manifests-server.pp",
+      "bytes": 4235,
+      "sha256": "d58fa425881e03a12db9fb4674170a55776662090791a14759be1febf7f0695f"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/thiagoarrais@gtk2hs-gtk-Graphics-UI-Gtk-Gdk-PixbufData.hs.pp",
+      "bytes": 2782,
+      "sha256": "3d53746540230952726319a0e83531ae9805fc95286c551121ac48d4fa1029e5"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/voxpupuli@puppet-nginx-examples-server_ssl.pp",
+      "bytes": 967,
+      "sha256": "3c1be2c1377cb4c78a86bf37df98bff710a7090129d2064c7d8c785b8c637c0a"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/voxpupuli@puppet-rabbitmq-examples-permissions-add.pp",
+      "bytes": 229,
+      "sha256": "ac2b955c554d448e31b9f19b9264babf69c9c1cf8c189575fb84cde503ace80d"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/voxpupuli@puppet-rabbitmq-examples-server.pp",
+      "bytes": 123,
+      "sha256": "d780f02682a4f6601a31e289330c58bbd8cbad41ceccce0e1040934e1126e86d"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/voxpupuli@puppet-rundeck-manifests-config-global-framework.pp",
+      "bytes": 1908,
+      "sha256": "9a2bfa5b59a1f54debcd6fe31823fd25c877281ca85fedaf8c6269fe581cc081"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/wesleytodd@YeoPress-app-templates-puppet-modules-mysql-manifests-ruby.pp",
+      "bytes": 625,
+      "sha256": "8e231d7ac1d2afa6f9689e5dadfbbfc978361449deb855db46afb6902555c348"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/wikimedia@mediawiki-vagrant-puppet-modules-ocg-manifests-init.pp",
+      "bytes": 1812,
+      "sha256": "f0f07ff0d3981ac8c10033b53b2e64ae1f718eb2bca3a1994e045a14623e54d3"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/wikimedia@mediawiki-vagrant-puppet-modules-role-manifests-notebook.pp",
+      "bytes": 288,
+      "sha256": "e14504562e5e3e1b5ebd6689a7544b1561c25c9fc99b16545267eb0cd56306a0"
+    },
+    {
+      "path": "RESULTS/puppet/oracle-dataset/wikimedia@mediawiki-vagrant-puppet-modules-xhprofgui-manifests-init.pp",
+      "bytes": 640,
+      "sha256": "bed65ac809857aaa31bfa51423f9f6df55673d7d945906155d99c3394ab59378"
+    },
+    {
+      "path": "usr/local/lib/python3.9/dist-packages/puppetparser-0.1.3-py3.9.egg",
+      "bytes": 65764,
+      "sha256": "80746678263784d5d9ab90b2a531b1cf55cb04fdf2d3ac0ae3754300a6679fb2"
+    }
+  ],
+  "container_architecture": "amd64",
+  "container_created": "2022-08-29T18:27:28.714237516Z",
+  "container_packages": {
+    "click": "8.1.3",
+    "ply": "3.11",
+    "ruamel.yaml": "0.17.21",
+    "ruamel.yaml.clib": "0.2.6",
+    "Deprecated": "1.2.13",
+    "PyGithub": "1.55",
+    "PyJWT": "2.3.0",
+    "PyNaCl": "1.5.0",
+    "PyYAML": "6.0",
+    "cffi": "1.15.0",
+    "numpy": "1.22.3",
+    "pandas": "1.4.2",
+    "pycparser": "2.21",
+    "python-dateutil": "2.8.2",
+    "pytz": "2022.1",
+    "wrapt": "1.14.1",
+    "about-time": "3.1.1",
+    "alive-progress": "2.4.1",
+    "attrs": "22.1.0",
+    "configparser": "5.2.0",
+    "grapheme": "0.6.0",
+    "iniconfig": "1.1.1",
+    "packaging": "21.3",
+    "pluggy": "1.0.0",
+    "prettytable": "3.3.0",
+    "apipkg": "2.0.0",
+    "py": "1.11.0",
+    "pyparsing": "3.0.9",
+    "pytest": "7.1.2",
+    "tomli": "2.0.1",
+    "wcwidth": "0.2.5"
+  }
+}

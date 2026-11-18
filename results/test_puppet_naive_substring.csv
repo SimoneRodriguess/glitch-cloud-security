@@ -1,0 +1,61 @@
+PATH,LINE,ERROR,CODE,TEXT
+Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,74,improper ip address binding,sec_invalid_bind,value:'0.0.0.0'
+Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,166,hardcoded-secret,sec_hard_secr,key:'bind'
+Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,171,hardcoded-secret,sec_hard_secr,key:'save'
+Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,176,hardcoded-secret,sec_hard_secr,key:'dbfilename'
+SecGen@SecGen-modules-services-unix-smb-samba-manifests-params.pp,111,improper ip address binding,sec_invalid_bind,$firewall_src:'0.0.0.0/0'
+SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp,2,admin-by-default,sec_def_admin,user:'root'
+SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp,2,hardcoded-secret,sec_hard_secr,user:'root'
+SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp,2,hardcoded-username,sec_hard_user,user:'root'
+alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp,1,suspicious comment,sec_susp_comm,FIXME: This class needs better documentation as per https://docs.puppetlabs.com/guides/style_guide.html#puppet-doc
+alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp,31,hardcoded-secret,sec_hard_secr,user:'elasticsearch'
+alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp,31,hardcoded-username,sec_hard_user,user:'elasticsearch'
+alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-scrape_icinga_alerts_for_dashboard_metrics.pp,34,hardcoded-secret,sec_hard_secr,$slack_auth_token:''
+alphagov@govuk-puppet-modules-govuk_rabbitmq-manifests-monitoring.pp,1,suspicious comment,sec_susp_comm,FIXME: This class needs better documentation as per https://docs.puppetlabs.com/guides/style_guide.html#puppet-doc
+alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp,18,use of http,sec_https,location:'http://${apt_mirror_hostname}/rbenv-ruby'
+alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp,21,hardcoded-secret,sec_hard_secr,key:'3803E444EB0235822AA36A66EC5FE1A937E3ACBB'
+alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp,36,suspicious comment,sec_susp_comm,These aliases resolve .ruby-version 2.x to an installed Ruby version.
+alphagov@govuk-puppet-modules-icinga-manifests-init.pp,1,suspicious comment,sec_susp_comm,FIXME: This class needs better documentation as per https://docs.puppetlabs.com/guides/style_guide.html#puppet-doc
+alphagov@govuk-puppet-modules-users-manifests-felisialoukou.pp,5,hardcoded-secret,sec_hard_secr,"ssh_key:""['ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDlxJNWiWOVbtSwe5DNNzN8csunIvCX6XUIAT141EjGZpOaEjK3yFtvv96OukdWTXPQXnWBDOIWg+fNJWc4LsfqnCV5CrHftykTqHeKakEcVX2aW5UrWvlOWHoTdkbFv+L67MaT2xIT/KWLYPliyZJOmwwF+W1kiFq3xVtI5qgMha7s2I3thuBo8lgLXsmxdVcYoa32MBKabNyknvZaF/l2l/D/wssbC/3N5zeLupJJXDRA4BWw6nqAW97AOceVH04twCG6+B5qL/M56D/YW8kMIx/XSSIAde4+yXCX0gLr5p4L6pNvD2vn/nJSY/rMDtO5rPX+XQjmM7eti50FvkflvGzuaUoSXb1sP+rwOtGMVQBn4pnB1whd8jZSQC+SRsXAgj7TgQfKLux/T00cq+pC09HrBPLag1TUcueJE65FM6mi2uyi+sYYOnVfr4ZhgiEBY+uFoOWl/TwnKuIAXXXD4aL9BXpOTdy3XxxEwHeobfv2AOa8QH8rGQXuXExTjaMXQEbQ6rnhUEmccu1fSTZt4rEUlv2a61Bp2XKcjvKNodNHqQwFXWbX+qmKpGTurPQZG9wqJzejUer1YYSuraxezQtSpM0ZREFhIQMSA5F137bCPVwLanJ3A/XN+1aEwjynrDALOmYOyJw/eblYCUX84At55tbDt+XdmIXiVeg0eQ== felisia.loukou@digital.cabinet-office.gov.uk']"""
+boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp,17,missing default case statement,sec_no_default_switch,"$::osfamily?{'Debian': {'mongo': $::lsbdistcodename?{'precise': 'mongo', 'default': 'False'}}, 'Redhat': {}}"
+boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp,29,missing default case statement,sec_no_default_switch,"$::osfamily?{'Debian': {'augeas': 'augeas', 'zendopcache': $::operatingsystem?{'debian': 'False', 'ubuntu': 'ZendOpcache'}}, 'Redhat': {}}"
+boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp,32,missing default case statement,sec_no_default_switch,"$::operatingsystem?{'debian': 'False', 'ubuntu': 'ZendOpcache'}"
+boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp,42,missing default case statement,sec_no_default_switch,"$::osfamily?{'Debian': {'apc': $::operatingsystem?{'debian': 'php5-apc', 'ubuntu': 'php5-apcu'}, 'apcu': 'php5-apcu', 'imagick': 'php5-imagick', 'memcache': 'php5-memcache', 'memcached': 'php5-memcached', 'mongo': $::lsbdistcodename?{'precise': 'False', 'default': 'php5-mongo'}, 'redis': 'php5-redis', 'sqlite': 'php5-sqlite', 'zendopcache': 'php5-zendopcache'}, 'Redhat': {'apc': 'php-pecl-apcu', 'apcu': 'php-pecl-apcu', 'imagick': 'php-pecl-imagick', 'memcache': 'php-pecl-memcache', 'memcached': 'php-pecl-memcached', 'mongo': 'php-pecl-mongo', 'redis': 'php-pecl-redis', 'sqlite': 'php-pecl-sqlite', 'zendopcache': 'php-pecl-zendopcache'}}"
+boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp,44,missing default case statement,sec_no_default_switch,"$::operatingsystem?{'debian': 'php5-apc', 'ubuntu': 'php5-apcu'}"
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,21,admin-by-default,sec_def_admin,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,21,hardcoded-secret,sec_hard_secr,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,21,hardcoded-username,sec_hard_user,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,26,admin-by-default,sec_def_admin,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,26,hardcoded-secret,sec_hard_secr,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,26,hardcoded-username,sec_hard_user,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,33,admin-by-default,sec_def_admin,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,33,hardcoded-secret,sec_hard_secr,user:'root'
+cargomedia@puppet-packages-modules-backup-manifests-agent.pp,33,hardcoded-username,sec_hard_user,user:'root'
+cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp,1,admin-by-default,sec_def_admin,$root_password:''
+cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp,1,empty-password,sec_empty_pass,$root_password:''
+cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp,1,hardcoded-password,sec_hard_pass,$root_password:''
+cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp,1,hardcoded-secret,sec_hard_secr,$root_password:''
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,9,hardcoded-password,sec_hard_pass,root_password:'strongpassword'
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,9,hardcoded-secret,sec_hard_secr,root_password:'strongpassword'
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,13,hardcoded-secret,sec_hard_secr,user:'bitbucket'
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,13,hardcoded-username,sec_hard_user,user:'bitbucket'
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,14,hardcoded-password,sec_hard_pass,password:'password'
+danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp,14,hardcoded-secret,sec_hard_secr,password:'password'
+mattheath@puppet-php-manifests-version.pp,122,suspicious comment,sec_susp_comm,Fix permissions for php versions installed prior to 0.3.5 of this module
+openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,36,admin-by-default,sec_def_admin,user:'root'
+openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,36,hardcoded-secret,sec_hard_secr,user:'root'
+openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,36,hardcoded-username,sec_hard_user,user:'root'
+openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,44,admin-by-default,sec_def_admin,user:'root'
+openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,44,hardcoded-secret,sec_hard_secr,user:'root'
+openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,44,hardcoded-username,sec_hard_user,user:'root'
+purpleidea@puppet-gluster-manifests-simple.pp,8,suspicious comment,sec_susp_comm,(at your option) any later version.
+purpleidea@puppet-gluster-manifests-simple.pp,22,suspicious comment,sec_susp_comm,TODO: not fully implemented in puppet-gluster
+purpleidea@puppet-gluster-manifests-simple.pp,26,empty-password,sec_empty_pass,$password:''
+purpleidea@puppet-gluster-manifests-simple.pp,26,hardcoded-password,sec_hard_pass,$password:''
+purpleidea@puppet-gluster-manifests-simple.pp,26,hardcoded-secret,sec_hard_secr,$password:''
+purpleidea@puppet-gluster-manifests-simple.pp,81,suspicious comment,sec_susp_comm,TODO: check that each element of array is a valid hash!
+purpleidea@puppet-gluster-manifests-simple.pp,145,suspicious comment,sec_susp_comm,TODO: should we use the same pattern for 1 or many ?
+purpleidea@puppet-gluster-manifests-simple.pp,153,suspicious comment,sec_susp_comm,readability. Puppet needs to fix this issue somehow! Creating
+voxpupuli@puppet-rabbitmq-examples-permissions-add.pp,2,hardcoded-password,sec_hard_pass,password:'foo'
+voxpupuli@puppet-rabbitmq-examples-permissions-add.pp,2,hardcoded-secret,sec_hard_secr,password:'foo'
+voxpupuli@puppet-rundeck-manifests-config-global-framework.pp,28,use of http,sec_https,url:'http://${rundeck_hostname}:${rundeck_port}'

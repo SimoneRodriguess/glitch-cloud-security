@@ -1,0 +1,38 @@
+                                     PATH  LINE  AGREEMENT
+CATEGORY                                                  
+Admin by default                       14    14         14
+Empty password                          5     5          5
+Hard-coded secret                      11    11         11
+Missing Default in Case Statement      10    10         10
+No integrity check                      1     1          1
+Suspicious comment                      9     9          9
+Unrestricted IP Address                 6     6          6
+Use of HTTP without SSL/TLS             5     5          5
+Use of weak cryptography algorithms     4     4          4
+none                                   52    52         52
+
+
+PRECISION
+use of http 0.4166666666666667
+admin-by-default N/D
+suspicious comment 0.6
+empty-password 1
+hardcoded-secret 0.140625
+improper ip address binding 1
+no-integrity-check N/D
+missing default case statement 0.8333333333333334
+weak cryptography algorithms 0.5
+none 0.975609756097561
+
+
+RECALL
+use of http 1.0
+admin-by-default 0.0
+suspicious comment 1.0
+empty-password 1.0
+hardcoded-secret 0.8181818181818182
+improper ip address binding 1.0
+no-integrity-check 0.0
+missing default case statement 1.0
+weak cryptography algorithms 0.75
+none 0.7692307692307693

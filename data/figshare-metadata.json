@@ -1,0 +1,147 @@
+{
+  "url_public_html": "https://figshare.com/articles/dataset/GLITCH_Replication_Package_with_Code_and_Datasets_ASE_2022_/19726603/2",
+  "files": [
+    {
+      "id": 36939973,
+      "name": "glitch-latest.tar",
+      "size": 1819003392,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/36939973",
+      "supplied_md5": "d9de60550dc558ad227ab14ceef64654",
+      "computed_md5": "d9de60550dc558ad227ab14ceef64654",
+      "mimetype": "application/x-tar"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 12512440,
+      "full_name": "Jo\u00e3o Ferreira",
+      "first_name": "Jo\u00e3o",
+      "last_name": "Ferreira",
+      "is_active": true,
+      "url_name": "Jo_o_Ferreira",
+      "orcid_id": "0000-0002-6612-9013"
+    },
+    {
+      "id": 12512466,
+      "full_name": "Nuno Saavedra",
+      "first_name": "Nuno",
+      "last_name": "Saavedra",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/GLITCH_Replication_Package_with_Code_and_Datasets_ASE_2022_/19726603",
+  "download_disabled": false,
+  "description": "<p>Replication package with code and datasets accompanying the ASE 2022 paper: \"GLITCH: Automated Polyglot Security Smell Detection in Infrastructure as Code\" by Nuno Saavedra and Jo\u00e3o F. Ferreira.</p>\n<p><br></p>\n<p>Instructions can be found here: https://github.com/sr-lab/GLITCH-ASE22-Replication-Package/blob/ase22-submission/INSTALL.md</p>\n<p><br></p>\n<p>There is also an archived version of the instructions here: https://zenodo.org/record/6972618</p>",
+  "funding": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia",
+  "funding_list": [
+    {
+      "id": 46103,
+      "title": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 22719246,
+      "title": "EuroHPC under grant agreement No 951732",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    }
+  ],
+  "version": 2,
+  "status": "public",
+  "size": 1819003392,
+  "created_date": "2022-08-29T21:32:52Z",
+  "modified_date": "2023-05-31T10:55:56Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 6,
+    "name": "GPL 3.0+",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.html"
+  },
+  "tags": [
+    "devops",
+    "infrastructure as code",
+    "security smells",
+    "Ansible",
+    "Chef",
+    "Puppet",
+    "intermediate model",
+    "static analysis",
+    "Open Software",
+    "Software Engineering"
+  ],
+  "keywords": [
+    "devops",
+    "infrastructure as code",
+    "security smells",
+    "Ansible",
+    "Chef",
+    "Puppet",
+    "intermediate model",
+    "static analysis",
+    "Open Software",
+    "Software Engineering"
+  ],
+  "categories": [
+    {
+      "id": 29203,
+      "title": "Software engineering not elsewhere classified",
+      "parent_id": 29176,
+      "path": "/28798/29176/29203",
+      "source_id": "461299",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [
+    "https://github.com/sr-lab/GLITCH-ASE22-Replication-Package"
+  ],
+  "has_linked_file": false,
+  "citation": "Ferreira, Jo\u00e3o; Saavedra, Nuno (2022). GLITCH: Replication Package with Code and Datasets (ASE 2022). figshare. Dataset. https://doi.org/10.6084/m9.figshare.19726603.v2",
+  "related_materials": [
+    {
+      "id": 10511075,
+      "identifier": "https://github.com/sr-lab/GLITCH-ASE22-Replication-Package",
+      "title": "",
+      "relation": "References",
+      "identifier_type": "URL",
+      "is_linkout": false,
+      "link": "https://github.com/sr-lab/GLITCH-ASE22-Replication-Package"
+    }
+  ],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 19726603,
+  "title": "GLITCH: Replication Package with Code and Datasets (ASE 2022)",
+  "doi": "10.6084/m9.figshare.19726603.v2",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/19726603",
+  "published_date": "2022-08-29T21:32:52Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/19726603",
+  "url_public_api": "https://api.figshare.com/v2/articles/19726603",
+  "url_private_html": "https://figshare.com/account/articles/19726603",
+  "timeline": {
+    "posted": "2022-08-29T21:32:52",
+    "firstOnline": "2022-08-08"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

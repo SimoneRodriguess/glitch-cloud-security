@@ -1,0 +1,2180 @@
+[
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "ansible-role-container-registry-tasks-docker-distribution.yml",
+    "seconds": 0.003473334014415741,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "ansible-role-systemd_mount-tasks-systemd_mounts.yml",
+    "seconds": 0.006007166986819357,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "ansible-role-systemd_mount-tests-group_vars-all_containers.yml",
+    "seconds": 0.0011505000293254852,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "ansible-role-systemd_networkd-zuul.d-project.yaml",
+    "seconds": 0.0006757910014130175,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "ansible-role-tripleo-modify-image-tasks-modify_image.yml",
+    "seconds": 0.0031126670073717833,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-client-config-defaults-main.yml",
+    "seconds": 0.0003891660016961396,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml",
+    "seconds": 0.0041817500023171306,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Debian_jessie.yml",
+    "seconds": 0.001081541005987674,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Fedora_22.yml",
+    "seconds": 0.00039145798655226827,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "bifrost-playbooks-roles-bifrost-test-dhcp-defaults-main.yml",
+    "seconds": 0.0001491669681854546,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-dhcp-defaults-main.yml\n"
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "bifrost-playbooks-roles-bifrost-test-inspection-handlers-main.yml",
+    "seconds": 0.0004990419838577509,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-inspection-handlers-main.yml\n"
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "bifrost-playbooks-roles-bifrost-unprovision-node-dynamic-tasks-main.yml",
+    "seconds": 0.002859416010323912,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "browbeat-ansible-browbeat-roles-keystone-token-tasks-main.yml",
+    "seconds": 0.009363790974020958,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "browbeat-ansible-install-roles-common-tasks-main.yml",
+    "seconds": 0.001291499997023493,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "browbeat-ansible-install-roles-grafana-dashboards-templates-partials-ironic_metrics.yaml",
+    "seconds": 0.012330416997428983,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-inventory-env.d-blazar.yml",
+    "seconds": 0.0019731249776668847,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-inventory-env.d-cinder.yml",
+    "seconds": 0.003280000004451722,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-inventory-env.d-designate.yml",
+    "seconds": 0.002610917028505355,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-inventory-env.d-rsyslog.yml",
+    "seconds": 0.0014245000202208757,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-inventory-group_vars-ceph-rgw.yml",
+    "seconds": 0.0011697079753503203,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-inventory-group_vars-trove_all.yml",
+    "seconds": 0.0009547910303808749,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-inventory-group_vars-utility_all.yml",
+    "seconds": 0.0032726250356063247,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_filebeat-tasks-main.yml",
+    "seconds": 0.00829158298438415,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_heartbeat-handlers-main.yml",
+    "seconds": 0.0018605830264277756,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_kibana-meta-main.yml",
+    "seconds": 0.001666083000600338,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_logstash-tasks-logstash_arcsight.yml",
+    "seconds": 0.00378829101100564,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_rollup-defaults-main.yml",
+    "seconds": 0.0005194589612074196,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elasticsearch-meta-main.yml",
+    "seconds": 0.0027174580027349293,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-go_install_1.10-tasks-main.yml",
+    "seconds": 0.0012008330086246133,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-ops-multi-node-aio-playbooks-host_vars-ceph1.yml",
+    "seconds": 0.0030503339949063957,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-playbooks-healthcheck-hosts.yml",
+    "seconds": 0.005552124988753349,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-playbooks-lxc-containers-destroy.yml",
+    "seconds": 0.006060415995307267,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-playbooks-os-tempest-install.yml",
+    "seconds": 0.0022439169697463512,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "openstack-ansible-tests-roles-bootstrap-host-tasks-check-requirements.yml",
+    "seconds": 0.007957833993714303,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "puppet-openstack-integration-playbooks-run-syntax-tests.yaml",
+    "seconds": 0.0008860829984769225,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "tripleo-quickstart-playbooks-libvirt-teardown.yml",
+    "seconds": 0.0006076670251786709,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "tripleo-quickstart-roles-libvirt-setup-undercloud-tasks-inject_repos.yml",
+    "seconds": 0.001450665993615985,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "tripleo-quickstart-roles-libvirt-setup-user-meta-main.yml",
+    "seconds": 0.0003256250056438148,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "tripleo-quickstart-roles-parts-kvm-tasks-main.yml",
+    "seconds": 0.006686749984510243,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "tripleo-quickstart-roles-virtbmc-defaults-main.yml",
+    "seconds": 0.0001526669948361814,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-virtbmc-defaults-main.yml\n"
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "command_aware",
+    "file": "windmill-playbooks-bootstrap.yaml",
+    "seconds": 0.0018493339885026217,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "ansible-role-container-registry-tasks-docker-distribution.yml",
+    "seconds": 0.001696874969638884,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "ansible-role-systemd_mount-tasks-systemd_mounts.yml",
+    "seconds": 0.006034999969415367,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "ansible-role-systemd_mount-tests-group_vars-all_containers.yml",
+    "seconds": 0.0013452499988488853,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "ansible-role-systemd_networkd-zuul.d-project.yaml",
+    "seconds": 0.0008155420073308051,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "ansible-role-tripleo-modify-image-tasks-modify_image.yml",
+    "seconds": 0.003468209004495293,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-client-config-defaults-main.yml",
+    "seconds": 0.0003887079656124115,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml",
+    "seconds": 0.004229625046718866,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Debian_jessie.yml",
+    "seconds": 0.0011175419786013663,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Fedora_22.yml",
+    "seconds": 0.0003648330457508564,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "bifrost-playbooks-roles-bifrost-test-dhcp-defaults-main.yml",
+    "seconds": 0.00015404197620227933,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-dhcp-defaults-main.yml\n"
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "bifrost-playbooks-roles-bifrost-test-inspection-handlers-main.yml",
+    "seconds": 0.00015074998373165727,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/bifrost-playbooks-roles-bifrost-test-inspection-handlers-main.yml\n"
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "bifrost-playbooks-roles-bifrost-unprovision-node-dynamic-tasks-main.yml",
+    "seconds": 0.0029259169823490083,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "browbeat-ansible-browbeat-roles-keystone-token-tasks-main.yml",
+    "seconds": 0.007556291995570064,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "browbeat-ansible-install-roles-common-tasks-main.yml",
+    "seconds": 0.0012228749692440033,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "browbeat-ansible-install-roles-grafana-dashboards-templates-partials-ironic_metrics.yaml",
+    "seconds": 0.011040624987799674,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-inventory-env.d-blazar.yml",
+    "seconds": 0.0017061670077964664,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-inventory-env.d-cinder.yml",
+    "seconds": 0.003020542033482343,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-inventory-env.d-designate.yml",
+    "seconds": 0.0024882080033421516,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-inventory-env.d-rsyslog.yml",
+    "seconds": 0.0014319579931907356,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-inventory-group_vars-ceph-rgw.yml",
+    "seconds": 0.0011750420089811087,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-inventory-group_vars-trove_all.yml",
+    "seconds": 0.0009692080202512443,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-inventory-group_vars-utility_all.yml",
+    "seconds": 0.003171042015310377,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_filebeat-tasks-main.yml",
+    "seconds": 0.006711833004374057,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_heartbeat-handlers-main.yml",
+    "seconds": 0.0017715830472297966,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_kibana-meta-main.yml",
+    "seconds": 0.001593249966390431,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_logstash-tasks-logstash_arcsight.yml",
+    "seconds": 0.0035335830179974437,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elastic_rollup-defaults-main.yml",
+    "seconds": 0.0004823750350624323,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-elasticsearch-meta-main.yml",
+    "seconds": 0.002073374984320253,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-ops-elk_metrics_6x-roles-go_install_1.10-tasks-main.yml",
+    "seconds": 0.000971832952927798,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-ops-multi-node-aio-playbooks-host_vars-ceph1.yml",
+    "seconds": 0.002848166972398758,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-playbooks-healthcheck-hosts.yml",
+    "seconds": 0.005268500011879951,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-playbooks-lxc-containers-destroy.yml",
+    "seconds": 0.005725666007492691,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-playbooks-os-tempest-install.yml",
+    "seconds": 0.002000125008635223,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "openstack-ansible-tests-roles-bootstrap-host-tasks-check-requirements.yml",
+    "seconds": 0.007414166000671685,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "puppet-openstack-integration-playbooks-run-syntax-tests.yaml",
+    "seconds": 0.000850957992952317,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "tripleo-quickstart-playbooks-libvirt-teardown.yml",
+    "seconds": 0.0005539589910767972,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "tripleo-quickstart-roles-libvirt-setup-undercloud-tasks-inject_repos.yml",
+    "seconds": 0.0013328340137377381,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "tripleo-quickstart-roles-libvirt-setup-user-meta-main.yml",
+    "seconds": 0.0002785000251606107,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "tripleo-quickstart-roles-parts-kvm-tasks-main.yml",
+    "seconds": 0.00619379203999415,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "tripleo-quickstart-roles-virtbmc-defaults-main.yml",
+    "seconds": 0.000130249944049865,
+    "parsed": false,
+    "diagnostics": "Ansible - Cannot detect file type: <PROJECT_ROOT>/artifact/RESULTS/ansible/oracle-dataset/tripleo-quickstart-roles-virtbmc-defaults-main.yml\n"
+  },
+  {
+    "phase": "test",
+    "tech": "ansible",
+    "method": "naive_substring",
+    "file": "windmill-playbooks-bootstrap.yaml",
+    "seconds": 0.0017637080163694918,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "AYCHIT_Asf-chef-cookbooks-rsnapshot-resources-script.rb",
+    "seconds": 0.10697625001193956,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "EEDARIT_opsworks-cookbooks-windows-providers-feature_powershell.rb",
+    "seconds": 0.11023787496378645,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "Nikhil424_chef-repo-cookbooks-jdk-recipes-default.rb",
+    "seconds": 0.09405516600236297,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "Nikhil424_chef-repo-cookbooks-yum-mysql-community-attributes-mysql57-community.rb",
+    "seconds": 0.11340504098916426,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "TaxiOS_zabbix-recipes-server_source.rb",
+    "seconds": 0.15200233296491206,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "aws_aws-parallelcluster-cookbook-cookbooks-aws-parallelcluster-slurm-recipes-install_slurm.rb",
+    "seconds": 0.13938295800471678,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "binary-com_chef-third-party-cookbooks-datadog-recipes-network.rb",
+    "seconds": 0.09511591598857194,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "chef-boneyard_qa-chef-server-cluster-attributes-default.rb",
+    "seconds": 0.12057316600112244,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "cookbooks_ic-cloud_utils-cookbooks-hadoop_cluster-recipes-default.rb",
+    "seconds": 0.14725408295635134,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "cookbooks_ic-elasticsearch-cookbooks-install_from-definitions-osx_application.rb",
+    "seconds": 0.11729475000174716,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "cookbooks_ic-hadoop_cluster-cookbooks-hbase-recipes-stargate.rb",
+    "seconds": 0.10118604201124981,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "cookbooks_ic-jenkins-cookbooks-zabbix-recipes-agent.rb",
+    "seconds": 0.11917604197515175,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "cookbooks_ic-jenkins-cookbooks-zabbix-recipes-database_mysql.rb",
+    "seconds": 0.22036391601432115,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "cookbooks_ic-motd-roles-elasticsearch_datanode.rb",
+    "seconds": 0.09940504201222211,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "cookbooks_ic-pig-cookbooks-zabbix-attributes-default.rb",
+    "seconds": 0.13422075001290068,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "cookbooks_ic-volumes_ebs-cookbooks-zabbix-resources-user.rb",
+    "seconds": 0.10609141702298075,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "cookbooks_ic-zabbix-cookbooks-zabbix-providers-host.rb",
+    "seconds": 0.17584916698979214,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "danielladd_Chef-Testing-cookbooks-mysql-attributes-server_rhel.rb",
+    "seconds": 0.13028254202799872,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "davestarling_chef-features-data-cookbooks-manage_files-recipes-default.rb",
+    "seconds": 0.09313854202628136,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "desirit_chef-bach-cookbooks-bcpc-hadoop-recipes-oozie.rb",
+    "seconds": 0.17338429199298844,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "guymatz_chef-cookbooks-cutlery-libraries-notifying_action.rb",
+    "seconds": 0.10037808300694451,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "guymatz_chef-cookbooks-mysql-attributes-client.rb",
+    "seconds": 0.12557962496066466,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "guymatz_chef-cookbooks-nagios-recipes-server_package.rb",
+    "seconds": 0.10529833403415978,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "guymatz_chef-cookbooks-python-attributes-default.rb",
+    "seconds": 0.1061995830386877,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "havk64_chef-zero-playground-cookbooks-nginx-attributes-socketproxy.rb",
+    "seconds": 0.09753266698680818,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "havk64_chef-zero-playground-cookbooks-runit-recipes-default.rb",
+    "seconds": 0.10694041702663526,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-iptables-recipes-default.rb",
+    "seconds": 0.10335941700031981,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-nodejs-recipes-install_from_binary.rb",
+    "seconds": 0.12120245804544538,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-sudo-recipes-default.rb",
+    "seconds": 0.10280708299251273,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-zabbix-providers-media_type.rb",
+    "seconds": 0.11347999999998137,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "jonmthomson_cookbooks-mingw-recipes-default.rb",
+    "seconds": 0.09932616696460173,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "kitchenplan_chef-applications-recipes-omnigraffle.rb",
+    "seconds": 0.1555897090001963,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "kitchenware_master-chef-cookbooks-base-recipes-editor.rb",
+    "seconds": 0.10447808296885341,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "michaelklishin_cassandra-chef-cookbook-recipes-opscenter_agent.rb",
+    "seconds": 0.10515716695226729,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "openstreetmap_chef-cookbooks-civicrm-recipes-default.rb",
+    "seconds": 0.183235542033799,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "openstreetmap_chef-cookbooks-networking-libraries-ipaddresses.rb",
+    "seconds": 0.11290029098745435,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "pu239ppy_chef-bach-code-bcpc-recipes-mysql.rb",
+    "seconds": 0.1954564999905415,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "sabarisankar27_chef-acceptance-fips-.acceptance-acceptance-cookbook-recipes-destroy.rb",
+    "seconds": 0.10339429101441056,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "scmgalaxy_chef-training-programs-recipes-raviteja-chef-repo-E4.rb",
+    "seconds": 0.10340904101030901,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "command_aware",
+    "file": "thomasmeeus_chef-apache2-recipes-mod_php5.rb",
+    "seconds": 0.1219876249670051,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "AYCHIT_Asf-chef-cookbooks-rsnapshot-resources-script.rb",
+    "seconds": 0.10446154203964397,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "EEDARIT_opsworks-cookbooks-windows-providers-feature_powershell.rb",
+    "seconds": 0.11789704201510176,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "Nikhil424_chef-repo-cookbooks-jdk-recipes-default.rb",
+    "seconds": 0.10738266701810062,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "Nikhil424_chef-repo-cookbooks-yum-mysql-community-attributes-mysql57-community.rb",
+    "seconds": 0.12904654099838808,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "TaxiOS_zabbix-recipes-server_source.rb",
+    "seconds": 0.17281683400506154,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "aws_aws-parallelcluster-cookbook-cookbooks-aws-parallelcluster-slurm-recipes-install_slurm.rb",
+    "seconds": 0.15818649996072054,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "binary-com_chef-third-party-cookbooks-datadog-recipes-network.rb",
+    "seconds": 0.10957079200306907,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "chef-boneyard_qa-chef-server-cluster-attributes-default.rb",
+    "seconds": 0.13280162500450388,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "cookbooks_ic-cloud_utils-cookbooks-hadoop_cluster-recipes-default.rb",
+    "seconds": 0.161795332969632,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "cookbooks_ic-elasticsearch-cookbooks-install_from-definitions-osx_application.rb",
+    "seconds": 0.12162049999460578,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "cookbooks_ic-hadoop_cluster-cookbooks-hbase-recipes-stargate.rb",
+    "seconds": 0.108487417048309,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "cookbooks_ic-jenkins-cookbooks-zabbix-recipes-agent.rb",
+    "seconds": 0.12354579102247953,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "cookbooks_ic-jenkins-cookbooks-zabbix-recipes-database_mysql.rb",
+    "seconds": 0.1787365410127677,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "cookbooks_ic-motd-roles-elasticsearch_datanode.rb",
+    "seconds": 0.10510729200905189,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "cookbooks_ic-pig-cookbooks-zabbix-attributes-default.rb",
+    "seconds": 0.15733537496998906,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "cookbooks_ic-volumes_ebs-cookbooks-zabbix-resources-user.rb",
+    "seconds": 0.11753866705112159,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "cookbooks_ic-zabbix-cookbooks-zabbix-providers-host.rb",
+    "seconds": 0.1976600829511881,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "danielladd_Chef-Testing-cookbooks-mysql-attributes-server_rhel.rb",
+    "seconds": 0.14078379201237112,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "davestarling_chef-features-data-cookbooks-manage_files-recipes-default.rb",
+    "seconds": 0.09863358299480751,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "desirit_chef-bach-cookbooks-bcpc-hadoop-recipes-oozie.rb",
+    "seconds": 0.19560575002105907,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "guymatz_chef-cookbooks-cutlery-libraries-notifying_action.rb",
+    "seconds": 0.10936208302155137,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "guymatz_chef-cookbooks-mysql-attributes-client.rb",
+    "seconds": 0.13541087502380833,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "guymatz_chef-cookbooks-nagios-recipes-server_package.rb",
+    "seconds": 0.09904983302112669,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "guymatz_chef-cookbooks-python-attributes-default.rb",
+    "seconds": 0.10885791596956551,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "havk64_chef-zero-playground-cookbooks-nginx-attributes-socketproxy.rb",
+    "seconds": 0.10100866603897884,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "havk64_chef-zero-playground-cookbooks-runit-recipes-default.rb",
+    "seconds": 0.10925116704311222,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-iptables-recipes-default.rb",
+    "seconds": 0.10838608298217878,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-nodejs-recipes-install_from_binary.rb",
+    "seconds": 0.1263899999903515,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-sudo-recipes-default.rb",
+    "seconds": 0.10566574998665601,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "infochimps-labs_ironfan-pantry-cookbooks-zabbix-providers-media_type.rb",
+    "seconds": 0.11676300002727658,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "jonmthomson_cookbooks-mingw-recipes-default.rb",
+    "seconds": 0.0995516250259243,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "kitchenplan_chef-applications-recipes-omnigraffle.rb",
+    "seconds": 0.15455199999269098,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "kitchenware_master-chef-cookbooks-base-recipes-editor.rb",
+    "seconds": 0.10477137501584366,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "michaelklishin_cassandra-chef-cookbook-recipes-opscenter_agent.rb",
+    "seconds": 0.1015622090199031,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "openstreetmap_chef-cookbooks-civicrm-recipes-default.rb",
+    "seconds": 0.17993583297356963,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "openstreetmap_chef-cookbooks-networking-libraries-ipaddresses.rb",
+    "seconds": 0.1240896669914946,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "pu239ppy_chef-bach-code-bcpc-recipes-mysql.rb",
+    "seconds": 0.18810054200002924,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "sabarisankar27_chef-acceptance-fips-.acceptance-acceptance-cookbook-recipes-destroy.rb",
+    "seconds": 0.10229325003456324,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "scmgalaxy_chef-training-programs-recipes-raviteja-chef-repo-E4.rb",
+    "seconds": 0.098809291026555,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "chef",
+    "method": "naive_substring",
+    "file": "thomasmeeus_chef-apache2-recipes-mod_php5.rb",
+    "seconds": 0.11919812497217208,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp",
+    "seconds": 0.053107834013644606,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "Mirantis@solar-resources-cinder_puppet-actions-run.pp",
+    "seconds": 0.007896582945249975,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "SecGen@SecGen-modules-services-unix-smb-samba-manifests-params.pp",
+    "seconds": 0.0036724579986184835,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp",
+    "seconds": 0.0010950000141747296,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "StackStorm@st2workroom-modules-profile-manifests-ec2.pp",
+    "seconds": 0.0010294170351698995,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp",
+    "seconds": 0.002176209003664553,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-scrape_icinga_alerts_for_dashboard_metrics.pp",
+    "seconds": 0.0023138330434449017,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-smokey.pp",
+    "seconds": 0.0016617090441286564,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "alphagov@govuk-puppet-modules-govuk_rabbitmq-manifests-monitoring.pp",
+    "seconds": 0.002119000011589378,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp",
+    "seconds": 0.0017023750115185976,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "alphagov@govuk-puppet-modules-icinga-manifests-init.pp",
+    "seconds": 0.0018185420194640756,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "alphagov@govuk-puppet-modules-users-manifests-felisialoukou.pp",
+    "seconds": 0.0012077499995939434,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-apache-manifests-ssl.pp",
+    "seconds": 0.0009242920204997063,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp",
+    "seconds": 0.004093000025022775,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "cargomedia@puppet-packages-modules-backup-manifests-agent.pp",
+    "seconds": 0.0021974999690428376,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "cargomedia@puppet-packages-modules-capistrano-manifests-init.pp",
+    "seconds": 0.00105516699841246,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp",
+    "seconds": 0.0010391660034656525,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "cargomedia@puppet-packages-modules-ulimit-manifests-entry.pp",
+    "seconds": 0.0011670419480651617,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "ceph@puppet-ceph-manifests-mds.pp",
+    "seconds": 0.0013238330138847232,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp",
+    "seconds": 0.0015457909903489053,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "duritong@puppet-shorewall-manifests-dnat_rule.pp",
+    "seconds": 0.0024352920008823276,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "fuel-infra@puppet-manifests-modules-obs_server-manifests-folders.pp",
+    "seconds": 0.002199042006395757,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "mattheath@puppet-php-manifests-version.pp",
+    "seconds": 0.005043000041041523,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "mayflower@wasted-site-component-manifests-mongodb.pp",
+    "seconds": 0.0012741670361720026,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "norcams@himlar-profile-manifests-highavailability-loadbalancing-haproxy-list.pp",
+    "seconds": 0.0012333330232650042,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "norcams@himlar-profile-manifests-storage-ceph-zonegroup.pp",
+    "seconds": 0.0016382079920731485,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "openstack@fuel-library-deployment-puppet-osnailyfacter-manifests-plugins-plugins_rsync.pp",
+    "seconds": 0.0012398329563438892,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "openstack@fuel-library-deployment-puppet-tweaks-manifests-ubuntu_service_override.pp",
+    "seconds": 0.002245500043500215,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp",
+    "seconds": 0.0021087080240249634,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-manila-api.pp",
+    "seconds": 0.0031324169831350446,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-manila-scheduler.pp",
+    "seconds": 0.0012285830453038216,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "poetic@our-boxen-manifests-site.pp",
+    "seconds": 0.0024048330378718674,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "puppetlabs@pltraining-userprefs-examples-npp.pp",
+    "seconds": 0.0009246249683201313,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "purpleidea@puppet-gluster-manifests-simple.pp",
+    "seconds": 0.0047401670017279685,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "quintel@boxen-modules-nodejs-manifests-v0_4.pp",
+    "seconds": 0.0010766250197775662,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "thiagoarrais@gtk2hs-gtk-Graphics-UI-Gtk-Gdk-PixbufData.hs.pp",
+    "seconds": 0.0008395829936489463,
+    "parsed": true,
+    "diagnostics": "Puppet - Could not parse file: <PROJECT_ROOT>/artifact/RESULTS/puppet/oracle-dataset/thiagoarrais@gtk2hs-gtk-Graphics-UI-Gtk-Gdk-PixbufData.hs.pp\n"
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "voxpupuli@puppet-rabbitmq-examples-permissions-add.pp",
+    "seconds": 0.0010500000207684934,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "voxpupuli@puppet-rundeck-manifests-config-global-framework.pp",
+    "seconds": 0.0022798750433139503,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "wikimedia@mediawiki-vagrant-puppet-modules-ocg-manifests-init.pp",
+    "seconds": 0.0022754999808967113,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "command_aware",
+    "file": "wikimedia@mediawiki-vagrant-puppet-modules-xhprofgui-manifests-init.pp",
+    "seconds": 0.0014070839970372617,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp",
+    "seconds": 0.009611708985175937,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "Mirantis@solar-resources-cinder_puppet-actions-run.pp",
+    "seconds": 0.007764582987874746,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "SecGen@SecGen-modules-services-unix-smb-samba-manifests-params.pp",
+    "seconds": 0.0034867919748649,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp",
+    "seconds": 0.001065958000253886,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "StackStorm@st2workroom-modules-profile-manifests-ec2.pp",
+    "seconds": 0.0010009999969042838,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp",
+    "seconds": 0.0019231669721193612,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-scrape_icinga_alerts_for_dashboard_metrics.pp",
+    "seconds": 0.002140333002898842,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-smokey.pp",
+    "seconds": 0.0015044999890960753,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "alphagov@govuk-puppet-modules-govuk_rabbitmq-manifests-monitoring.pp",
+    "seconds": 0.0018784170388244092,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp",
+    "seconds": 0.0016378749860450625,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "alphagov@govuk-puppet-modules-icinga-manifests-init.pp",
+    "seconds": 0.0017220840090885758,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "alphagov@govuk-puppet-modules-users-manifests-felisialoukou.pp",
+    "seconds": 0.0011788749834522605,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-apache-manifests-ssl.pp",
+    "seconds": 0.0008887500152923167,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "boxbilling@boxbilling-puphpet-puppet-modules-puphpet-manifests-php-pecl.pp",
+    "seconds": 0.003943415998946875,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "cargomedia@puppet-packages-modules-backup-manifests-agent.pp",
+    "seconds": 0.0019461250049062073,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "cargomedia@puppet-packages-modules-capistrano-manifests-init.pp",
+    "seconds": 0.0010258329566568136,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp",
+    "seconds": 0.0010234999936074018,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "cargomedia@puppet-packages-modules-ulimit-manifests-entry.pp",
+    "seconds": 0.0012403749860823154,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "ceph@puppet-ceph-manifests-mds.pp",
+    "seconds": 0.0014060409739613533,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "danofthewired@puppet-bitbucket-examples-bitbucket_mysql_java_install.pp",
+    "seconds": 0.0016217919765040278,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "duritong@puppet-shorewall-manifests-dnat_rule.pp",
+    "seconds": 0.0025298750260844827,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "fuel-infra@puppet-manifests-modules-obs_server-manifests-folders.pp",
+    "seconds": 0.0021642499486915767,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "mattheath@puppet-php-manifests-version.pp",
+    "seconds": 0.004582291992846876,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "mayflower@wasted-site-component-manifests-mongodb.pp",
+    "seconds": 0.0012241670046932995,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "norcams@himlar-profile-manifests-highavailability-loadbalancing-haproxy-list.pp",
+    "seconds": 0.001191499992273748,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "norcams@himlar-profile-manifests-storage-ceph-zonegroup.pp",
+    "seconds": 0.0015077079879119992,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "openstack@fuel-library-deployment-puppet-osnailyfacter-manifests-plugins-plugins_rsync.pp",
+    "seconds": 0.001216250006109476,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "openstack@fuel-library-deployment-puppet-tweaks-manifests-ubuntu_service_override.pp",
+    "seconds": 0.002234332961961627,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp",
+    "seconds": 0.008244750031735748,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-manila-api.pp",
+    "seconds": 0.002955332980491221,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "openstack@puppet-tripleo-manifests-profile-base-manila-scheduler.pp",
+    "seconds": 0.00105983397224918,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "poetic@our-boxen-manifests-site.pp",
+    "seconds": 0.002221625007223338,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "puppetlabs@pltraining-userprefs-examples-npp.pp",
+    "seconds": 0.000877375015988946,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "purpleidea@puppet-gluster-manifests-simple.pp",
+    "seconds": 0.004602083005011082,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "quintel@boxen-modules-nodejs-manifests-v0_4.pp",
+    "seconds": 0.0010478339972905815,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "thiagoarrais@gtk2hs-gtk-Graphics-UI-Gtk-Gdk-PixbufData.hs.pp",
+    "seconds": 0.0008212499669753015,
+    "parsed": true,
+    "diagnostics": "Puppet - Could not parse file: <PROJECT_ROOT>/artifact/RESULTS/puppet/oracle-dataset/thiagoarrais@gtk2hs-gtk-Graphics-UI-Gtk-Gdk-PixbufData.hs.pp\n"
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "voxpupuli@puppet-rabbitmq-examples-permissions-add.pp",
+    "seconds": 0.0010240830015391111,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "voxpupuli@puppet-rundeck-manifests-config-global-framework.pp",
+    "seconds": 0.0020771250128746033,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "wikimedia@mediawiki-vagrant-puppet-modules-ocg-manifests-init.pp",
+    "seconds": 0.002104500017594546,
+    "parsed": true,
+    "diagnostics": ""
+  },
+  {
+    "phase": "test",
+    "tech": "puppet",
+    "method": "naive_substring",
+    "file": "wikimedia@mediawiki-vagrant-puppet-modules-xhprofgui-manifests-init.pp",
+    "seconds": 0.0012396249803714454,
+    "parsed": true,
+    "diagnostics": ""
+  }
+]

@@ -1,0 +1,91 @@
+category,tp,fp,fn,precision,recall,f1,tech,method,phase
+use of http,20,0,0,1.0,1.0,1.0,ansible,baseline,development
+admin-by-default,3,0,0,1.0,1.0,1.0,ansible,baseline,development
+suspicious comment,3,2,0,0.6,1.0,0.75,ansible,baseline,development
+empty-password,0,0,0,,,,ansible,baseline,development
+hardcoded-secret,1,6,0,0.14285714285714285,1.0,0.25,ansible,baseline,development
+improper ip address binding,1,0,0,1.0,1.0,1.0,ansible,baseline,development
+no-integrity-check,0,0,0,,,,ansible,baseline,development
+missing default case statement,0,0,0,,,,ansible,baseline,development
+weak cryptography algorithms,0,0,0,,,,ansible,baseline,development
+none,31,0,2,1.0,0.9393939393939394,0.96875,ansible,baseline,development
+use of http,20,0,0,1.0,1.0,1.0,ansible,command_aware,development
+admin-by-default,3,0,0,1.0,1.0,1.0,ansible,command_aware,development
+suspicious comment,3,2,0,0.6,1.0,0.75,ansible,command_aware,development
+empty-password,0,0,0,,,,ansible,command_aware,development
+hardcoded-secret,1,6,0,0.14285714285714285,1.0,0.25,ansible,command_aware,development
+improper ip address binding,1,0,0,1.0,1.0,1.0,ansible,command_aware,development
+no-integrity-check,0,0,0,,,,ansible,command_aware,development
+missing default case statement,0,0,0,,,,ansible,command_aware,development
+weak cryptography algorithms,0,0,0,,,,ansible,command_aware,development
+none,31,0,2,1.0,0.9393939393939394,0.96875,ansible,command_aware,development
+use of http,20,0,0,1.0,1.0,1.0,ansible,naive_substring,development
+admin-by-default,3,0,0,1.0,1.0,1.0,ansible,naive_substring,development
+suspicious comment,3,2,0,0.6,1.0,0.75,ansible,naive_substring,development
+empty-password,0,0,0,,,,ansible,naive_substring,development
+hardcoded-secret,1,6,0,0.14285714285714285,1.0,0.25,ansible,naive_substring,development
+improper ip address binding,1,0,0,1.0,1.0,1.0,ansible,naive_substring,development
+no-integrity-check,0,0,0,,,,ansible,naive_substring,development
+missing default case statement,0,0,0,,,,ansible,naive_substring,development
+weak cryptography algorithms,0,0,0,,,,ansible,naive_substring,development
+none,31,0,2,1.0,0.9393939393939394,0.96875,ansible,naive_substring,development
+use of http,1,2,0,0.3333333333333333,1.0,0.5,chef,baseline,development
+admin-by-default,8,0,13,1.0,0.38095238095238093,0.5517241379310345,chef,baseline,development
+suspicious comment,2,6,0,0.25,1.0,0.4,chef,baseline,development
+empty-password,1,0,1,1.0,0.5,0.6666666666666666,chef,baseline,development
+hardcoded-secret,1,18,4,0.05263157894736842,0.2,0.08333333333333333,chef,baseline,development
+improper ip address binding,5,0,0,1.0,1.0,1.0,chef,baseline,development
+no-integrity-check,0,0,0,,,,chef,baseline,development
+missing default case statement,5,0,0,1.0,1.0,1.0,chef,baseline,development
+weak cryptography algorithms,0,1,0,0.0,,0.0,chef,baseline,development
+none,20,2,4,0.9090909090909091,0.8333333333333334,0.8695652173913043,chef,baseline,development
+use of http,1,2,0,0.3333333333333333,1.0,0.5,chef,command_aware,development
+admin-by-default,16,0,5,1.0,0.7619047619047619,0.8648648648648649,chef,command_aware,development
+suspicious comment,2,6,0,0.25,1.0,0.4,chef,command_aware,development
+empty-password,1,0,1,1.0,0.5,0.6666666666666666,chef,command_aware,development
+hardcoded-secret,1,18,4,0.05263157894736842,0.2,0.08333333333333333,chef,command_aware,development
+improper ip address binding,5,0,0,1.0,1.0,1.0,chef,command_aware,development
+no-integrity-check,0,0,0,,,,chef,command_aware,development
+missing default case statement,5,0,0,1.0,1.0,1.0,chef,command_aware,development
+weak cryptography algorithms,0,1,0,0.0,,0.0,chef,command_aware,development
+none,20,2,4,0.9090909090909091,0.8333333333333334,0.8695652173913043,chef,command_aware,development
+use of http,1,2,0,0.3333333333333333,1.0,0.5,chef,naive_substring,development
+admin-by-default,20,5,1,0.8,0.9523809523809523,0.8695652173913043,chef,naive_substring,development
+suspicious comment,2,6,0,0.25,1.0,0.4,chef,naive_substring,development
+empty-password,1,0,1,1.0,0.5,0.6666666666666666,chef,naive_substring,development
+hardcoded-secret,1,18,4,0.05263157894736842,0.2,0.08333333333333333,chef,naive_substring,development
+improper ip address binding,5,0,0,1.0,1.0,1.0,chef,naive_substring,development
+no-integrity-check,0,0,0,,,,chef,naive_substring,development
+missing default case statement,5,0,0,1.0,1.0,1.0,chef,naive_substring,development
+weak cryptography algorithms,0,1,0,0.0,,0.0,chef,naive_substring,development
+none,20,2,4,0.9090909090909091,0.8333333333333334,0.8695652173913043,chef,naive_substring,development
+use of http,5,4,0,0.5555555555555556,1.0,0.7142857142857143,puppet,baseline,development
+admin-by-default,8,2,0,0.8,1.0,0.8888888888888888,puppet,baseline,development
+suspicious comment,3,10,0,0.23076923076923078,1.0,0.375,puppet,baseline,development
+empty-password,3,0,0,1.0,1.0,1.0,puppet,baseline,development
+hardcoded-secret,4,43,2,0.0851063829787234,0.6666666666666666,0.1509433962264151,puppet,baseline,development
+improper ip address binding,4,0,0,1.0,1.0,1.0,puppet,baseline,development
+no-integrity-check,0,0,1,,0.0,0.0,puppet,baseline,development
+missing default case statement,5,2,0,0.7142857142857143,1.0,0.8333333333333334,puppet,baseline,development
+weak cryptography algorithms,4,3,0,0.5714285714285714,1.0,0.7272727272727273,puppet,baseline,development
+none,15,1,10,0.9375,0.6,0.7317073170731707,puppet,baseline,development
+use of http,5,4,0,0.5555555555555556,1.0,0.7142857142857143,puppet,command_aware,development
+admin-by-default,8,2,0,0.8,1.0,0.8888888888888888,puppet,command_aware,development
+suspicious comment,3,10,0,0.23076923076923078,1.0,0.375,puppet,command_aware,development
+empty-password,3,0,0,1.0,1.0,1.0,puppet,command_aware,development
+hardcoded-secret,4,43,2,0.0851063829787234,0.6666666666666666,0.1509433962264151,puppet,command_aware,development
+improper ip address binding,4,0,0,1.0,1.0,1.0,puppet,command_aware,development
+no-integrity-check,0,0,1,,0.0,0.0,puppet,command_aware,development
+missing default case statement,5,2,0,0.7142857142857143,1.0,0.8333333333333334,puppet,command_aware,development
+weak cryptography algorithms,4,3,0,0.5714285714285714,1.0,0.7272727272727273,puppet,command_aware,development
+none,15,1,10,0.9375,0.6,0.7317073170731707,puppet,command_aware,development
+use of http,5,4,0,0.5555555555555556,1.0,0.7142857142857143,puppet,naive_substring,development
+admin-by-default,8,8,0,0.5,1.0,0.6666666666666666,puppet,naive_substring,development
+suspicious comment,3,10,0,0.23076923076923078,1.0,0.375,puppet,naive_substring,development
+empty-password,3,0,0,1.0,1.0,1.0,puppet,naive_substring,development
+hardcoded-secret,4,43,2,0.0851063829787234,0.6666666666666666,0.1509433962264151,puppet,naive_substring,development
+improper ip address binding,4,0,0,1.0,1.0,1.0,puppet,naive_substring,development
+no-integrity-check,0,0,1,,0.0,0.0,puppet,naive_substring,development
+missing default case statement,5,2,0,0.7142857142857143,1.0,0.8333333333333334,puppet,naive_substring,development
+weak cryptography algorithms,4,3,0,0.5714285714285714,1.0,0.7272727272727273,puppet,naive_substring,development
+none,14,1,11,0.9333333333333333,0.56,0.7,puppet,naive_substring,development

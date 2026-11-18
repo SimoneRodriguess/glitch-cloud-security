@@ -1,0 +1,143 @@
+{
+  "all_passed": true,
+  "checks": {
+    "official_artifact_md5_verified": true,
+    "all_six_native_prediction_sets_match_authors": true,
+    "all_six_prediction_multisets_and_counts_match": true,
+    "six_baseline_official_scorers_agree": true,
+    "baseline_source_unchanged": true,
+    "rule_and_protocol_frozen": true,
+    "complete_241_file_population": true,
+    "file_disjoint_holdout": true,
+    "split_manifest_unchanged": true,
+    "all_source_file_hashes_match": true,
+    "full_metrics_recomputed": true,
+    "original_detections_preserved": true,
+    "only_admin_category_added": true,
+    "nine_extension_original_scorers_agree": true,
+    "three_native_file_replays_match": true
+  },
+  "preservation": [
+    {
+      "tech": "ansible",
+      "original_reports_preserved": true,
+      "new_reports_only_target_smell": true,
+      "additional_report_count": 0
+    },
+    {
+      "tech": "chef",
+      "original_reports_preserved": true,
+      "new_reports_only_target_smell": true,
+      "additional_report_count": 12
+    },
+    {
+      "tech": "puppet",
+      "original_reports_preserved": true,
+      "new_reports_only_target_smell": true,
+      "additional_report_count": 0
+    }
+  ],
+  "official_extension_scores": [
+    {
+      "tech": "ansible",
+      "method": "baseline",
+      "agrees": true
+    },
+    {
+      "tech": "ansible",
+      "method": "command_aware",
+      "agrees": true
+    },
+    {
+      "tech": "ansible",
+      "method": "naive_substring",
+      "agrees": true
+    },
+    {
+      "tech": "chef",
+      "method": "baseline",
+      "agrees": true
+    },
+    {
+      "tech": "chef",
+      "method": "command_aware",
+      "agrees": true
+    },
+    {
+      "tech": "chef",
+      "method": "naive_substring",
+      "agrees": true
+    },
+    {
+      "tech": "puppet",
+      "method": "baseline",
+      "agrees": true
+    },
+    {
+      "tech": "puppet",
+      "method": "command_aware",
+      "agrees": true
+    },
+    {
+      "tech": "puppet",
+      "method": "naive_substring",
+      "agrees": true
+    }
+  ],
+  "replays": [
+    {
+      "tech": "ansible",
+      "file": "ansible-role-container-registry-tasks-docker-distribution.yml",
+      "matches": true
+    },
+    {
+      "tech": "chef",
+      "file": "AYCHIT_Asf-chef-cookbooks-rsnapshot-resources-script.rb",
+      "matches": true
+    },
+    {
+      "tech": "puppet",
+      "file": "Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp",
+      "matches": true
+    }
+  ],
+  "original_unsupported_file_types": [
+    [
+      "ansible",
+      "bifrost-playbooks-roles-bifrost-test-dhcp-defaults-main.yml"
+    ],
+    [
+      "ansible",
+      "bifrost-playbooks-roles-bifrost-test-inspection-handlers-main.yml"
+    ],
+    [
+      "ansible",
+      "bifrost-playbooks-roles-bifrost-test-vm-handlers-main.yml"
+    ],
+    [
+      "ansible",
+      "tripleo-quickstart-roles-virtbmc-defaults-main.yml"
+    ]
+  ],
+  "oracle_duplicate_labels": [
+    {
+      "tech": "chef",
+      "duplicate_label_rows": [
+        {
+          "PATH": "cookbooks_ic-hadoop_cluster-cookbooks-zabbix-recipes-database_mysql.rb",
+          "LINE": 135,
+          "CATEGORY": "admin-by-default",
+          "AGREEMENT": 2
+        },
+        {
+          "PATH": "cookbooks_ic-hadoop_cluster-cookbooks-zabbix-recipes-database_mysql.rb",
+          "LINE": 135,
+          "CATEGORY": "admin-by-default",
+          "AGREEMENT": 2
+        }
+      ]
+    }
+  ],
+  "frozen_rule_utc_time": "2026-11-16T12:50:22.274922+00:00",
+  "caveat": "Internal consistency and exact baseline reproduction are not external validation or exploitability evidence."
+}

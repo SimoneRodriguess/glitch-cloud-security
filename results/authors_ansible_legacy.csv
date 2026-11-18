@@ -1,0 +1,85 @@
+PATH,ERROR,TEXT,LINE
+ansible-role-systemd_mount-tasks-systemd_mounts.yml,hardcoded-secret,owner:'root',-1
+ansible-role-systemd_mount-tasks-systemd_mounts.yml,hardcoded-username,owner:'root',-1
+ansible-role-tripleo-modify-image-tasks-modify_image.yml,suspicious comment,#FIXME: buildah should not required root commands to build an image,-1
+bifrost-playbooks-roles-bifrost-ironic-install-defaults-required_defaults_Fedora_26.yml,hardcoded-secret,nginx_user:'nginx',-1
+bifrost-playbooks-roles-bifrost-ironic-install-defaults-required_defaults_Fedora_26.yml,hardcoded-username,nginx_user:'nginx',-1
+bifrost-playbooks-roles-bifrost-keystone-client-config-defaults-main.yml,use of http,ironic_api_url:'http://localhost:6385',-1
+bifrost-playbooks-roles-bifrost-keystone-client-config-defaults-main.yml,use of http,ironic_inspector_api_url:'http://localhost:5050',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-secret,mysql_username:'root',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-username,mysql_username:'root',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,empty-password,mysql_password:'',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-password,mysql_password:'',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-secret,mysql_password:'',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,use of http,cors_allowed_origin:'http://localhost:8000',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,use of http,cors_allowed_origin2:'www.google.com',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-secret,username:'admin',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-username,username:'admin',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-password,password:'ChangeThisPa55w0rd',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-secret,password:'ChangeThisPa55w0rd',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,use of http,admin_url:'http://127.0.0.1:35357/v3/',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,use of http,public_url:'http://127.0.0.1:5000/v3/',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,use of http,internal_url:'http://127.0.0.1:5000/v3/',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-secret,username:'keystone',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-username,username:'keystone',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-password,password:'ChangeThisPa55w0rd',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-secret,password:'ChangeThisPa55w0rd',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-secret,username:'keystone',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-username,username:'keystone',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-password,password:'ChangeThisPa55w0rd',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,hardcoded-secret,password:'ChangeThisPa55w0rd',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Debian_jessie.yml,hardcoded-secret,nginx_user:'www-data',-1
+bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Debian_jessie.yml,hardcoded-username,nginx_user:'www-data',-1
+browbeat-ansible-browbeat-roles-gnocchi-config-tasks-main.yml,suspicious comment,# (akrzos) Commented out Group as to prevent in Pike incorrect permissions on config file,-1
+browbeat-ansible-install-roles-fluentd-tasks-main.yml,hardcoded-secret,rpm_key:'key=https://packages.treasuredata.com/GPG-KEY-td-agent state=present',-1
+browbeat-ansible-install-roles-fluentd-tasks-main.yml,use of http,url:'http://localhost:9200/_template/filebeat?pretty',-1
+openstack-ansible-ops-elk_metrics_6x-roles-elastic_filebeat-tasks-main.yml,no-integrity-check,deb:'https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/8709ca2640344a4ba85cba0a1d6eea69/aarch64/filebeat-6.5.0-arm64.deb',-1
+openstack-ansible-ops-elk_metrics_6x-roles-elastic_filebeat-tasks-main.yml,hardcoded-secret,owner:'root',-1
+openstack-ansible-ops-elk_metrics_6x-roles-elastic_filebeat-tasks-main.yml,hardcoded-username,owner:'root',-1
+openstack-ansible-ops-elk_metrics_6x-roles-elasticsearch-meta-main.yml,hardcoded-secret,service_owner:'elasticsearch',-1
+openstack-ansible-ops-elk_metrics_6x-roles-elasticsearch-meta-main.yml,hardcoded-username,service_owner:'elasticsearch',-1
+openstack-ansible-ops-leap-upgrades-upgrade-utilities-mitaka-playbooks-deploy-config-changes-mitaka.yml,hardcoded-secret,user:'root',-1
+openstack-ansible-ops-leap-upgrades-upgrade-utilities-mitaka-playbooks-deploy-config-changes-mitaka.yml,hardcoded-username,user:'root',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,improper ip address binding,default_acng_bind_address:'0.0.0.0',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,default_ubuntu_mirror_proxy:'http://10.0.2.1:3142/',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,default_proxy_url:'http://10.0.2.1:3142/',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,ipxe_kernel_base_url:'http://boot.ipxe.org',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,image_netboot_kernel_url:'http://archive.ubuntu.com/ubuntu/dists/bionic/main/installer-amd64/current/images/netboot/ubuntu-installer/amd64/linux',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,image_netboot_initrd_url:'http://archive.ubuntu.com/ubuntu/dists/bionic/main/installer-amd64/current/images/netboot/ubuntu-installer/amd64/initrd.gz',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,url:'http://{{ tftp_server }}/configs/vm.config',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,url:'http://{{ tftp_server }}/configs/vm-compute.config',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,image_netboot_kernel_url:'http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/ubuntu-installer/amd64/linux',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,image_netboot_initrd_url:'http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/ubuntu-installer/amd64/initrd.gz',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,url:'http://{{ tftp_server }}/configs/vm.config',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,url:'http://{{ tftp_server }}/configs/vm-compute.config',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,image_netboot_kernel_url:'http://archive.ubuntu.com/ubuntu/dists/trusty/main/installer-amd64/current/images/netboot/ubuntu-installer/amd64/linux',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,image_netboot_initrd_url:'http://archive.ubuntu.com/ubuntu/dists/trusty/main/installer-amd64/current/images/netboot/ubuntu-installer/amd64/initrd.gz',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,url:'http://{{ tftp_server }}/configs/vm.config',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,url:'http://{{ tftp_server }}/configs/vm-compute.config',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,image_netboot_kernel_url:'http://mirrors.edge.kernel.org/centos/7/os/x86_64/images/pxeboot/vmlinuz',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,image_netboot_initrd_url:'http://mirrors.edge.kernel.org/centos/7/os/x86_64/images/pxeboot/initrd.img',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,image_repo_base_url:'http://mirrors.edge.kernel.org/centos/7',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,url:'http://{{ tftp_server }}/configs/vm.config',-1
+openstack-ansible-ops-multi-node-aio-playbooks-group_vars-all.yml,use of http,url:'http://{{ tftp_server }}/configs/vm-compute.config',-1
+openstack-ansible-ops-pxelinux-provisioning-playbooks-deploy-dhcp.yml,hardcoded-secret,owner:'root',-1
+openstack-ansible-ops-pxelinux-provisioning-playbooks-deploy-dhcp.yml,hardcoded-username,owner:'root',-1
+openstack-ansible-ops-pxelinux-provisioning-playbooks-deploy-dhcp.yml,hardcoded-secret,owner:'root',-1
+openstack-ansible-ops-pxelinux-provisioning-playbooks-deploy-dhcp.yml,hardcoded-username,owner:'root',-1
+openstack-ansible-playbooks-common-tasks-os-lxc-container-setup.yml,suspicious comment,# Due to https://github.com/ansible/ansible-modules-extras/issues/2691,-1
+openstack-ansible-playbooks-common-tasks-os-lxc-container-setup.yml,suspicious comment,# TODO(odyssey4me): revisit this once the bug is fixed and released,-1
+openstack-ansible-playbooks-common-tasks-os-lxc-container-setup.yml,suspicious comment,# Due to https://github.com/ansible/ansible-modules-extras/issues/2691,-1
+openstack-ansible-playbooks-common-tasks-os-lxc-container-setup.yml,suspicious comment,# TODO(odyssey4me): revisit this once the bug is fixed and released,-1
+openstack-ansible-playbooks-lxc-containers-destroy.yml,hardcoded-secret,key:'lxc_containers',-1
+openstack-ansible-playbooks-lxc-containers-destroy.yml,hardcoded-secret,user:'root',-1
+openstack-ansible-playbooks-lxc-containers-destroy.yml,hardcoded-username,user:'root',-1
+openstack-ansible-playbooks-os-designate-install.yml,hardcoded-secret,user:'root',-1
+openstack-ansible-playbooks-os-designate-install.yml,hardcoded-username,user:'root',-1
+openstack-ansible-playbooks-os-tempest-install.yml,hardcoded-secret,user:'root',-1
+openstack-ansible-playbooks-os-tempest-install.yml,hardcoded-username,user:'root',-1
+openstack-ansible-playbooks-utility-install.yml,hardcoded-secret,user:'root',-1
+openstack-ansible-playbooks-utility-install.yml,hardcoded-username,user:'root',-1
+openstack-ansible-playbooks-utility-install.yml,hardcoded-secret,dest:'/root/.ssh/id_rsa',-1
+openstack-ansible-playbooks-utility-install.yml,hardcoded-secret,owner:'root',-1
+openstack-ansible-playbooks-utility-install.yml,hardcoded-username,owner:'root',-1
+tripleo-quickstart-roles-libvirt-setup-overcloud-tasks-vars-libvirt_nodepool_vars.yml,hardcoded-password,vm_pass:'random',-1
+tripleo-quickstart-roles-libvirt-setup-overcloud-tasks-vars-libvirt_nodepool_vars.yml,hardcoded-secret,vm_pass:'random',-1

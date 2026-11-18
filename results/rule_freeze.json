@@ -1,0 +1,16 @@
+{
+  "utc_time": "2026-11-16T12:50:22.274922+00:00",
+  "hashes": {
+    "glitchstudy/command_rule.py": "145be6500fb53d44a456d758c8b034e2b5aff3a29d23a60a4b3fd196750617df",
+    "glitchstudy/extension.py": "565e50aec6a203d96ebf56749c4a897fb67f69e80ff11c661f8612a2f31cb4ec",
+    "results/split_manifest.csv": "39022ca92042e545f16030975fb0624b3a0e1b22ff1ef7a6af72276e8dfbefe7",
+    "artifact/GLITCH/configs/improved.ini": "be6aa5b72091d9c68446d4865c44fbe2e26a2eea5c50524b8930c3e3b43f5e8d"
+  },
+  "target_smell": "admin-by-default",
+  "reason": "Literal database users missed in command-valued/opaque IR nodes; identified in paper and development errors.",
+  "protocol": "File-disjoint heldout evaluation, frozen rule and naive ablation; no threshold training or test-error tuning.",
+  "development_files": 120,
+  "test_files": 121,
+  "unit_tests_at_freeze": 35,
+  "limitation": "Internal file-level holdout, not project-independent or externally annotated new data."
+}

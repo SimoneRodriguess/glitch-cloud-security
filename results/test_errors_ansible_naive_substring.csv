@@ -1,0 +1,9 @@
+type,PATH,LINE,ERROR,CODE,TEXT
+FN,openstack-ansible-playbooks-healthcheck-hosts.yml,53,no-integrity-check,,
+FP,bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,16,hardcoded-secret,sec_hard_secr,mysql_password:''
+FP,bifrost-playbooks-roles-bifrost-keystone-install-defaults-main.yml,23,use of http,sec_https,cors_allowed_origin2:'www.google.com'
+FP,bifrost-playbooks-roles-bifrost-keystone-install-defaults-required_defaults_Debian_jessie.yml,5,hardcoded-secret,sec_hard_secr,nginx_user:'www-data'
+FP,openstack-ansible-ops-elk_metrics_6x-roles-elastic_filebeat-tasks-main.yml,44,no-integrity-check,sec_no_int_check,deb:'https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/8709ca2640344a4ba85cba0a1d6eea69/aarch64/filebeat-6.5.0-arm64.deb'
+FP,openstack-ansible-playbooks-lxc-containers-destroy.yml,22,hardcoded-secret,sec_hard_secr,key:'lxc_containers'
+FP,openstack-ansible-playbooks-lxc-containers-destroy.yml,33,hardcoded-secret,sec_hard_secr,user:'root'
+FP,openstack-ansible-playbooks-os-tempest-install.yml,19,hardcoded-secret,sec_hard_secr,user:'root'

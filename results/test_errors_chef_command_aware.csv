@@ -1,0 +1,31 @@
+type,PATH,LINE,ERROR,CODE,TEXT
+FN,cookbooks_ic-jenkins-cookbooks-zabbix-recipes-database_mysql.rb,25,admin-by-default,,
+FN,cookbooks_ic-jenkins-cookbooks-zabbix-recipes-database_mysql.rb,26,admin-by-default,,
+FN,cookbooks_ic-jenkins-cookbooks-zabbix-recipes-database_mysql.rb,47,admin-by-default,,
+FN,desirit_chef-bach-cookbooks-bcpc-hadoop-recipes-oozie.rb,152,admin-by-default,,
+FN,desirit_chef-bach-cookbooks-bcpc-hadoop-recipes-oozie.rb,155,admin-by-default,,
+FN,openstreetmap_chef-cookbooks-civicrm-recipes-default.rb,162,use of http,,
+FN,thomasmeeus_chef-apache2-recipes-mod_php5.rb,64,missing default case statement,,
+FP,Nikhil424_chef-repo-cookbooks-jdk-recipes-default.rb,11,hardcoded-secret,sec_hard_secr,user:'root'
+FP,Nikhil424_chef-repo-cookbooks-jdk-recipes-default.rb,15,hardcoded-secret,sec_hard_secr,user:'root'
+FP,aws_aws-parallelcluster-cookbook-cookbooks-aws-parallelcluster-slurm-recipes-install_slurm.rb,75,hardcoded-secret,sec_hard_secr,user:'root'
+FP,aws_aws-parallelcluster-cookbook-cookbooks-aws-parallelcluster-slurm-recipes-install_slurm.rb,101,hardcoded-secret,sec_hard_secr,user:'root'
+FP,chef-boneyard_qa-chef-server-cluster-attributes-default.rb,4,hardcoded-secret,sec_hard_secr,public-key:'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaXPC+elM5uFuGvOCI5pqiPTiGwaLY8i9apB4Xp2T3A/2uk9CYSoKkTBU3Og4BPiGAHlW+UYG9yE6R1X/hOIkYgo/qYaUeCUoIQCc6Kv8UI/X6Nvsi9Jbq3vnb61h98ID3LBFK7U4i5v587p1D7edm9hPS9i20FSMc4bbgXtce8Tobob0jlEXUy0JHslY/9Y56ccq11cA9cL14q0rocqqHg5lUZZk5S9w481HIDZJ9ntdLauV+BhmPT8vGyKtzp+tH2NIWseSwFJRa5ZC/suHPMiLViKZHuN//9ZH0KNwKbTqj9CklV5+kh9gWKrMUhHOk+xVxEKFfgGTAHL/bcHqL ociv'
+FP,chef-boneyard_qa-chef-server-cluster-attributes-default.rb,14,hardcoded-secret,sec_hard_secr,ssh_username:'ubuntu'
+FP,chef-boneyard_qa-chef-server-cluster-attributes-default.rb,16,hardcoded-secret,sec_hard_secr,key_name:'qa-chef-server-cluster-default'
+FP,cookbooks_ic-pig-cookbooks-zabbix-attributes-default.rb,20,hardcoded-secret,sec_hard_secr,user:'zabbix'
+FP,cookbooks_ic-pig-cookbooks-zabbix-attributes-default.rb,34,admin-by-default,sec_def_admin,root_user:'root'
+FP,desirit_chef-bach-cookbooks-bcpc-hadoop-recipes-oozie.rb,96,hardcoded-secret,sec_hard_secr,user:'hdfs'
+FP,desirit_chef-bach-cookbooks-bcpc-hadoop-recipes-oozie.rb,102,hardcoded-secret,sec_hard_secr,user:'oozie'
+FP,havk64_chef-zero-playground-cookbooks-nginx-attributes-socketproxy.rb,1,hardcoded-secret,sec_hard_secr,root:'/usr/share/nginx/apps'
+FP,kitchenplan_chef-applications-recipes-omnigraffle.rb,16,use of http,sec_https,source:'http://media.konigi.com/tools/og-ux-template/Konigi-UX-Template-2-5-1.gtemplate.zip'
+FP,kitchenplan_chef-applications-recipes-omnigraffle.rb,41,use of http,sec_https,source:'http://media.konigi.com/tools/og-ux-template/Konigi.gdiagramstyle.zip'
+FP,kitchenplan_chef-applications-recipes-omnigraffle.rb,66,use of http,sec_https,source:'http://media.konigi.com/tools/og-wireframe-stencil/Konigi-Wireframe-Stencils-v3-02.zip'
+FP,kitchenware_master-chef-cookbooks-base-recipes-editor.rb,5,hardcoded-secret,sec_hard_secr,user:'root'
+FP,openstreetmap_chef-cookbooks-civicrm-recipes-default.rb,50,hardcoded-secret,sec_hard_secr,database_user:'civicrm'
+FP,openstreetmap_chef-cookbooks-civicrm-recipes-default.rb,120,hardcoded-secret,sec_hard_secr,user:'wordpress'
+FP,openstreetmap_chef-cookbooks-civicrm-recipes-default.rb,145,hardcoded-secret,sec_hard_secr,user:'wordpress'
+FP,openstreetmap_chef-cookbooks-civicrm-recipes-default.rb,178,hardcoded-secret,sec_hard_secr,user:'www-data'
+FP,pu239ppy_chef-bach-code-bcpc-recipes-mysql.rb,79,hardcoded-secret,sec_hard_secr,key:'percona-release.key'
+FP,pu239ppy_chef-bach-code-bcpc-recipes-mysql.rb,134,hardcoded-secret,sec_hard_secr,user:'root'
+FP,pu239ppy_chef-bach-code-bcpc-recipes-mysql.rb,173,hardcoded-secret,sec_hard_secr,user:'root'

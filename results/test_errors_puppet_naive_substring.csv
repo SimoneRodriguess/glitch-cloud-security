@@ -1,0 +1,24 @@
+type,PATH,LINE,ERROR,CODE,TEXT
+FN,SecGen@SecGen-modules-services-unix-smb-samba-manifests-params.pp,44,admin-by-default,,
+FP,Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,166,hardcoded-secret,sec_hard_secr,key:'bind'
+FP,Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,171,hardcoded-secret,sec_hard_secr,key:'save'
+FP,Juniper@contrail-puppet-contrail-environment-modules-contrail-manifests-collector-config.pp,176,hardcoded-secret,sec_hard_secr,key:'dbfilename'
+FP,SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp,2,admin-by-default,sec_def_admin,user:'root'
+FP,SecGen@SecGen-modules-vulnerabilities-unix-access_control_misconfigurations-uid_less_root-uid_less_root.pp,2,hardcoded-secret,sec_hard_secr,user:'root'
+FP,alphagov@govuk-puppet-modules-govuk_elasticsearch-manifests-dump.pp,31,hardcoded-secret,sec_hard_secr,user:'elasticsearch'
+FP,alphagov@govuk-puppet-modules-govuk_jenkins-manifests-jobs-scrape_icinga_alerts_for_dashboard_metrics.pp,34,hardcoded-secret,sec_hard_secr,$slack_auth_token:''
+FP,alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp,18,use of http,sec_https,location:'http://${apt_mirror_hostname}/rbenv-ruby'
+FP,alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp,21,hardcoded-secret,sec_hard_secr,key:'3803E444EB0235822AA36A66EC5FE1A937E3ACBB'
+FP,alphagov@govuk-puppet-modules-govuk_rbenv-manifests-all.pp,36,suspicious comment,sec_susp_comm,These aliases resolve .ruby-version 2.x to an installed Ruby version.
+FP,cargomedia@puppet-packages-modules-backup-manifests-agent.pp,21,hardcoded-secret,sec_hard_secr,user:'root'
+FP,cargomedia@puppet-packages-modules-backup-manifests-agent.pp,26,hardcoded-secret,sec_hard_secr,user:'root'
+FP,cargomedia@puppet-packages-modules-backup-manifests-agent.pp,33,hardcoded-secret,sec_hard_secr,user:'root'
+FP,cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp,1,admin-by-default,sec_def_admin,$root_password:''
+FP,cargomedia@puppet-packages-modules-mysql-manifests-server-instance.pp,1,hardcoded-secret,sec_hard_secr,$root_password:''
+FP,mattheath@puppet-php-manifests-version.pp,122,suspicious comment,sec_susp_comm,Fix permissions for php versions installed prior to 0.3.5 of this module
+FP,openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,36,hardcoded-secret,sec_hard_secr,user:'root'
+FP,openstack@puppet-tripleo-manifests-profile-base-aide-installdb.pp,44,hardcoded-secret,sec_hard_secr,user:'root'
+FP,purpleidea@puppet-gluster-manifests-simple.pp,8,suspicious comment,sec_susp_comm,(at your option) any later version.
+FP,purpleidea@puppet-gluster-manifests-simple.pp,26,hardcoded-secret,sec_hard_secr,$password:''
+FP,purpleidea@puppet-gluster-manifests-simple.pp,153,suspicious comment,sec_susp_comm,readability. Puppet needs to fix this issue somehow! Creating
+FP,voxpupuli@puppet-rundeck-manifests-config-global-framework.pp,28,use of http,sec_https,url:'http://${rundeck_hostname}:${rundeck_port}'

@@ -1,0 +1,32 @@
+                             PATH  LINE  AGREEMENT
+CATEGORY                                          
+Admin by default                7     7          7
+Empty password                  1     1          1
+Hard-coded secret               8     8          8
+No integrity check              1     1          1
+Suspicious comment              6     6          6
+Unrestricted IP Address         1     1          1
+Use of HTTP without SSL/TLS    20    20         20
+none                           69    69         69
+
+
+PRECISION
+use of http 0.9523809523809523
+admin-by-default 1
+suspicious comment 0.75
+empty-password 1
+hardcoded-secret 0.42105263157894735
+improper ip address binding 1
+no-integrity-check 0.0
+none 1.0
+
+
+RECALL
+use of http 1.0
+admin-by-default 1.0
+suspicious comment 1.0
+empty-password 1.0
+hardcoded-secret 1.0
+improper ip address binding 1.0
+no-integrity-check 0.0
+none 0.9420289855072463

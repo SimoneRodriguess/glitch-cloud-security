@@ -1,0 +1,101 @@
+category,tp,fp,fn,precision,recall,f1,tech,configuration,origin
+use of http,20,1,0,0.9523809523809523,1.0,0.975609756097561,ansible,improved,native
+admin-by-default,7,0,0,1.0,1.0,1.0,ansible,improved,native
+suspicious comment,6,2,0,0.75,1.0,0.8571428571428571,ansible,improved,native
+empty-password,1,0,0,1.0,1.0,1.0,ansible,improved,native
+hardcoded-secret,8,11,0,0.42105263157894735,1.0,0.5925925925925926,ansible,improved,native
+improper ip address binding,1,0,0,1.0,1.0,1.0,ansible,improved,native
+no-integrity-check,0,1,1,0.0,0.0,0.0,ansible,improved,native
+missing default case statement,0,0,0,,,,ansible,improved,native
+weak cryptography algorithms,0,0,0,,,,ansible,improved,native
+none,65,0,4,1.0,0.9420289855072463,0.9701492537313433,ansible,improved,native
+use of http,20,8,0,0.7142857142857143,1.0,0.8333333333333334,ansible,legacy,native
+admin-by-default,0,0,7,,0.0,0.0,ansible,legacy,native
+suspicious comment,4,2,2,0.6666666666666666,0.6666666666666666,0.6666666666666666,ansible,legacy,native
+empty-password,1,0,0,1.0,1.0,1.0,ansible,legacy,native
+hardcoded-secret,8,17,0,0.32,1.0,0.48484848484848486,ansible,legacy,native
+improper ip address binding,1,0,0,1.0,1.0,1.0,ansible,legacy,native
+no-integrity-check,0,1,1,0.0,0.0,0.0,ansible,legacy,native
+missing default case statement,0,0,0,,,,ansible,legacy,native
+weak cryptography algorithms,0,0,0,,,,ansible,legacy,native
+none,61,1,8,0.9838709677419355,0.8840579710144928,0.9312977099236641,ansible,legacy,native
+use of http,12,5,1,0.7058823529411765,0.9230769230769231,0.8,chef,improved,native
+admin-by-default,15,1,22,0.9375,0.40540540540540543,0.5660377358490566,chef,improved,native
+suspicious comment,4,6,0,0.4,1.0,0.5714285714285714,chef,improved,native
+empty-password,3,0,1,1.0,0.75,0.8571428571428571,chef,improved,native
+hardcoded-secret,9,37,4,0.1956521739130435,0.6923076923076923,0.3050847457627119,chef,improved,native
+improper ip address binding,7,0,0,1.0,1.0,1.0,chef,improved,native
+no-integrity-check,5,1,1,0.8333333333333334,0.8333333333333334,0.8333333333333334,chef,improved,native
+missing default case statement,19,0,1,1.0,0.95,0.9743589743589743,chef,improved,native
+weak cryptography algorithms,0,2,1,0.0,0.0,0.0,chef,improved,native
+none,38,2,5,0.95,0.8837209302325582,0.9156626506024096,chef,improved,native
+use of http,12,5,1,0.7058823529411765,0.9230769230769231,0.8,chef,improved,authors_cached
+admin-by-default,15,1,22,0.9375,0.40540540540540543,0.5660377358490566,chef,improved,authors_cached
+suspicious comment,4,6,0,0.4,1.0,0.5714285714285714,chef,improved,authors_cached
+empty-password,3,0,1,1.0,0.75,0.8571428571428571,chef,improved,authors_cached
+hardcoded-secret,9,37,4,0.1956521739130435,0.6923076923076923,0.3050847457627119,chef,improved,authors_cached
+improper ip address binding,7,0,0,1.0,1.0,1.0,chef,improved,authors_cached
+no-integrity-check,5,1,1,0.8333333333333334,0.8333333333333334,0.8333333333333334,chef,improved,authors_cached
+missing default case statement,19,0,1,1.0,0.95,0.9743589743589743,chef,improved,authors_cached
+weak cryptography algorithms,0,2,1,0.0,0.0,0.0,chef,improved,authors_cached
+none,38,2,5,0.95,0.8837209302325582,0.9156626506024096,chef,improved,authors_cached
+use of http,12,5,1,0.7058823529411765,0.9230769230769231,0.8,chef,legacy,native
+admin-by-default,0,0,37,,0.0,0.0,chef,legacy,native
+suspicious comment,4,1,0,0.8,1.0,0.8888888888888888,chef,legacy,native
+empty-password,3,0,1,1.0,0.75,0.8571428571428571,chef,legacy,native
+hardcoded-secret,9,36,4,0.2,0.6923076923076923,0.3103448275862069,chef,legacy,native
+improper ip address binding,7,0,0,1.0,1.0,1.0,chef,legacy,native
+no-integrity-check,1,1,5,0.5,0.16666666666666666,0.25,chef,legacy,native
+missing default case statement,19,0,1,1.0,0.95,0.9743589743589743,chef,legacy,native
+weak cryptography algorithms,0,4,1,0.0,0.0,0.0,chef,legacy,native
+none,40,2,3,0.9523809523809523,0.9302325581395349,0.9411764705882353,chef,legacy,native
+use of http,12,5,1,0.7058823529411765,0.9230769230769231,0.8,chef,legacy,authors_cached
+admin-by-default,0,0,37,,0.0,0.0,chef,legacy,authors_cached
+suspicious comment,4,1,0,0.8,1.0,0.8888888888888888,chef,legacy,authors_cached
+empty-password,3,0,1,1.0,0.75,0.8571428571428571,chef,legacy,authors_cached
+hardcoded-secret,9,36,4,0.2,0.6923076923076923,0.3103448275862069,chef,legacy,authors_cached
+improper ip address binding,7,0,0,1.0,1.0,1.0,chef,legacy,authors_cached
+no-integrity-check,1,1,5,0.5,0.16666666666666666,0.25,chef,legacy,authors_cached
+missing default case statement,19,0,1,1.0,0.95,0.9743589743589743,chef,legacy,authors_cached
+weak cryptography algorithms,0,4,1,0.0,0.0,0.0,chef,legacy,authors_cached
+none,40,2,3,0.9523809523809523,0.9302325581395349,0.9411764705882353,chef,legacy,authors_cached
+use of http,5,6,0,0.45454545454545453,1.0,0.625,puppet,improved,native
+admin-by-default,13,3,1,0.8125,0.9285714285714286,0.8666666666666667,puppet,improved,native
+suspicious comment,9,14,0,0.391304347826087,1.0,0.5625,puppet,improved,native
+empty-password,5,0,0,1.0,1.0,1.0,puppet,improved,native
+hardcoded-secret,9,57,2,0.13636363636363635,0.8181818181818182,0.23376623376623376,puppet,improved,native
+improper ip address binding,5,1,1,0.8333333333333334,0.8333333333333334,0.8333333333333334,puppet,improved,native
+no-integrity-check,0,0,1,,0.0,0.0,puppet,improved,native
+missing default case statement,10,2,0,0.8333333333333334,1.0,0.9090909090909091,puppet,improved,native
+weak cryptography algorithms,4,3,0,0.5714285714285714,1.0,0.7272727272727273,puppet,improved,native
+none,37,1,15,0.9736842105263158,0.7115384615384616,0.8222222222222222,puppet,improved,native
+use of http,5,6,0,0.45454545454545453,1.0,0.625,puppet,improved,authors_cached
+admin-by-default,13,3,1,0.8125,0.9285714285714286,0.8666666666666667,puppet,improved,authors_cached
+suspicious comment,9,14,0,0.391304347826087,1.0,0.5625,puppet,improved,authors_cached
+empty-password,5,0,0,1.0,1.0,1.0,puppet,improved,authors_cached
+hardcoded-secret,9,57,2,0.13636363636363635,0.8181818181818182,0.23376623376623376,puppet,improved,authors_cached
+improper ip address binding,5,1,1,0.8333333333333334,0.8333333333333334,0.8333333333333334,puppet,improved,authors_cached
+no-integrity-check,0,0,1,,0.0,0.0,puppet,improved,authors_cached
+missing default case statement,10,2,0,0.8333333333333334,1.0,0.9090909090909091,puppet,improved,authors_cached
+weak cryptography algorithms,4,3,0,0.5714285714285714,1.0,0.7272727272727273,puppet,improved,authors_cached
+none,37,1,15,0.9736842105263158,0.7115384615384616,0.8222222222222222,puppet,improved,authors_cached
+use of http,5,7,0,0.4166666666666667,1.0,0.5882352941176471,puppet,legacy,native
+admin-by-default,0,0,14,,0.0,0.0,puppet,legacy,native
+suspicious comment,9,6,0,0.6,1.0,0.75,puppet,legacy,native
+empty-password,5,0,0,1.0,1.0,1.0,puppet,legacy,native
+hardcoded-secret,9,55,2,0.140625,0.8181818181818182,0.24,puppet,legacy,native
+improper ip address binding,5,1,1,0.8333333333333334,0.8333333333333334,0.8333333333333334,puppet,legacy,native
+no-integrity-check,0,0,1,,0.0,0.0,puppet,legacy,native
+missing default case statement,10,2,0,0.8333333333333334,1.0,0.9090909090909091,puppet,legacy,native
+weak cryptography algorithms,3,3,1,0.5,0.75,0.6,puppet,legacy,native
+none,40,1,12,0.975609756097561,0.7692307692307693,0.8602150537634409,puppet,legacy,native
+use of http,5,7,0,0.4166666666666667,1.0,0.5882352941176471,puppet,legacy,authors_cached
+admin-by-default,0,0,14,,0.0,0.0,puppet,legacy,authors_cached
+suspicious comment,9,6,0,0.6,1.0,0.75,puppet,legacy,authors_cached
+empty-password,5,0,0,1.0,1.0,1.0,puppet,legacy,authors_cached
+hardcoded-secret,9,55,2,0.140625,0.8181818181818182,0.24,puppet,legacy,authors_cached
+improper ip address binding,5,1,1,0.8333333333333334,0.8333333333333334,0.8333333333333334,puppet,legacy,authors_cached
+no-integrity-check,0,0,1,,0.0,0.0,puppet,legacy,authors_cached
+missing default case statement,10,2,0,0.8333333333333334,1.0,0.9090909090909091,puppet,legacy,authors_cached
+weak cryptography algorithms,3,3,1,0.5,0.75,0.6,puppet,legacy,authors_cached
+none,40,1,12,0.975609756097561,0.7692307692307693,0.8602150537634409,puppet,legacy,authors_cached
